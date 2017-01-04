@@ -1,9 +1,12 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-APPDIR=/home/vagrant/subjects/
-RESULTDIR=/vagrant/results/`hostname`/guiripper/
-export TOOLDIR=/home/vagrant/tools/guiripper
+source ~/.profile
+
+DIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT_mobiGuitar/guiripper/scripts
+MOBIDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT_mobiGuitar/guiripper
+APPDIR=$MOBIDIR/subjects/
+RESULTDIR=$MOBIDIR/results/
+export TOOLDIR=$MOBIDIR/tools/guiripper
 
 
 source $DIR/env.sh
@@ -14,13 +17,15 @@ cd $APPDIR
 for p in `cat $DIR/projects2.txt`; do
 
   # AVD setup is performed by GUI Ripper
-  for avd in `android list avd -c`; do
-    android delete avd -n $avd
-  done
+  #for avd in `android list avd -c`; do
+  #  android delete avd -n $avd
+  #done
+  android delete avd -n gui-ripper
   killall emulator64-x86
 
   echo "** CREATING EMULATOR"
-  echo no | android create avd -n gui-ripper -t android-10 -c 1024M -b x86 --snapshot
+  #echo no | android create avd -n gui-ripper -t android-10 -c 1024M -b x86 --snapshot
+  echo no | android create avd -n gui-ripper -t android-17 -c 1024M -b armeabi-v7a --snapshot
 
   echo "@@@ Processing project "$p
   mkdir -p $RESULTDIR$p
@@ -36,20 +41,20 @@ for p in `cat $DIR/projects2.txt`; do
   echo "** Preparing Emulator for GUI Ripper with APK" $apkName
   cd $TOOLDIR
   date1=$(date +"%s")
-  bash -x run.sh prepare systematic apks/$apkName &> $RESULTDIR$p/tool_prepare.log
+  bash -x run.sh prepare systematic apks/$apkName > $RESULTDIR$p/tool_prepare.log
   date2=$(date +"%s")
   diff=$(($date2-$date1))
   echo "Preparation took $(($diff / 60)) minutes and $(($diff % 60)) seconds."
 
   echo "** DUMPING INTERMEDIATE COVERAGE "
   cd $DIR
-  ./dumpCoverage.sh $RESULTDIR$p &> $RESULTDIR$p/icoverage.log &
+  ./dumpCoverage.sh $RESULTDIR$p > $RESULTDIR$p/icoverage.log &
 
   echo "** RUNNING GUI RIPPER FOR" $apkname
   cd $TOOLDIR
   date1=$(date +"%s")
   #timeout 1h bash -x run.sh ripper systematic apks/$apkName &> $RESULTDIR$p/tool.log
-  timeout 200 bash -x run.sh ripper systematic apks/$apkName &> $RESULTDIR$p/tool.log
+  gtimeout 300 bash -x run.sh ripper systematic apks/$apkName > $RESULTDIR$p/tool.log
   date2=$(date +"%s")
   diff=$(($date2-$date1))
   echo "Performed ripping for $(($diff / 60)) minutes and $(($diff % 60)) seconds."  
