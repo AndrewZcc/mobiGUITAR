@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/ScrollView">
+	<LinearLayout
+		style="@style/LinearLayout">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="About Tippy Tipper"
+			android:textSize="24sp"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Tippy Tipper is a simple Tipping Calculator application open sourced under the Apache License 2.0. I wrote this application to learn Android and provide an example application for others to learn from.\n\nIf you find this application useful, please consider buying the donation version or donating via PayPal on the project's website.\n\nIf you experience any bugs or have feature requests, you can contact the developer Bryan Denny via the following methods:\n"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:autoLink="all"
+			android:text="Email: tippytipper@gmail.com\n\nTwitter: http://www.twitter.com/mandlar \n\nProject Website: http://code.google.com/p/tippytipper/\n\n Personal Website: http://www.bryandenny.com\n\n"
+			/>
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Application Notes"
+			android:textSize="20sp"
+			android:layout_marginBottom="10dp"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:text="Exclude tax: "
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="To disable excluding a tax rate, set the tax rate to 0%.\n"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:text="Adjustments: "
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="When splitting a bill, the application will divide the subtotal, tax, and tip by the number of people and then will take the floor of that value. In order to prevent underpaying a bill, an adjustment is added to the split total such that the summed split total amounts are at least equal to the value of the total bill. For example, a $10 bill split three ways would result in a $3.33 split bill amount for each person. The adjustment amount will be $0.01 so that the total summed split bill will be $10.02 instead of $9.99.\n"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Changelog"
+			android:textSize="20sp"
+			android:layout_marginBottom="10dp"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:text="Version 1.1.3: "
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text=" * Bug fix: The bill amount will properly display when exiting and re-launching the app (instead of a blank text box) \n * Long press the DEL button to clear the bill amount \n"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:text="Version 1.1.2: "
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text=" * Bug fix: Entering tax rate as 8.75 used to save it as 8.075, now correctly saves it as 8.750 \n"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:text="Version 1.1.1: "
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text=" * Bug fix: Fixed force close with Android 1.5 when opening Tax Rate or Number of People preferences\n * Bug fix: Fixed tax rate from truncating leading zeroes after the decimal place\n"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:text="Version 1.1: "
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text=" * Error/event logging added (app now requires Internet permission)\n * Privacy preference added to enable/disable error/event logging\n * Tax rate preference added to enable/disable excluding tax rate (instead of setting tax rate to 0% to disable)\n * Bug fix: tip percentage wasn't re-calculating when switching from excluding tax rate to no longer excluding tax rate\n * Tax rate can now be up to three decimal places\n * Bug fix: Round Up and Down buttons were reversed in landscape mode \n"
+			/>
+
+	</LinearLayout>
+</ScrollView>

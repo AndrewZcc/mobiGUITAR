@@ -1,0 +1,46 @@
+# view AndroidManifest.xml #generated:34
+-keep class net.mandaria.tippytipper.EmmaInstrument.EmmaInstrumentation { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class net.mandaria.tippytipper.EmmaInstrument.InstrumentedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class net.mandaria.tippytipper.EmmaInstrument.SMSInstrumentedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class net.mandaria.tippytipper.TippyTipperApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class net.mandaria.tippytipper.activities.About { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class net.mandaria.tippytipper.activities.Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class net.mandaria.tippytipper.activities.SplitBill { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class net.mandaria.tippytipper.activities.TippyTipper { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class net.mandaria.tippytipper.activities.Total { <init>(...); }
+
+# view res/xml/settings.xml #generated:55
+-keep class net.mandaria.tippytipper.preferences.DecimalPreference { <init>(...); }
+
+# view res/xml/settings.xml #generated:74
+-keep class net.mandaria.tippytipper.preferences.NumberPickerPreference { <init>(...); }
+
+# view res/xml/settings.xml #generated:16
+# view res/xml/settings.xml #generated:26
+# view res/xml/settings.xml #generated:36
+# view res/xml/settings.xml #generated:6
+-keep class net.mandaria.tippytipper.preferences.SeekBarPreference { <init>(...); }
+
+# view res/layout/number_picker_pref.xml #generated:25
+-keep class net.mandaria.tippytipper.widgets.NumberPicker { <init>(...); }
+
+# view res/layout/number_picker.xml #generated:22
+# view res/layout/number_picker.xml #generated:37
+-keep class net.mandaria.tippytipper.widgets.NumberPickerButton { <init>(...); }
+

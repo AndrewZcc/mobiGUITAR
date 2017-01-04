@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Hello World, TippyTipper!</string>
+<string name="app_name">Tippy Tipper</string> 
+<string name="enter_bill_amount">Enter bill amount:</string>
+<string name="bill_amount">Subtotal:</string>
+<string name="tip">Tip:</string>
+<string name="total">Total:</string>
+<string name="tip_percentage">Tip Percentage:</string>
+<string name="round_up">Round Up</string>
+<string name="round_down">Round Down</string>
+<string name="split_bill">Split Bill</string>
+<string name="split_bill_amount">Subtotal:</string>
+<string name="split_tax">Tax:</string>
+<string name="split_tip">Tip:</string>
+<string name="split_adjustment">Adjustment:</string>
+<string name="split_total">Total:</string>
+<string name="tax">Tax:</string>
+<string name="about">About</string>
+<string name="settings">Settings</string>
+<!-- Note that this is a test/development key and must be replaced with a production key on release -->
+<string name="flurrykey">D5DQBDU2AAMZJDEGKJSZ</string>
+</resources>

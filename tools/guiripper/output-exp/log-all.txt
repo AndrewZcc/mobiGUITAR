@@ -1,0 +1,2112 @@
+I/DEBUG   (  797): debuggerd: Dec 31 2011 14:18:31
+I/Netd    (  796): Netd 1.0 starting
+I/Vold    (  795): Vold 2.1 (the revenge) firing up
+D/Vold    (  795): USB mass storage support is not enabled in the kernel
+D/Vold    (  795): usb_configuration switch is not enabled in the kernel
+D/qemud   (  810): entering main loop
+D/Vold    (  795): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  795): Volume sdcard state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+D/qemud   (  810): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  810): created client 0x959e068 listening on fd 10
+D/qemud   (  810): client_fd_receive: attempting registration for service 'boot-properties'
+D/qemud   (  810): client_fd_receive:    -> received channel id 1
+D/qemud   (  810): client_registration: registration succeeded for client 1
+I/qemu-props(  850): connected to 'boot-properties' qemud service.
+I/qemu-props(  850): receiving..
+I/qemu-props(  850): received: dalvik.vm.heapsize=24m
+I/qemu-props(  850): receiving..
+I/qemu-props(  850): received: ro.config.low_ram=true
+I/qemu-props(  850): receiving..
+I/qemu-props(  850): received: qemu.sf.lcd_density=240
+I/qemu-props(  850): receiving..
+I/qemu-props(  850): received: qemu.hw.mainkeys=1
+I/qemu-props(  850): receiving..
+I/qemu-props(  850): received: qemu.sf.fake_camera=back
+I/qemu-props(  850): receiving..
+D/qemud   (  810): fdhandler_event: disconnect on fd 10
+I/qemu-props(  850): exiting (5 properties set).
+D/AndroidRuntime(  799): 
+D/AndroidRuntime(  799): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime(  799): CheckJNI is ON
+I/        (  800): ServiceManager: 0x8c95d50
+D/AudioHardwareInterface(  800): setMode(NORMAL)
+I/CameraService(  800): CameraService started (pid=800)
+I/AudioFlinger(  800): AudioFlinger's thread 0x8c975d8 ready to run
+I/SamplingProfilerIntegration(  799): Profiler is disabled.
+I/Zygote  (  799): Preloading classes...
+E/Zygote  (  799): setreuid() failed. errno: 30
+D/dalvikvm(  799): GC_EXPLICIT freed 45K, 78% free 232K/1024K, external 0K/0K, paused 5ms
+D/dalvikvm(  799): GC_EXPLICIT freed 1K, 73% free 284K/1024K, external 0K/0K, paused 2ms
+D/dalvikvm(  799): GC_EXPLICIT freed 21K, 70% free 316K/1024K, external 0K/0K, paused 3ms
+D/dalvikvm(  799): GC_EXPLICIT freed 16K, 66% free 355K/1024K, external 0K/0K, paused 2ms
+D/qemud   (  810): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  810): created client 0x959e068 listening on fd 10
+D/qemud   (  810): fdhandler_event: disconnect on fd 10
+D/qemud   (  810): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  810): created client 0x959e068 listening on fd 10
+D/qemud   (  810): client_fd_receive: attempting registration for service 'gsm'
+D/qemud   (  810): client_fd_receive:    -> received channel id 2
+D/qemud   (  810): client_registration: registration succeeded for client 2
+D/dalvikvm(  799): GC_EXPLICIT freed 27K, 63% free 382K/1024K, external 0K/0K, paused 3ms
+D/dalvikvm(  799): GC_EXPLICIT freed 17K, 58% free 436K/1024K, external 0K/0K, paused 5ms
+W/MediaProfiles(  799): could not find media config xml file
+D/dalvikvm(  799): GC_EXPLICIT freed 99K, 48% free 540K/1024K, external 0K/0K, paused 12ms
+D/dalvikvm(  799): GC_EXPLICIT freed 265K, 25% free 870K/1155K, external 0K/0K, paused 13ms
+D/dalvikvm(  799): GC_EXPLICIT freed 20K, 21% free 916K/1155K, external 0K/0K, paused 15ms
+D/RenderScript_jni(  799): RenderScript JNI library not found!
+D/dalvikvm(  799): GC_EXPLICIT freed 24K, 20% free 981K/1219K, external 0K/0K, paused 17ms
+D/dalvikvm(  799): GC_EXPLICIT freed 46K, 7% free 1255K/1347K, external 0K/0K, paused 14ms
+D/dalvikvm(  799): GC_EXPLICIT freed 24K, 5% free 1286K/1347K, external 0K/0K, paused 15ms
+D/dalvikvm(  799): GC_EXPLICIT freed 29K, 3% free 1311K/1347K, external 0K/0K, paused 15ms
+D/dalvikvm(  799): GC_EXPLICIT freed 14K, 5% free 1352K/1411K, external 0K/0K, paused 13ms
+W/Zygote  (  799): Class not found for preloading: android.widget.TextView$SelectionModifierCursorController$1
+D/dalvikvm(  799): GC_EXPLICIT freed 29K, 3% free 1377K/1411K, external 0K/0K, paused 32ms
+D/dalvikvm(  799): GC_EXPLICIT freed 26K, 5% free 1413K/1475K, external 0K/0K, paused 14ms
+D/dalvikvm(  799): GC_EXPLICIT freed 38K, 4% free 1430K/1475K, external 0K/0K, paused 14ms
+D/dalvikvm(  799): GC_EXPLICIT freed 40K, 7% free 1446K/1539K, external 0K/0K, paused 15ms
+D/dalvikvm(  799): GC_EXPLICIT freed 52K, 6% free 1458K/1539K, external 0K/0K, paused 15ms
+D/dalvikvm(  799): GC_FOR_MALLOC freed 2916K, 57% free 2206K/5123K, external 0K/0K, paused 56ms
+D/dalvikvm(  799): GC_EXPLICIT freed 2192K, 53% free 2432K/5123K, external 0K/0K, paused 58ms
+D/dalvikvm(  799): GC_EXPLICIT freed 134K, 52% free 2503K/5123K, external 0K/0K, paused 32ms
+D/dalvikvm(  799): GC_EXPLICIT freed 71K, 51% free 2527K/5123K, external 0K/0K, paused 31ms
+D/dalvikvm(  799): GC_EXPLICIT freed 36K, 51% free 2545K/5123K, external 0K/0K, paused 28ms
+D/dalvikvm(  799): GC_EXPLICIT freed 30K, 50% free 2569K/5123K, external 0K/0K, paused 28ms
+D/dalvikvm(  799): GC_EXPLICIT freed 35K, 50% free 2590K/5123K, external 0K/0K, paused 28ms
+I/Zygote  (  799): ...preloaded 1829 classes in 6174ms.
+E/Zygote  (  799): setreuid() failed. errno: 30
+D/dalvikvm(  799): GC_EXPLICIT freed 18K, 50% free 2587K/5123K, external 0K/0K, paused 29ms
+I/Zygote  (  799): Preloading resources...
+D/dalvikvm(  799): GC_EXTERNAL_ALLOC freed <1K, 50% free 2589K/5123K, external 0K/0K, paused 32ms
+D/dalvikvm(  799): GC_EXTERNAL_ALLOC freed 10K, 49% free 2615K/5123K, external 519K/521K, paused 30ms
+D/dalvikvm(  799): GC_EXPLICIT freed 8K, 49% free 2632K/5123K, external 920K/1048K, paused 28ms
+D/dalvikvm(  799): GC_EXTERNAL_ALLOC freed 15K, 49% free 2637K/5123K, external 1046K/1048K, paused 29ms
+I/Zygote  (  799): ...preloaded 51 resources in 666ms.
+D/dalvikvm(  799): GC_EXPLICIT freed 13K, 49% free 2662K/5123K, external 1527K/1559K, paused 30ms
+I/Zygote  (  799): ...preloaded 15 resources in 45ms.
+D/dalvikvm(  799): GC_EXPLICIT freed 17K, 49% free 2656K/5123K, external 1527K/1559K, paused 31ms
+D/dalvikvm(  799): GC_EXPLICIT freed 4K, 49% free 2651K/5123K, external 1527K/1559K, paused 31ms
+D/dalvikvm(  799): GC_EXPLICIT freed <1K, 49% free 2651K/5123K, external 1527K/1559K, paused 30ms
+I/dalvikvm(  799): System server process 861 has been created
+I/Zygote  (  799): Accepting command socket connections
+E/BatteryService(  861): usbOnlinePath not found
+E/BatteryService(  861): batteryVoltagePath not found
+E/BatteryService(  861): batteryTemperaturePath not found
+I/sysproc (  861): Entered system_init()
+I/sysproc (  861): ServiceManager: 0x99ac348
+I/SurfaceFlinger(  861): SurfaceFlinger is starting
+I/SurfaceFlinger(  861): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/gralloc_goldfish(  861): Emulator without GPU emulation detected.
+I/gralloc (  861): using (fd=24)
+I/gralloc (  861): id           = 
+I/gralloc (  861): xres         = 480 px
+I/gralloc (  861): yres         = 800 px
+I/gralloc (  861): xres_virtual = 480 px
+I/gralloc (  861): yres_virtual = 1600 px
+I/gralloc (  861): bpp          = 16
+I/gralloc (  861): r            = 11:5
+I/gralloc (  861): g            =  5:6
+I/gralloc (  861): b            =  0:5
+I/gralloc (  861): width        = 74 mm (164.756760 dpi)
+I/gralloc (  861): height       = 123 mm (165.203247 dpi)
+I/gralloc (  861): refresh rate = 260.42 Hz
+D/libEGL  (  861): Emulator without GPU support detected. Fallback to software renderer.
+D/libEGL  (  861): loaded /system/lib/egl/libGLES_android.so
+I/SurfaceFlinger(  861): EGL informations:
+I/SurfaceFlinger(  861): # of configs : 8
+I/SurfaceFlinger(  861): vendor    : Android
+I/SurfaceFlinger(  861): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(  861): extensions: EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_ANDROID_image_native_buffer EGL_ANDROID_swap_rectangle 
+I/SurfaceFlinger(  861): Client API: OpenGL ES
+I/SurfaceFlinger(  861): EGLSurface: 5-6-5-0, config=0x0
+I/SurfaceFlinger(  861): OpenGL informations:
+I/SurfaceFlinger(  861): vendor    : Android
+I/SurfaceFlinger(  861): renderer  : Android PixelFlinger 1.4
+I/SurfaceFlinger(  861): version   : OpenGL ES-CM 1.0
+I/SurfaceFlinger(  861): extensions: GL_OES_byte_coordinates GL_OES_fixed_point GL_OES_single_precision GL_OES_read_format GL_OES_compressed_paletted_texture GL_OES_draw_texture GL_OES_matrix_get GL_OES_query_matrix GL_OES_EGL_image GL_OES_compressed_ETC1_RGB8_texture GL_ARB_texture_compression GL_ARB_texture_non_power_of_two GL_ANDROID_user_clip_plane GL_ANDROID_vertex_buffer_object GL_ANDROID_generate_mipmap 
+I/SurfaceFlinger(  861): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(  861): GL_MAX_VIEWPORT_DIMS = 4096
+I/SurfaceFlinger(  861): flags = 000c0000
+D/SensorService(  861): nuSensorService starting...
+E/SensorService(  861): couldn't open device for module sensors (Invalid argument)
+I/sysproc (  861): System server: starting Android runtime.
+I/sysproc (  861): System server: starting Android services.
+I/SystemServer(  861): Entered the Android system server!
+I/sysproc (  861): System server: entering thread pool.
+I/SystemServer(  861): Entropy Service
+D/libEGL  (  872): Emulator without GPU support detected. Fallback to software renderer.
+D/libEGL  (  872): loaded /system/lib/egl/libGLES_android.so
+D/gralloc_goldfish(  872): Emulator without GPU emulation detected.
+W/zipro   (  872): Unable to open zip '/data/local/bootanimation.zip': No such file or directory
+W/zipro   (  872): Unable to open zip '/system/media/bootanimation.zip': No such file or directory
+I/SystemServer(  861): Power Manager
+I/SystemServer(  861): Activity Manager
+I/ActivityManager(  861): Memory class: 24
+W/UsageStats(  861): Usage stats version changed; dropping
+I/SystemServer(  861): Telephony Registry
+I/SystemServer(  861): Package Manager
+I/Installer(  861): connecting...
+I/installd(  804): new connection
+D/dalvikvm(  861): GC_CONCURRENT freed 180K, 48% free 2938K/5575K, external 1527K/1559K, paused 4ms+8ms
+W/PackageManager(  861): Running ENG build: no pre-dexopt!
+W/PackageParser(  861): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #124
+D/dalvikvm(  861): GC_CONCURRENT freed 226K, 47% free 3215K/5959K, external 1527K/1559K, paused 6ms+16ms
+D/PackageManager(  861): No files in app dir /vendor/app
+I/PackageManager(  861): Unpacking native libraries for /data/app/it.unina.androidripper-1.apk
+I/PackageManager(  861): Unpacking native libraries for /data/app/net.mandaria.tippytipper-1.apk
+D/dalvikvm(  861): GC_CONCURRENT freed 288K, 44% free 3544K/6279K, external 1527K/1559K, paused 17ms+7ms
+I/PackageManager(  861): Time to scan packages: 1.886 seconds
+W/PackageManager(  861): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.contacts
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cp in package com.android.providers.contacts
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+W/PackageManager(  861): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  861): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  861): Unknown permission android.permission.READ_OWNER_DATA in package com.android.email
+W/PackageManager(  861): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+D/dalvikvm(  861): GC_EXPLICIT freed 304K, 46% free 3426K/6343K, external 1527K/1559K, paused 46ms
+I/SystemServer(  861): Account Manager
+I/SystemServer(  861): Content Manager
+I/SystemServer(  861): System Content Providers
+I/ActivityThread(  861): Pub settings: com.android.providers.settings.SettingsProvider
+D/SettingsProvider(  861): cache for settings table 'secure' rows=26; fullycached=true
+I/SystemServer(  861): Battery Service
+I/SystemServer(  861): Lights Service
+I/SystemServer(  861): Vibrator Service
+D/qemud   (  810): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  810): created client 0x95a3ed8 listening on fd 11
+D/SettingsProvider(  861): cache for settings table 'system' rows=49; fullycached=true
+D/qemud   (  810): client_fd_receive: attempting registration for service 'hw-control'
+D/qemud   (  810): client_fd_receive:    -> received channel id 3
+D/qemud   (  810): client_registration: registration succeeded for client 3
+I/SystemServer(  861): Alarm Manager
+I/SystemServer(  861): Init Watchdog
+I/SystemServer(  861): Window Manager
+I/InputManager(  861): Initializing input manager
+I/InputManager(  861): Starting input manager
+I/EventHub(  861): New keyboard: device->id=0x10000 devname='qwerty2' propName='hw.keyboards.65536.devname' keylayout='/system/usr/keylayout/qwerty.kl'
+I/EventHub(  861): New device: path=/dev/input/event0 name=qwerty2 id=0x10000 (of 0x1) index=1 fd=82 classes=0x2d
+E/EventHub(  861): could not get driver version for /dev/input/mouse0, Not a typewriter
+E/EventHub(  861): could not get driver version for /dev/input/mice, Not a typewriter
+I/EventHub(  861): New keyboard: device->id=0x10001 devname='AT Translated Set 2 keyboard' propName='hw.keyboards.65537.devname' keylayout='/system/usr/keylayout/qwerty.kl'
+I/EventHub(  861): New device: path=/dev/input/event1 name=AT Translated Set 2 keyboard id=0x10001 (of 0x2) index=2 fd=85 classes=0x3
+I/InputManager-Callbacks(  861): No input device calibration properties found for device AT Translated Set 2 keyboard.
+I/InputReader(  861): Device added: id=0x10001, name=AT Translated Set 2 keyboard, sources=00000101
+I/InputManager-Callbacks(  861): No input device calibration properties found for device qwerty2.
+I/InputReader(  861): Device added: id=0x0, name=qwerty2, sources=00011307
+I/SystemServer(  861): Registering null Bluetooth Service (emulator)
+E/System  (  861): Failure starting core service
+E/System  (  861): java.lang.SecurityException
+E/System  (  861): 	at android.os.BinderProxy.transact(Native Method)
+E/System  (  861): 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:146)
+E/System  (  861): 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+E/System  (  861): 	at com.android.server.ServerThread.run(SystemServer.java:207)
+I/SystemServer(  861): Device Policy
+I/SystemServer(  861): Status Bar
+I/SystemServer(  861): Clipboard Service
+I/SystemServer(  861): Input Method Service
+W/ResourceType(  861): Failure getting entry for 0x7f060000 (t=5 e=0) in package 0 (error -75)
+I/InputManagerService(  861): Enabled input methods: com.android.inputmethod.latin/.LatinIME:com.android.inputmethod.pinyin/.PinyinIME:jp.co.omronsoft.openwnn/.OpenWnnJAJP
+I/SystemServer(  861): NetStat Service
+I/SystemServer(  861): NetworkManagement Service
+I/SystemServer(  861): Connectivity Service
+I/WifiService(  861): WifiService starting up with Wi-Fi disabled
+D/NetworkManagmentService(  861): Registering observer
+I/SystemServer(  861): Throttle Service
+I/SystemServer(  861): Accessibility Manager
+I/SystemServer(  861): Mount Service
+D/VoldCmdListener(  795): volume list
+I/SystemServer(  861): Notification Manager
+I/SystemServer(  861): Device Storage Monitor
+I/SystemServer(  861): Location Manager
+I/SystemServer(  861): Search Service
+I/SystemServer(  861): DropBox Service
+I/SystemServer(  861): Wallpaper Service
+I/PackageManager(  861): Updating external media status from unmounted to unmounted
+D/VoldCmdListener(  795): share status ums
+I/SystemServer(  861): Audio Service
+D/AudioHardwareInterface(  800): setMode(NORMAL)
+W/AudioPolicyManagerBase(  800): setPhoneState() setting same state 0
+I/SystemServer(  861): Headset Observer
+W/HeadsetObserver(  861): This kernel does not have wired headset support
+I/SystemServer(  861): Dock Observer
+W/DockObserver(  861): This kernel does not have dock station support
+I/SystemServer(  861): USB Service
+W/UsbDeviceSettingsManager(  861): settings file not found
+I/UsbService(  861): This kernel does not have USB configuration switch support
+I/SystemServer(  861): UI Mode Manager Service
+I/SystemServer(  861): Backup Service
+V/BackupManagerService(  861): No ancestral data
+D/dalvikvm(  861): GC_CONCURRENT freed 227K, 43% free 3768K/6535K, external 1527K/1559K, paused 8ms+8ms
+I/BackupManagerService(  861): Found stale backup journal, scheduling
+I/BackupManagerService(  861):   android
+I/BackupManagerService(  861):   com.android.browser
+I/BackupManagerService(  861):   com.android.inputmethod.latin
+I/BackupManagerService(  861):   com.android.providers.settings
+I/BackupManagerService(  861):   com.android.providers.userdictionary
+I/BackupManagerService(  861): Backup enabled => false
+I/SystemServer(  861): AppWidget Service
+I/SystemServer(  861): Recognition Service
+I/SystemServer(  861): DiskStats Service
+I/WindowManager(  861): SAFE MODE not enabled
+D/PowerManagerService(  861): system ready!
+I/ActivityManager(  861): Config changed: { scale=1.0 imsi=0/0 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=0 seq=1}
+I/ActivityManager(  861): System now ready
+I/SystemServer(  861): Making services ready
+I/StatusBarManagerService(  861): Starting service: ComponentInfo{com.android.systemui/com.android.systemui.statusbar.StatusBarService}
+I/Zygote  (  861): Process: zygote socket opened
+I/ActivityManager(  861): Start proc com.android.systemui for service com.android.systemui/.statusbar.StatusBarService: pid=919 uid=1000 gids={3002, 3001, 3003}
+I/ActivityManager(  861): Config changed: { scale=1.0 imsi=0/0 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=2}
+W/RecognitionManagerService(  861): no available voice recognition services found
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 219K, 43% free 3773K/6535K, external 1527K/1559K, paused 65ms
+I/ActivityManager(  861): Start proc com.android.inputmethod.latin for service com.android.inputmethod.latin/.LatinIME: pid=928 uid=10008 gids={}
+D/dalvikvm(  919): GC_CONCURRENT freed 341K, 51% free 2736K/5575K, external 1527K/1559K, paused 3ms+4ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 26K, 42% free 3799K/6535K, external 2064K/2078K, paused 259ms
+W/GpsLocationProvider(  861): Could not open GPS configuration file /etc/gps.conf
+W/ActivityManager(  861): Unable to start service Intent { act=@0 }: not found
+W/ActivityManager(  861): Unable to start service Intent { act=@0 }: not found
+D/NetworkManagmentService(  861): Registering observer
+E/ThrottleService(  861): Could not open GPS configuration file /etc/gps.conf
+I/ActivityManager(  861): Start proc com.android.phone for added application com.android.phone: pid=941 uid=1001 gids={3002, 3001, 3003, 1015}
+I/ActivityManager(  861): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher } from pid 0
+I/ActivityManager(  861): Start proc com.android.launcher for activity com.android.launcher/com.android.launcher2.Launcher: pid=960 uid=10011 gids={}
+I/SystemServer(  861): Enabled StrictMode for system server main thread.
+D/dalvikvm(  928): GC_CONCURRENT freed 391K, 51% free 2769K/5639K, external 1527K/1559K, paused 45ms+73ms
+D/dalvikvm(  941): GC_CONCURRENT freed 386K, 51% free 2783K/5639K, external 1527K/1559K, paused 6ms+6ms
+I/ActivityThread(  941): Pub mms: com.android.providers.telephony.MmsProvider
+I/ActivityThread(  941): Pub sms: com.android.providers.telephony.SmsProvider
+I/ActivityThread(  941): Pub telephony: com.android.providers.telephony.TelephonyProvider
+I/ActivityThread(  941): Pub icc: com.android.phone.IccProvider
+I/ActivityThread(  941): Pub mms-sms: com.android.providers.telephony.MmsSmsProvider
+D/dalvikvm(  861): GREF has increased to 201
+D/qemud   (  810): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  810): created client 0x95a3f28 listening on fd 12
+D/qemud   (  810): client_fd_receive: attempting registration for service 'gps'
+D/qemud   (  810): client_fd_receive:    -> received channel id 4
+D/qemud   (  810): client_registration: registration succeeded for client 4
+I/ActivityManager(  861): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=976 uid=1000 gids={3002, 3001, 3003}
+I/ActivityManager(  861): Start proc android.process.acore for content provider com.android.providers.userdictionary/.UserDictionaryProvider: pid=979 uid=10009 gids={3003, 1015}
+I//system/bin/tc(  796): Cannot find device "rmnet0"
+I/logwrapper(  796): /system/bin/tc terminated by exit(1)
+I//system/bin/tc(  796): Cannot find device "rmnet0"
+I/logwrapper(  796): /system/bin/tc terminated by exit(1)
+I//system/bin/tc(  796): Cannot find device "ifb0"
+I/logwrapper(  796): /system/bin/tc terminated by exit(1)
+D/dalvikvm(  960): GC_CONCURRENT freed 380K, 52% free 2748K/5639K, external 1527K/1559K, paused 3ms+67ms
+I/ActivityThread(  960): Pub com.android.launcher2.settings: com.android.launcher2.LauncherProvider
+D/dalvikvm(  928): GC_EXTERNAL_ALLOC freed 50K, 50% free 2821K/5639K, external 1527K/1559K, paused 464ms
+I/ActivityThread(  979): Pub com.android.social: com.android.providers.contacts.SocialProvider
+D/CallManager(  941): registerPhone(GSM Handler{b6c14318})
+D/dalvikvm(  919): GC_EXTERNAL_ALLOC freed 26K, 51% free 2739K/5575K, external 1543K/1559K, paused 2529ms
+D/dalvikvm(  960): GC_EXTERNAL_ALLOC freed 25K, 52% free 2748K/5639K, external 1547K/1559K, paused 274ms
+I/ActivityThread(  979): Pub applications: com.android.providers.applications.ApplicationsProvider
+D/dalvikvm(  979): GC_CONCURRENT freed 386K, 52% free 2733K/5639K, external 1527K/1559K, paused 22ms+2ms
+W/ActivityManager(  861): Unable to start service Intent { act=com.android.ussd.IExtendedNetworkService }: not found
+I/TelephonyRegistry(  861): notifyServiceState: 3 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+D/AlarmManagerService(  861): Kernel timezone updated to 0 minutes west of GMT
+D/SystemClock(  941): Setting time of day to sec=1483516057
+I/ActivityThread(  979): Pub contacts;com.android.contacts: com.android.providers.contacts.ContactsProvider2
+I/TelephonyRegistry(  861): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=radioTurnedOff interfaceName=null networkType=0
+I/TelephonyRegistry(  861): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsDetached interfaceName=null networkType=0
+D/dalvikvm(  928): GC_EXTERNAL_ALLOC freed 9K, 50% free 2836K/5639K, external 2187K/2217K, paused 123ms
+D/dalvikvm(  960): GC_EXTERNAL_ALLOC freed 26K, 51% free 2790K/5639K, external 1839K/2081K, paused 122ms
+I/TelephonyRegistry(  861): notifyServiceState: 0 home Android Android 310260  UMTS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry(  861): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=null interfaceName=null networkType=3
+I/ActivityThread(  979): Pub call_log: com.android.providers.contacts.CallLogProvider
+I/ActivityThread(  979): Pub user_dictionary: com.android.providers.userdictionary.UserDictionaryProvider
+D/dalvikvm(  941): GC_CONCURRENT freed 207K, 48% free 3056K/5767K, external 1527K/1559K, paused 7ms+27ms
+D/dalvikvm(  960): GC_EXTERNAL_ALLOC freed 27K, 51% free 2813K/5639K, external 2540K/2544K, paused 241ms
+D/dalvikvm(  861): GC_CONCURRENT freed 428K, 43% free 4008K/6919K, external 2569K/2638K, paused 3ms+7ms
+D/MccTable(  941): updateMccMncConfiguration: mcc=310, mnc=260
+D/MccTable(  941): locale set to en_us
+D/MccTable(  941): WIFI_NUM_ALLOWED_CHANNELS set to 11
+I/WifiService(  861): WifiService trying to setNumAllowed to 11 with persist set to true
+I/ActivityManager(  861): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=3}
+I/TelephonyRegistry(  861): notifyMessageWaitingChanged: false
+D/dalvikvm(  960): GC_EXTERNAL_ALLOC freed 9K, 50% free 2826K/5639K, external 3197K/3203K, paused 133ms
+D/dalvikvm(  976): GC_CONCURRENT freed 388K, 51% free 2781K/5639K, external 1527K/1559K, paused 7ms+74ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 69K, 43% free 3948K/6919K, external 2433K/2638K, paused 293ms
+I/TelephonyRegistry(  861): notifyCallForwardingChanged: false
+D/dalvikvm(  979): GC_CONCURRENT freed 228K, 49% free 2933K/5703K, external 1527K/1559K, paused 2ms+3ms
+D/TelephonyProvider(  941): Setting numeric '310260' to be the current operator
+I/TelephonyRegistry(  861): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=simLoaded interfaceName=null networkType=3
+I/TelephonyRegistry(  861): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=simLoaded interfaceName=/dev/omap_csmi_tty1 networkType=3
+D/dalvikvm(  960): GC_EXTERNAL_ALLOC freed 58K, 50% free 2868K/5639K, external 3710K/4023K, paused 267ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 78K, 43% free 3957K/6919K, external 2608K/2638K, paused 226ms
+W/ProcessStats(  861): Skipping unknown process pid 1048
+I/StatusBarManagerService(  861): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@b6cf6d58
+I/ActivityManager(  861): Start proc com.android.deskclock for broadcast com.android.deskclock/.AlarmInitReceiver: pid=1051 uid=10021 gids={}
+I/ActivityThread( 1051): Pub com.android.deskclock: com.android.deskclock.AlarmProvider
+D/MobileDataStateTracker(  861): CONNECTED event did not supply a default gateway.
+D/Tethering(  861): MasterInitialState.processMessage what=3
+D/dalvikvm( 1051): GC_CONCURRENT freed 327K, 52% free 2718K/5575K, external 1527K/1559K, paused 2ms+2ms
+D/VoldCmdListener(  795): share status ums
+D/StorageNotification(  919): Startup with UMS connection false (media state unmounted)
+D/dalvikvm(  960): GC_EXTERNAL_ALLOC freed 32K, 49% free 2887K/5639K, external 4849K/4874K, paused 114ms
+I/ActivityManager(  861): Start proc com.android.quicksearchbox for broadcast com.android.quicksearchbox/.SearchWidgetProvider: pid=1061 uid=10020 gids={3003}
+I/StorageNotification(  919): UMS connection changed to false (media state unmounted)
+I/ActivityThread( 1061): Pub com.android.quicksearchbox.google: com.android.quicksearchbox.google.GoogleSuggestionProvider
+I/ActivityThread( 1061): Pub com.android.quicksearchbox.shortcuts: com.android.quicksearchbox.ShortcutsProvider
+D/dalvikvm( 1061): GC_CONCURRENT freed 334K, 52% free 2727K/5575K, external 1527K/1559K, paused 4ms+2ms
+I/ActivityManager(  861): Start proc com.android.protips for broadcast com.android.protips/.ProtipWidget: pid=1069 uid=10002 gids={}
+D/gralloc_goldfish(  960): Emulator without GPU emulation detected.
+D/dalvikvm(  799): GC_EXPLICIT freed 9K, 51% free 2663K/5379K, external 1527K/1559K, paused 153ms
+I/ActivityManager(  861): Displayed com.android.launcher/com.android.launcher2.Launcher: +10s614ms
+D/dalvikvm(  799): GC_EXPLICIT freed <1K, 51% free 2663K/5379K, external 1527K/1559K, paused 108ms
+D/dalvikvm(  799): GC_EXPLICIT freed <1K, 51% free 2663K/5379K, external 1527K/1559K, paused 61ms
+I/SurfaceFlinger(  861): Boot is finished (16899 ms)
+D/PowerManagerService(  861): bootCompleted
+D/dalvikvm(  960): GC_EXPLICIT freed 65K, 50% free 2861K/5639K, external 5312K/6087K, paused 123ms
+I/ActivityManager(  861): Start proc com.android.music for broadcast com.android.music/.MediaAppWidgetProvider: pid=1078 uid=10001 gids={3003, 1015}
+D/VoldCmdListener(  795): volume mount /mnt/sdcard
+I/Vold    (  795): /dev/block/vold/179:0 being considered for volume sdcard
+D/Vold    (  795): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/logwrapper( 1087): Unable to background process (No such file or directory)
+I//system/bin/fsck_msdos(  795): ** /dev/block/vold/179:0
+I//system/bin/fsck_msdos(  795): ** Phase 1 - Read and Compare FATs
+I//system/bin/fsck_msdos(  795): Attempting to allocate 2044 KB for FAT
+I/SearchManagerService(  861): Building list of searchable activities
+D/dalvikvm(  861): GREF has increased to 301
+I//system/bin/fsck_msdos(  795): Attempting to allocate 2044 KB for FAT
+I/ActivityManager(  861): Start proc android.process.media for broadcast com.android.providers.downloads/.DownloadReceiver: pid=1092 uid=10000 gids={1015, 2001, 3003}
+I/ActivityThread( 1092): Pub media: com.android.providers.media.MediaProvider
+I//system/bin/fsck_msdos(  795): ** Phase 2 - Check Cluster Chains
+I//system/bin/fsck_msdos(  795): ** Phase 3 - Checking Directories
+I//system/bin/fsck_msdos(  795): ** Phase 4 - Checking for Lost Files
+I//system/bin/fsck_msdos(  795): Next free cluster in FSInfo block (5) not free
+I//system/bin/fsck_msdos(  795): FIXED
+I//system/bin/fsck_msdos(  795): 3 files, 1044466 free (522233 clusters)
+V/MediaProvider( 1092): Attached volume: internal
+I/Vold    (  795): Filesystem check completed OK
+I/ActivityThread( 1092): Pub downloads: com.android.providers.downloads.DownloadProvider
+I/Vold    (  795): Device /dev/block/vold/179:0, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (  795): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+I/PackageManager(  861): Updating external media status from unmounted to mounted
+I/ActivityThread( 1092): Pub drm: com.android.providers.drm.DrmProvider
+D/OtaStartupReceiver(  941): Not a CDMA phone, no need to process OTA
+I/RecoverySystem(  861): No recovery log file
+I/ActivityManager(  861): Start proc com.android.email for broadcast com.android.email/.service.EmailBroadcastReceiver: pid=1115 uid=10003 gids={3003, 1015}
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 774K, 45% free 4028K/7303K, external 3316K/3318K, paused 93ms
+D/VoldCmdListener(  795): asec list
+I/PackageManager(  861): No secure containers on sdcard
+W/PackageManager(  861): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.contacts
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cp in package com.android.providers.contacts
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+W/PackageManager(  861): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  861): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  861): Unknown permission android.permission.READ_OWNER_DATA in package com.android.email
+W/PackageManager(  861): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+D/dalvikvm(  861): GC_EXPLICIT freed 173K, 45% free 4053K/7303K, external 2774K/3442K, paused 59ms
+I/ActivityThread( 1115): Pub com.android.email.provider: com.android.email.provider.EmailProvider
+I/StorageNotification(  919): Media {/mnt/sdcard} state changed from {unmounted} -> {checking}
+I/ActivityThread( 1115): Pub com.android.email.attachmentprovider: com.android.email.provider.AttachmentProvider
+I/ActivityThread( 1115): Pub com.android.exchange.provider: com.android.exchange.provider.ExchangeProvider
+D/gralloc_goldfish(  919): Emulator without GPU emulation detected.
+I/ActivityManager(  861): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=1126 uid=10006 gids={3002}
+I/StorageNotification(  919): Media {/mnt/sdcard} state changed from {checking} -> {mounted}
+D/dalvikvm(  960): GC_EXTERNAL_ALLOC freed 239K, 48% free 3012K/5767K, external 4285K/4296K, paused 147ms
+D/EAS SyncManager( 1115): !!! EAS SyncManager, onCreate
+D/VoiceDialerReceiver( 1126): onReceive Intent { act=android.intent.action.BOOT_COMPLETED cmp=com.android.voicedialer/.VoiceDialerReceiver }
+V/RecognizerEngine( 1126): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+I/ActivityManager(  861): Start proc com.android.mms for broadcast com.android.mms/.transaction.MmsSystemEventReceiver: pid=1134 uid=10007 gids={3003, 1015}
+D/EAS SyncManager( 1115): !!! EAS SyncManager, onStartCommand
+D/Email   ( 1115): BOOT_COMPLETED
+D/EAS SyncManager( 1115): !!! EAS SyncManager, stopping self
+D/Eas Debug( 1115): Logging: 
+D/EAS SyncManager( 1115): !!! EAS SyncManager, onDestroy
+D/EAS SyncManager( 1115): !!! EAS SyncManager, onCreate
+D/EAS SyncManager( 1115): !!! EAS SyncManager, onStartCommand
+D/EAS SyncManager( 1115): !!! EAS SyncManager, stopping self
+D/EAS SyncManager( 1115): !!! EAS SyncManager, onStartCommand
+I/ActivityThread( 1134): Pub com.android.mms.SuggestionsProvider: com.android.mms.SuggestionsProvider
+D/EAS SyncManager( 1115): !!! EAS SyncManager, stopping self
+D/EAS SyncManager( 1115): !!! EAS SyncManager, onDestroy
+D/dalvikvm(  960): GC_EXPLICIT freed 77K, 49% free 2974K/5767K, external 4710K/5187K, paused 199ms
+I/ActivityManager(  861): Start proc com.android.bluetooth for broadcast com.android.bluetooth/.opp.BluetoothOppReceiver: pid=1153 uid=10012 gids={3003, 3002, 3001, 1015}
+I/ActivityThread( 1153): Pub com.android.bluetooth.opp: com.android.bluetooth.opp.BluetoothOppProvider
+D/dalvikvm(  941): GREF has increased to 201
+I/ActivityManager(  861): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1162 uid=10023 gids={3003}
+W/BtOpp Service( 1153): Local BT device is not enabled
+W/BtOpp Service( 1153): Local BT device is not enabled
+I/ActivityThread( 1162): Pub com.android.calendar: com.android.providers.calendar.CalendarProvider2
+D/Calendar( 1162): missed alarms found: 0
+D/MediaScannerService( 1092): start scanning volume internal
+D/MediaScanner( 1092):  prescan time: 114ms
+D/MediaScanner( 1092):     scan time: 27ms
+D/MediaScanner( 1092): postscan time: 0ms
+D/MediaScanner( 1092):    total time: 141ms
+D/MediaScannerService( 1092): done scanning volume internal
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 403K, 44% free 4145K/7303K, external 3395K/3442K, paused 95ms
+D/dalvikvm(  919): GC_EXTERNAL_ALLOC freed 158K, 48% free 2914K/5575K, external 2042K/2073K, paused 86ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 108K, 44% free 4114K/7303K, external 3562K/4119K, paused 143ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 90K, 45% free 4076K/7303K, external 3964K/4951K, paused 40ms
+I/ActivityManager(  861): Start proc com.cooliris.media for broadcast com.cooliris.media/com.cooliris.cache.BootReceiver: pid=1181 uid=10019 gids={1015, 3003}
+I/ActivityThread( 1181): Pub com.cooliris.picasa.contentprovider: com.cooliris.picasa.PicasaContentProvider
+I/BootReceiver( 1181): Got intent with action android.intent.action.MEDIA_MOUNTED
+D/MediaScannerService( 1092): start scanning volume external
+I/BootReceiver( 1181): Got intent with action android.intent.action.MEDIA_SCANNER_FINISHED
+V/MediaProvider( 1092): /mnt/sdcard volume ID: 252524548
+V/MediaProvider( 1092): Attached volume: external
+V/MediaScanner( 1092): pruneDeadThumbnailFiles... android.database.sqlite.SQLiteCursor@b6cb2070
+V/MediaScanner( 1092): /pruneDeadThumbnailFiles... android.database.sqlite.SQLiteCursor@b6cb2070
+D/MediaScanner( 1092):  prescan time: 56ms
+D/MediaScanner( 1092):     scan time: 1ms
+D/MediaScanner( 1092): postscan time: 10ms
+D/MediaScanner( 1092):    total time: 67ms
+D/MediaScannerService( 1092): done scanning volume external
+I/BootReceiver( 1181): Got intent with action android.intent.action.MEDIA_SCANNER_FINISHED
+D/SntpClient(  861): request time failed: java.net.SocketTimeoutException: Try again
+D/AndroidRuntime( 1197): 
+D/AndroidRuntime( 1197): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1197): CheckJNI is ON
+D/AndroidRuntime( 1197): Calling main entry com.android.commands.input.Input
+I/SendKeyEvent( 1197): 82
+D/AndroidRuntime( 1197): Shutting down VM
+D/dalvikvm( 1197): GC_CONCURRENT freed 97K, 73% free 285K/1024K, external 0K/0K, paused 1ms+1ms
+D/jdwp    ( 1197): adbd disconnected
+D/AndroidRuntime( 1207): 
+D/AndroidRuntime( 1207): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1207): CheckJNI is ON
+D/AndroidRuntime( 1207): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  861): Force stopping package net.mandaria.tippytipper uid=10031
+I/ActivityManager(  861): Start proc net.mandaria.tippytipper for added application net.mandaria.tippytipper: pid=1215 uid=10031 gids={1015, 3003}
+D/androidripper( 1215): Updating node 
+D/androidripper( 1215): Loading node 
+I/androidripper( 1215): Preferences file found.
+V/androidripper( 1215): Updating value ACTIVITY_DESCRIPTION_IN_SESSION
+V/androidripper( 1215): Updating value ADDITIONAL_CRITERIAS
+V/androidripper( 1215): Updating value ADDITIONAL_EVENTS
+V/androidripper( 1215): Updating value ADDITIONAL_INPUTS
+V/androidripper( 1215): Updating value CLASS_NAME
+D/androidripper( 1215): Updated value of parameter CLASS_NAME to net.mandaria.tippytipper.activities.TippyTipper (default = app.package.class)
+V/androidripper( 1215): Updating value ENABLE_MODEL
+V/androidripper( 1215): Updating value ENABLE_RESUME
+V/androidripper( 1215): Updating value INTENT_ACTION
+V/androidripper( 1215): Updating value INTENT_ACTIVITY
+V/androidripper( 1215): Updating value INTENT_CATEGORY
+V/androidripper( 1215): Updating value INTENT_DATA
+V/androidripper( 1215): Updating value INTENT_FLAGS
+V/androidripper( 1215): Updating value INTENT_TYPE
+V/androidripper( 1215): Updating value PACKAGE_NAME
+D/androidripper( 1215): Updated value of parameter PACKAGE_NAME to net.mandaria.tippytipper (default = app.package)
+V/androidripper( 1215): Updating value RANDOM_SEED
+D/androidripper( 1215): Updated value of parameter RANDOM_SEED to -4244019791393197310 (default = 5466516511651561651)
+V/androidripper( 1215): Updating value RETRY_FAILED_TRACES
+V/androidripper( 1215): Updating value theClass
+I/System.out( 1215): EMMA: collecting runtime coverage data ...
+D/androidripper( 1215): Updating node scheduler
+D/androidripper( 1215): Loading node scheduler
+V/androidripper( 1215): Updating value ACTIONBARHOME_EVENTS
+V/androidripper( 1215): Updating value ALL_EVENTS_ON_PREFERENCES
+V/androidripper( 1215): Updating value BACK_BUTTON_EVENT
+V/androidripper( 1215): Updating value DICTIONARY_FIXED_VALUE
+V/androidripper( 1215): Updating value DICTIONARY_IGNORE_CONTENT_TYPES
+V/androidripper( 1215): Updating value EMULATOR_PORT
+V/androidripper( 1215): Updating value EVENTS
+D/androidripper( 1215): Updated values of array parameter EVENTS
+V/androidripper( 1215): Updating value EVENT_WHEN_NO_ID
+V/androidripper( 1215): Updating value EXCLUDE_WIDGETS_INPUTS_IN_GPS_EVENTS
+V/androidripper( 1215): Updating value EXCLUDE_WIDGETS_INPUTS_IN_SENSORS_EVENTS
+V/androidripper( 1215): Updating value FIX_GPS_POSITION
+V/androidripper( 1215): Updating value INPUTS
+D/androidripper( 1215): Updated values of array parameter INPUTS
+V/androidripper( 1215): Updating value KEY_EVENTS
+V/androidripper( 1215): Updating value MAX_EVENTS_PER_WIDGET
+V/androidripper( 1215): Updating value MAX_TASKS_IN_SCHEDULER
+V/androidripper( 1215): Updating value MAX_TASKS_PER_EVENT
+V/androidripper( 1215): Updating value MENU_EVENTS
+V/androidripper( 1215): Updating value ORIENTATION_EVENTS
+V/androidripper( 1215): Updating value PLANNER
+V/androidripper( 1215): Updating value REFLECT_ACTIVITY_LISTENERS
+V/androidripper( 1215): Updating value REFLECT_WIDGETS
+V/androidripper( 1215): Updating value SCHEDULER_ALGORITHM
+V/androidripper( 1215): Updating value SCROLL_DOWN_EVENT
+V/androidripper( 1215): Updating value SENSOR_TYPES
+V/androidripper( 1215): Updating value SIMULATE_INCOMING_CALL
+V/androidripper( 1215): Updating value SIMULATE_INCOMING_SMS
+V/androidripper( 1215): Updating value TAB_EVENTS_START_ONLY
+V/androidripper( 1215): Updating value TEST_LOCATION_PROVIDER
+V/androidripper( 1215): Updating value TEXT_VALUES_FROM_DICTIONARY
+V/androidripper( 1215): Updating value TEXT_VALUES_ID_HASH
+V/androidripper( 1215): Updating value USE_GPS
+V/androidripper( 1215): Updating value USE_SENSORS
+D/androidripper( 1215): Updating node planner
+D/androidripper( 1215): Loading node planner
+V/androidripper( 1215): Updating value ACTIONBARHOME_EVENTS
+V/androidripper( 1215): Updating value ALL_EVENTS_ON_PREFERENCES
+V/androidripper( 1215): Updating value BACK_BUTTON_EVENT
+V/androidripper( 1215): Updating value DICTIONARY_FIXED_VALUE
+V/androidripper( 1215): Updating value DICTIONARY_IGNORE_CONTENT_TYPES
+V/androidripper( 1215): Updating value EMULATOR_PORT
+V/androidripper( 1215): Updating value EVENTS
+D/androidripper( 1215): Updated values of array parameter EVENTS
+V/androidripper( 1215): Updating value EVENT_WHEN_NO_ID
+V/androidripper( 1215): Updating value EXCLUDE_WIDGETS_INPUTS_IN_GPS_EVENTS
+V/androidripper( 1215): Updating value EXCLUDE_WIDGETS_INPUTS_IN_SENSORS_EVENTS
+V/androidripper( 1215): Updating value FIX_GPS_POSITION
+V/androidripper( 1215): Updating value INPUTS
+D/androidripper( 1215): Updated values of array parameter INPUTS
+V/androidripper( 1215): Updating value KEY_EVENTS
+V/androidripper( 1215): Updating value MAX_EVENTS_PER_WIDGET
+V/androidripper( 1215): Updating value MAX_TASKS_IN_SCHEDULER
+V/androidripper( 1215): Updating value MAX_TASKS_PER_EVENT
+V/androidripper( 1215): Updating value MENU_EVENTS
+V/androidripper( 1215): Updating value ORIENTATION_EVENTS
+V/androidripper( 1215): Updating value PLANNER
+V/androidripper( 1215): Updating value REFLECT_ACTIVITY_LISTENERS
+V/androidripper( 1215): Updating value REFLECT_WIDGETS
+V/androidripper( 1215): Updating value SCHEDULER_ALGORITHM
+V/androidripper( 1215): Updating value SCROLL_DOWN_EVENT
+V/androidripper( 1215): Updating value SENSOR_TYPES
+V/androidripper( 1215): Updating value SIMULATE_INCOMING_CALL
+V/androidripper( 1215): Updating value SIMULATE_INCOMING_SMS
+V/androidripper( 1215): Updating value TAB_EVENTS_START_ONLY
+V/androidripper( 1215): Updating value TEST_LOCATION_PROVIDER
+V/androidripper( 1215): Updating value TEXT_VALUES_FROM_DICTIONARY
+V/androidripper( 1215): Updating value TEXT_VALUES_ID_HASH
+D/androidripper( 1215): Updated value of parameter TEXT_VALUES_ID_HASH to true (default = false)
+V/androidripper( 1215): Updating value USE_GPS
+V/androidripper( 1215): Updating value USE_SENSORS
+D/androidripper( 1215): Updating node interactions
+D/androidripper( 1215): Loading node interactions
+V/androidripper( 1215): Updating value ACTIONBARHOME_EVENTS
+V/androidripper( 1215): Updating value ALL_EVENTS_ON_PREFERENCES
+V/androidripper( 1215): Updating value BACK_BUTTON_EVENT
+V/androidripper( 1215): Updating value DICTIONARY_FIXED_VALUE
+V/androidripper( 1215): Updating value DICTIONARY_IGNORE_CONTENT_TYPES
+V/androidripper( 1215): Updating value EMULATOR_PORT
+V/androidripper( 1215): Updating value EVENTS
+D/androidripper( 1215): Updated values of array parameter EVENTS
+V/androidripper( 1215): Updating value EVENT_WHEN_NO_ID
+V/androidripper( 1215): Updating value EXCLUDE_WIDGETS_INPUTS_IN_GPS_EVENTS
+V/androidripper( 1215): Updating value EXCLUDE_WIDGETS_INPUTS_IN_SENSORS_EVENTS
+V/androidripper( 1215): Updating value FIX_GPS_POSITION
+V/androidripper( 1215): Updating value INPUTS
+D/androidripper( 1215): Updated values of array parameter INPUTS
+V/androidripper( 1215): Updating value KEY_EVENTS
+V/androidripper( 1215): Updating value MAX_EVENTS_PER_WIDGET
+V/androidripper( 1215): Updating value MAX_TASKS_IN_SCHEDULER
+V/androidripper( 1215): Updating value MAX_TASKS_PER_EVENT
+V/androidripper( 1215): Updating value MENU_EVENTS
+V/androidripper( 1215): Updating value ORIENTATION_EVENTS
+V/androidripper( 1215): Updating value PLANNER
+V/androidripper( 1215): Updating value REFLECT_ACTIVITY_LISTENERS
+V/androidripper( 1215): Updating value REFLECT_WIDGETS
+V/androidripper( 1215): Updating value SCHEDULER_ALGORITHM
+V/androidripper( 1215): Updating value SCROLL_DOWN_EVENT
+V/androidripper( 1215): Updating value SENSOR_TYPES
+V/androidripper( 1215): Updating value SIMULATE_INCOMING_CALL
+V/androidripper( 1215): Updating value SIMULATE_INCOMING_SMS
+V/androidripper( 1215): Updating value TAB_EVENTS_START_ONLY
+V/androidripper( 1215): Updating value TEST_LOCATION_PROVIDER
+V/androidripper( 1215): Updating value TEXT_VALUES_FROM_DICTIONARY
+V/androidripper( 1215): Updating value TEXT_VALUES_ID_HASH
+V/androidripper( 1215): Updating value USE_GPS
+V/androidripper( 1215): Updating value USE_SENSORS
+D/androidripper( 1215): Updating node comparator
+D/androidripper( 1215): Loading node comparator
+V/androidripper( 1215): Updating value COMPARATOR
+V/androidripper( 1215): Updating value COMPARATOR_TYPE
+D/androidripper( 1215): Updated value of parameter COMPARATOR_TYPE to CustomWidgetsSimpleComparator (default = NullComparator)
+V/androidripper( 1215): Updating value COMPARE_ACTIVITY_NAME
+V/androidripper( 1215): Updating value COMPARE_LIST_COUNT
+V/androidripper( 1215): Updating value COMPARE_MENU_COUNT
+V/androidripper( 1215): Updating value COMPARE_STATE_TITLE
+D/androidripper( 1215): Updated value of parameter COMPARE_STATE_TITLE to true (default = false)
+V/androidripper( 1215): Updating value COMPARE_VALUES
+V/androidripper( 1215): Updating value WIDGET_TYPES
+D/androidripper( 1215): Updated values of array parameter WIDGET_TYPES
+D/androidripper( 1215): Comparation by name is enabled
+D/androidripper( 1215): Comparation by title is disabled
+D/androidripper( 1215): Updating node strategy
+D/androidripper( 1215): Loading node strategy
+V/androidripper( 1215): Updating value AFTER_EVENT_DONT_EXPLORE
+V/androidripper( 1215): Updating value AFTER_WIDGET_DONT_EXPLORE
+V/androidripper( 1215): Updating value CHECK_FOR_TRANSITION
+V/androidripper( 1215): Updating value EXPLORE_ONLY_NEW_STATES
+V/androidripper( 1215): Updating value MAX_NUM_TRACES
+V/androidripper( 1215): Updating value MAX_TIME_CRAWLING
+V/androidripper( 1215): Updating value PAUSE_AFTER_TIME
+V/androidripper( 1215): Updating value PAUSE_AFTER_TRACES
+V/androidripper( 1215): Updating value TRACE_MAX_DEPTH
+V/androidripper( 1215): Updating value TRACE_MIN_DEPTH
+I/TestRunner( 1215): started: testAndCrawl(it.unina.androidripper.guitree.GuiTreeEngine)
+I/ActivityManager(  861): Starting: Intent { act=android.intent.action.MAIN flg=0x10000000 cmp=net.mandaria.tippytipper/.activities.TippyTipper } from pid 1215
+D/FlurryAgent( 1215): Starting new session
+W/Settings( 1215): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+D/FlurryAgent( 1215): Sending report to: http://data.flurry.com/aar.do
+D/gralloc_goldfish( 1215): Emulator without GPU emulation detected.
+W/InputManagerService(  861): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@b6c940c0 (uid=10011 pid=960)
+D/FlurryAgent( 1215): Report successful
+D/androidripper( 1215): Generated Resuming Persistence
+D/androidripper( 1215): Updating node storage
+D/androidripper( 1215): Loading node storage
+V/androidripper( 1215): Updating value ACTIVITY_LIST_FILE_NAME
+V/androidripper( 1215): Updating value FILE_NAME
+V/androidripper( 1215): Updating value MAX_TRACES_IN_RAM
+V/androidripper( 1215): Updating value ONLY_FINALTRANSITION
+V/androidripper( 1215): Updating value PARAMETERS_FILE_NAME
+V/androidripper( 1215): Updating value TASK_LIST_FILE_NAME
+I/dalvikvm( 1215): Could not find method android.app.Activity.getFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getFragment
+W/dalvikvm( 1215): VFY: unable to resolve virtual method 7: Landroid/app/Activity;.getFragmentManager ()Landroid/app/FragmentManager;
+D/dalvikvm( 1215): VFY: replacing opcode 0x6e at 0x0008
+I/dalvikvm( 1215): Could not find method android.app.Activity.getFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getFragment
+W/dalvikvm( 1215): VFY: unable to resolve virtual method 7: Landroid/app/Activity;.getFragmentManager ()Landroid/app/FragmentManager;
+D/dalvikvm( 1215): VFY: replacing opcode 0x6e at 0x0017
+W/dalvikvm( 1215): VFY: unable to find class referenced in signature (Landroid/app/Fragment;)
+D/dalvikvm( 1215): VFY: dead code 0x000b-000f in Lcom/jayway/android/robotium/solo/Waiter;.getFragment (Ljava/lang/String;I)Landroid/app/Fragment;
+D/dalvikvm( 1215): VFY: dead code 0x001a-001f in Lcom/jayway/android/robotium/solo/Waiter;.getFragment (Ljava/lang/String;I)Landroid/app/Fragment;
+E/dalvikvm( 1215): Could not find class 'android.support.v4.app.FragmentActivity', referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm( 1215): VFY: unable to resolve check-cast 56 (Landroid/support/v4/app/FragmentActivity;) in Lcom/jayway/android/robotium/solo/Waiter;
+D/dalvikvm( 1215): VFY: replacing opcode 0x1f at 0x0009
+I/dalvikvm( 1215): Could not find method android.support.v4.app.FragmentActivity.getSupportFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm( 1215): VFY: unable to resolve virtual method 141: Landroid/support/v4/app/FragmentActivity;.getSupportFragmentManager ()Landroid/support/v4/app/FragmentManager;
+D/dalvikvm( 1215): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm( 1215): Could not find method android.support.v4.app.FragmentActivity.getSupportFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm( 1215): VFY: unable to resolve virtual method 141: Landroid/support/v4/app/FragmentActivity;.getSupportFragmentManager ()Landroid/support/v4/app/FragmentManager;
+D/dalvikvm( 1215): VFY: replacing opcode 0x6e at 0x0019
+W/dalvikvm( 1215): VFY: unable to find class referenced in signature (Landroid/support/v4/app/Fragment;)
+D/dalvikvm( 1215): VFY: dead code 0x000b-000b in Lcom/jayway/android/robotium/solo/Waiter;.getSupportFragment (Ljava/lang/String;I)Landroid/support/v4/app/Fragment;
+D/dalvikvm( 1215): VFY: dead code 0x0013-0017 in Lcom/jayway/android/robotium/solo/Waiter;.getSupportFragment (Ljava/lang/String;I)Landroid/support/v4/app/Fragment;
+D/dalvikvm( 1215): VFY: dead code 0x001c-0021 in Lcom/jayway/android/robotium/solo/Waiter;.getSupportFragment (Ljava/lang/String;I)Landroid/support/v4/app/Fragment;
+W/dalvikvm( 1215): VFY: unable to find class referenced in signature (Landroid/support/v4/app/Fragment;)
+W/dalvikvm( 1215): VFY: unable to find class referenced in signature (Landroid/app/Fragment;)
+W/dalvikvm( 1215): VFY: unable to find class referenced in signature (Landroid/support/v4/app/Fragment;)
+D/dalvikvm( 1215): GC_CONCURRENT freed 868K, 51% free 3324K/6663K, external 1527K/1559K, paused 2ms+13ms
+I/ActivityManager(  861): Displayed net.mandaria.tippytipper/.activities.TippyTipper: +821ms
+E/dalvikvm( 1215): Could not find class '[Landroid.view.MotionEvent$PointerProperties;', referenced from method com.jayway.android.robotium.solo.Zoomer.generateZoomGesture
+W/dalvikvm( 1215): VFY: unable to resolve new-array 526 ([Landroid/view/MotionEvent$PointerProperties;) in Lcom/jayway/android/robotium/solo/Zoomer;
+D/dalvikvm( 1215): VFY: replacing opcode 0x23 at 0x0084
+D/dalvikvm( 1215): VFY: dead code 0x0086-0152 in Lcom/jayway/android/robotium/solo/Zoomer;.generateZoomGesture (Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)V
+E/dalvikvm( 1215): Could not find class '[Landroid.view.MotionEvent$PointerProperties;', referenced from method com.jayway.android.robotium.solo.Swiper.generateSwipeGesture
+W/dalvikvm( 1215): VFY: unable to resolve new-array 526 ([Landroid/view/MotionEvent$PointerProperties;) in Lcom/jayway/android/robotium/solo/Swiper;
+D/dalvikvm( 1215): VFY: replacing opcode 0x23 at 0x0084
+D/dalvikvm( 1215): VFY: dead code 0x0086-0152 in Lcom/jayway/android/robotium/solo/Swiper;.generateSwipeGesture (Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)V
+E/dalvikvm( 1215): Could not find class '[Landroid.view.MotionEvent$PointerProperties;', referenced from method com.jayway.android.robotium.solo.Tapper.generateTapGesture
+W/dalvikvm( 1215): VFY: unable to resolve new-array 526 ([Landroid/view/MotionEvent$PointerProperties;) in Lcom/jayway/android/robotium/solo/Tapper;
+D/dalvikvm( 1215): VFY: replacing opcode 0x23 at 0x007c
+D/dalvikvm( 1215): VFY: dead code 0x007e-0142 in Lcom/jayway/android/robotium/solo/Tapper;.generateTapGesture (I[Landroid/graphics/PointF;)V
+E/dalvikvm( 1215): Could not find class '[Landroid.view.MotionEvent$PointerProperties;', referenced from method com.jayway.android.robotium.solo.Rotator.generateRotateGesture
+W/dalvikvm( 1215): VFY: unable to resolve new-array 526 ([Landroid/view/MotionEvent$PointerProperties;) in Lcom/jayway/android/robotium/solo/Rotator;
+D/dalvikvm( 1215): VFY: replacing opcode 0x23 at 0x006e
+D/dalvikvm( 1215): VFY: dead code 0x0070-0195 in Lcom/jayway/android/robotium/solo/Rotator;.generateRotateGesture (ILandroid/graphics/PointF;Landroid/graphics/PointF;)V
+W/ActivityManager(  861): finishReceiver called but no pending broadcasts
+D/androidripper( 1215): Updating node automation
+D/androidripper( 1215): Loading node automation
+V/androidripper( 1215): Updating value FORCE_RESTART
+V/androidripper( 1215): Updating value IN_AND_OUT_FOCUS
+V/androidripper( 1215): Updating value PRECRAWLING
+V/androidripper( 1215): Updating value SCREENSHOT_FOR_EVENTS
+V/androidripper( 1215): Updating value SCREENSHOT_FOR_STATES
+V/androidripper( 1215): Updating value SCREENSHOT_ONLY_NEW_STATES
+V/androidripper( 1215): Updating value SLEEP_AFTER_EVENT
+V/androidripper( 1215): Updating value SLEEP_AFTER_RESTART
+V/androidripper( 1215): Updating value SLEEP_AFTER_TASK
+V/androidripper( 1215): Updating value SLEEP_ON_THROBBER
+I/androidripper( 1215): Waiting for 1 sec.
+D/androidripper( 1215): Ready to operate after restarting...
+I/androidripper( 1215): Current activity is activities.TippyTipper
+W/androidripper( 1215): --->activities.TippyTipper
+I/androidripper( 1215): Retrieving widgets
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d1d400)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.FrameLayout@b6d1ddc8)
+D/androidripper( 1215): Found widget: id=16908310 (android.widget.TextView@b6d1e388): Tippy Tipper
+D/androidripper( 1215): Found widget: id=16908290 (android.widget.FrameLayout@b6d1f100)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d1f608)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.TextView@b6d1f860): Enter bill amount:
+D/androidripper( 1215): Found widget: id=2131361792 (android.widget.EditText@b6d1ff78): $0.00
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d20c58)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d20e70)
+D/androidripper( 1215): Found widget: id=2131361793 (android.widget.Button@b6d212f8): 7
+D/androidripper( 1215): Found widget: id=2131361794 (android.widget.Button@b6d21bc0): 8
+D/androidripper( 1215): Found widget: id=2131361795 (android.widget.Button@b6d22448): 9
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d22cd0)
+D/androidripper( 1215): Found widget: id=2131361796 (android.widget.Button@b6d22ee8): 4
+D/androidripper( 1215): Found widget: id=2131361797 (android.widget.Button@b6d23770): 5
+D/androidripper( 1215): Found widget: id=2131361798 (android.widget.Button@b6d23ff8): 6
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d24880)
+D/androidripper( 1215): Found widget: id=2131361799 (android.widget.Button@b6d24a98): 1
+D/androidripper( 1215): Found widget: id=2131361800 (android.widget.Button@b6d25320): 2
+D/androidripper( 1215): Found widget: id=2131361801 (android.widget.Button@b6d25ba8): 3
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d26430)
+D/androidripper( 1215): Found widget: id=2131361802 (android.widget.Button@b6d26648): DEL
+D/androidripper( 1215): Found widget: id=2131361803 (android.widget.Button@b6d26ed0): 0
+D/androidripper( 1215): Found widget: id=2131361804 (android.widget.Button@b6d27758): OK
+D/androidripper( 1215): Found widget: id=-1 (com.android.internal.policy.impl.PhoneWindow$DecorView@b6d1cc20)
+V/androidripper( 1215): TextualID : null
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : null
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): android.widget.EditText > mOnFocusChangeListener FOUND | NOT ACTIVE
+V/androidripper( 1215): TextualID : txt_amount
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_seven
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_eight
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_nine
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_four
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_five
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_six
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_one
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_two
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_three
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_delete
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_zero
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_ok
+V/androidripper( 1215): ContentType detected : default
+D/androidripper( 1215): No session to resume: GUI Tree not found. Will start from scratch.
+I/androidripper( 1215): Starting a new session
+D/androidripper( 1215): Saving new found state 'a1' on disk
+V/androidripper( 1215): Opening state file in overwrite mode.
+D/dalvikvm( 1215): GC_CONCURRENT freed 495K, 48% free 3521K/6663K, external 1527K/1559K, paused 4ms+4ms
+D/dalvikvm( 1215): GC_EXTERNAL_ALLOC freed 213K, 51% free 3307K/6663K, external 1527K/1559K, paused 39ms
+D/dalvikvm( 1215): GC_EXTERNAL_ALLOC freed 26K, 51% free 3281K/6663K, external 3027K/3780K, paused 37ms
+I/androidripper( 1215): Saved image on disk: a1.jpg
+I/androidripper( 1215): Planning for new Activity TippyTipper
+D/androidripper( 1215): Handling event 'click' on widget id=2131361793 type=button name=7
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361794 type=button name=8
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361795 type=button name=9
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361796 type=button name=4
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361797 type=button name=5
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361798 type=button name=6
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361799 type=button name=1
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361800 type=button name=2
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361801 type=button name=3
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361802 type=button name=DEL
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361803 type=button name=0
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+D/androidripper( 1215): Handling event 'click' on widget id=2131361804 type=button name=OK
+D/androidripper( 1215): Handling input 'writeText' on widget id=2131361792 type=editText name=
+V/androidripper( 1215): Using value: 15
+I/androidripper( 1215): Created trace to press the menu button
+I/androidripper( 1215): Created trace to change orientation
+I/androidripper( 1215): Dispatching new task. 14 more tasks remaining.
+D/androidripper( 1215): Saving task list on disk
+V/androidripper( 1215): Backing up trace #0 to disk.
+V/androidripper( 1215): Backing up trace #1 to disk.
+V/androidripper( 1215): Backing up trace #2 to disk.
+V/androidripper( 1215): Backing up trace #3 to disk.
+V/androidripper( 1215): Backing up trace #4 to disk.
+V/androidripper( 1215): Backing up trace #5 to disk.
+V/androidripper( 1215): Backing up trace #6 to disk.
+V/androidripper( 1215): Backing up trace #7 to disk.
+D/dalvikvm( 1215): GC_CONCURRENT freed 1013K, 51% free 3361K/6855K, external 4527K/5653K, paused 17ms+15ms
+V/androidripper( 1215): Backing up trace #8 to disk.
+V/androidripper( 1215): Backing up trace #9 to disk.
+V/androidripper( 1215): Backing up trace #10 to disk.
+V/androidripper( 1215): Backing up trace #11 to disk.
+V/androidripper( 1215): Backing up trace #12 to disk.
+V/androidripper( 1215): Backing up trace #13 to disk.
+I/androidripper( 1215): Restarting
+I/androidripper( 1215): Waiting for 1 sec.
+D/androidripper( 1215): Ready to operate after restarting...
+I/androidripper( 1215): Retrieving widgets
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d1d400)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.FrameLayout@b6d1ddc8)
+D/androidripper( 1215): Found widget: id=16908310 (android.widget.TextView@b6d1e388): Tippy Tipper
+D/androidripper( 1215): Found widget: id=16908290 (android.widget.FrameLayout@b6d1f100)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d1f608)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.TextView@b6d1f860): Enter bill amount:
+D/androidripper( 1215): Found widget: id=2131361792 (android.widget.EditText@b6d1ff78): $0.00
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d20c58)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d20e70)
+D/androidripper( 1215): Found widget: id=2131361793 (android.widget.Button@b6d212f8): 7
+D/androidripper( 1215): Found widget: id=2131361794 (android.widget.Button@b6d21bc0): 8
+D/androidripper( 1215): Found widget: id=2131361795 (android.widget.Button@b6d22448): 9
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d22cd0)
+D/androidripper( 1215): Found widget: id=2131361796 (android.widget.Button@b6d22ee8): 4
+D/androidripper( 1215): Found widget: id=2131361797 (android.widget.Button@b6d23770): 5
+D/androidripper( 1215): Found widget: id=2131361798 (android.widget.Button@b6d23ff8): 6
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d24880)
+D/androidripper( 1215): Found widget: id=2131361799 (android.widget.Button@b6d24a98): 1
+D/androidripper( 1215): Found widget: id=2131361800 (android.widget.Button@b6d25320): 2
+D/androidripper( 1215): Found widget: id=2131361801 (android.widget.Button@b6d25ba8): 3
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d26430)
+D/androidripper( 1215): Found widget: id=2131361802 (android.widget.Button@b6d26648): DEL
+D/androidripper( 1215): Found widget: id=2131361803 (android.widget.Button@b6d26ed0): 0
+D/androidripper( 1215): Found widget: id=2131361804 (android.widget.Button@b6d27758): OK
+D/androidripper( 1215): Found widget: id=-1 (com.android.internal.policy.impl.PhoneWindow$DecorView@b6d1cc20)
+I/androidripper( 1215): Playing Trace 0
+I/androidripper( 1215): Setting input: type= writeText id=2131361792 value=15
+D/androidripper( 1215): Added to return list id=2131361792
+I/androidripper( 1215): Retrieved from return list id=2131361792
+D/androidripper( 1215): Testing for type (android.widget.EditText) against the original (android.widget.EditText)
+D/androidripper( 1215): Testing for name () against the original ()
+I/androidripper( 1215): Retrieved from return list id=2131361793
+D/androidripper( 1215): Testing for type (android.widget.Button) against the original (android.widget.Button)
+D/androidripper( 1215): Testing for name (7) against the original (7)
+I/androidripper( 1215): Firing event: type= click index=9 widget=android.widget.Button
+W/KeyCharacterMap( 1215): No keyboard for id 0
+W/KeyCharacterMap( 1215): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+D/androidripper( 1215): Event description: 7
+I/androidripper( 1215): Waiting for 1 sec.
+I/androidripper( 1215): Current activity is activities.TippyTipper
+I/androidripper( 1215): Retrieving widgets
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d1d400)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.FrameLayout@b6d1ddc8)
+D/androidripper( 1215): Found widget: id=16908310 (android.widget.TextView@b6d1e388): Tippy Tipper
+D/androidripper( 1215): Found widget: id=16908290 (android.widget.FrameLayout@b6d1f100)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d1f608)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.TextView@b6d1f860): Enter bill amount:
+D/androidripper( 1215): Found widget: id=2131361792 (android.widget.EditText@b6d1ff78): $0.07
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d20c58)
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d20e70)
+D/androidripper( 1215): Found widget: id=2131361793 (android.widget.Button@b6d212f8): 7
+D/androidripper( 1215): Found widget: id=2131361794 (android.widget.Button@b6d21bc0): 8
+D/androidripper( 1215): Found widget: id=2131361795 (android.widget.Button@b6d22448): 9
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d22cd0)
+D/androidripper( 1215): Found widget: id=2131361796 (android.widget.Button@b6d22ee8): 4
+D/androidripper( 1215): Found widget: id=2131361797 (android.widget.Button@b6d23770): 5
+D/androidripper( 1215): Found widget: id=2131361798 (android.widget.Button@b6d23ff8): 6
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d24880)
+D/androidripper( 1215): Found widget: id=2131361799 (android.widget.Button@b6d24a98): 1
+D/androidripper( 1215): Found widget: id=2131361800 (android.widget.Button@b6d25320): 2
+D/androidripper( 1215): Found widget: id=2131361801 (android.widget.Button@b6d25ba8): 3
+D/androidripper( 1215): Found widget: id=-1 (android.widget.LinearLayout@b6d26430)
+D/androidripper( 1215): Found widget: id=2131361802 (android.widget.Button@b6d26648): DEL
+D/androidripper( 1215): Found widget: id=2131361803 (android.widget.Button@b6d26ed0): 0
+D/androidripper( 1215): Found widget: id=2131361804 (android.widget.Button@b6d27758): OK
+D/androidripper( 1215): Found widget: id=-1 (com.android.internal.policy.impl.PhoneWindow$DecorView@b6d1cc20)
+V/androidripper( 1215): TextualID : null
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : null
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): android.widget.EditText > mOnFocusChangeListener FOUND | NOT ACTIVE
+V/androidripper( 1215): TextualID : txt_amount
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_seven
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_eight
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_nine
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_four
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_five
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_six
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_one
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_two
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_three
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_delete
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_zero
+V/androidripper( 1215): ContentType detected : default
+V/androidripper( 1215): TextualID : btn_ok
+V/androidripper( 1215): ContentType detected : default
+I/androidripper( 1215): Performing comparation for activity TippyTipper
+D/androidripper( 1215): Comparing against activity TippyTipper
+D/androidripper( 1215): Looking for additional widgets
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget -1 (type = )
+D/androidripper( 1215): Comparator found widget 16908310 (type = text)
+V/androidripper( 1215): Comparing text #16908310
+D/androidripper( 1215): Comparator found widget 16908290 (type = )
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget -1 (type = text)
+D/androidripper( 1215): Comparator found widget 2131361792 (type = editText)
+V/androidripper( 1215): Comparing editText #2131361792
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget 2131361793 (type = button)
+V/androidripper( 1215): Comparing button #2131361793
+D/androidripper( 1215): Comparator found widget 2131361794 (type = button)
+V/androidripper( 1215): Comparing button #2131361794
+D/androidripper( 1215): Comparator found widget 2131361795 (type = button)
+V/androidripper( 1215): Comparing button #2131361795
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget 2131361796 (type = button)
+V/androidripper( 1215): Comparing button #2131361796
+D/androidripper( 1215): Comparator found widget 2131361797 (type = button)
+V/androidripper( 1215): Comparing button #2131361797
+D/androidripper( 1215): Comparator found widget 2131361798 (type = button)
+V/androidripper( 1215): Comparing button #2131361798
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget 2131361799 (type = button)
+V/androidripper( 1215): Comparing button #2131361799
+D/androidripper( 1215): Comparator found widget 2131361800 (type = button)
+V/androidripper( 1215): Comparing button #2131361800
+D/androidripper( 1215): Comparator found widget 2131361801 (type = button)
+V/androidripper( 1215): Comparing button #2131361801
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget 2131361802 (type = button)
+V/androidripper( 1215): Comparing button #2131361802
+D/androidripper( 1215): Comparator found widget 2131361803 (type = button)
+V/androidripper( 1215): Comparing button #2131361803
+D/androidripper( 1215): Comparator found widget 2131361804 (type = button)
+V/androidripper( 1215): Comparing button #2131361804
+D/androidripper( 1215): Comparator found widget -1 (type = )
+D/androidripper( 1215): Looking for missing widgets
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget -1 (type = )
+D/androidripper( 1215): Comparator found widget 16908310 (type = text)
+D/androidripper( 1215): Comparator found widget 16908290 (type = )
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget -1 (type = text)
+D/androidripper( 1215): Comparator found widget 2131361792 (type = editText)
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget 2131361793 (type = button)
+D/androidripper( 1215): Comparator found widget 2131361794 (type = button)
+D/androidripper( 1215): Comparator found widget 2131361795 (type = button)
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget 2131361796 (type = button)
+D/androidripper( 1215): Comparator found widget 2131361797 (type = button)
+D/androidripper( 1215): Comparator found widget 2131361798 (type = button)
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget 2131361799 (type = button)
+D/androidripper( 1215): Comparator found widget 2131361800 (type = button)
+D/androidripper( 1215): Comparator found widget 2131361801 (type = button)
+D/androidripper( 1215): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1215): Comparator found widget 2131361802 (type = button)
+D/androidripper( 1215): Comparator found widget 2131361803 (type = button)
+D/androidripper( 1215): Comparator found widget 2131361804 (type = button)
+D/androidripper( 1215): Comparator found widget -1 (type = )
+D/androidripper( 1215): This activity state is equivalent to a1
+I/androidripper( 1215): Saved image on disk: a2.jpg
+I/androidripper( 1215): Waiting for 1 sec.
+I/androidripper( 1215): Session count is 1. Will dump to disk at 1
+I/androidripper( 1215): Saving the session on disk. This is the first batch: the file will be created.
+D/dalvikvm( 1215): GC_EXPLICIT freed 1010K, 51% free 3392K/6919K, external 4527K/4527K, paused 71ms
+I/androidripper( 1215): Check for pause: 0 steps left of 1
+I/androidripper( 1215): Saving the session on disk. This is the last batch. The session will be terminated.
+D/androidripper( 1215): Performing backup of the old task list on disk
+D/androidripper( 1215): Saving task list on disk
+V/androidripper( 1215): Backing up trace #1 to disk.
+V/androidripper( 1215): Backing up trace #2 to disk.
+V/androidripper( 1215): Backing up trace #3 to disk.
+V/androidripper( 1215): Backing up trace #4 to disk.
+V/androidripper( 1215): Backing up trace #5 to disk.
+V/androidripper( 1215): Backing up trace #6 to disk.
+V/androidripper( 1215): Backing up trace #7 to disk.
+V/androidripper( 1215): Backing up trace #8 to disk.
+V/androidripper( 1215): Backing up trace #9 to disk.
+V/androidripper( 1215): Backing up trace #10 to disk.
+V/androidripper( 1215): Backing up trace #11 to disk.
+V/androidripper( 1215): Backing up trace #12 to disk.
+V/androidripper( 1215): Backing up trace #13 to disk.
+D/androidripper( 1215): Deleting backup of the old task list from disk
+W/ActivityManager(  861): Duplicate finish request for HistoryRecord{b6d464d8 net.mandaria.tippytipper/.activities.TippyTipper}
+D/dalvikvm( 1215): GC_EXPLICIT freed 565K, 52% free 3374K/6919K, external 3027K/4527K, paused 107ms
+D/dalvikvm( 1215): GC_EXPLICIT freed 9K, 52% free 3365K/6919K, external 3027K/4527K, paused 64ms
+I/TestRunner( 1215): finished: testAndCrawl(it.unina.androidripper.guitree.GuiTreeEngine)
+I/TestRunner( 1215): passed: testAndCrawl(it.unina.androidripper.guitree.GuiTreeEngine)
+I/ActivityManager(  861): Force stopping package net.mandaria.tippytipper uid=10031
+I/Process (  861): Sending signal. PID: 1215 SIG: 9
+D/AndroidRuntime( 1207): Shutting down VM
+D/dalvikvm( 1207): GC_CONCURRENT freed 102K, 72% free 293K/1024K, external 0K/0K, paused 1ms+1ms
+D/jdwp    ( 1207): adbd disconnected
+E/InputDispatcher(  861): channel 'b6da5b00 net.mandaria.tippytipper/net.mandaria.tippytipper.activities.TippyTipper (server)' ~ Consumer closed input channel or an error occurred.  events=0x8
+E/InputDispatcher(  861): channel 'b6da5b00 net.mandaria.tippytipper/net.mandaria.tippytipper.activities.TippyTipper (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/WindowManager(  861): WINDOW DIED Window{b6da5b00 net.mandaria.tippytipper/net.mandaria.tippytipper.activities.TippyTipper paused=false}
+I/WindowManager(  861): WIN DEATH: Window{b6da5b00 net.mandaria.tippytipper/net.mandaria.tippytipper.activities.TippyTipper paused=false}
+D/AndroidRuntime( 1232): 
+D/AndroidRuntime( 1232): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1232): CheckJNI is ON
+D/AndroidRuntime( 1232): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  861): Start proc net.mandaria.tippytipper for broadcast net.mandaria.tippytipper/.EmmaInstrument.SMSInstrumentedReceiver: pid=1240 uid=10031 gids={1015, 3003}
+I/System.out( 1240): EMMA: collecting runtime coverage data ...
+D/EmmaInstrumentation:( 1240): Intermidate Dump Called with file name :/mnt/sdcard/coverage.ec
+D/EmmaInstrumentation:( 1240): generateCoverageReport()
+I/System.out( 1240): EMMA: runtime coverage data merged into [/mnt/sdcard/coverage.ec] {in 11 ms}
+D/AndroidRuntime( 1232): Shutting down VM
+D/dalvikvm( 1232): GC_CONCURRENT freed 99K, 70% free 315K/1024K, external 0K/0K, paused 0ms+0ms
+D/jdwp    ( 1232): adbd disconnected
+I/Vold    (  795): Vold 2.1 (the revenge) firing up
+D/Vold    (  795): USB mass storage support is not enabled in the kernel
+D/Vold    (  795): usb_configuration switch is not enabled in the kernel
+I/Netd    (  796): Netd 1.0 starting
+I/DEBUG   (  798): debuggerd: Dec 31 2011 14:18:31
+D/Vold    (  795): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  795): Volume sdcard state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+D/qemud   (  839): entering main loop
+D/qemud   (  839): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  839): created client 0xa016068 listening on fd 10
+D/qemud   (  839): client_fd_receive: attempting registration for service 'boot-properties'
+D/qemud   (  839): client_fd_receive:    -> received channel id 1
+D/qemud   (  839): client_registration: registration succeeded for client 1
+I/qemu-props(  851): connected to 'boot-properties' qemud service.
+I/qemu-props(  851): receiving..
+I/qemu-props(  851): received: dalvik.vm.heapsize=24m
+I/qemu-props(  851): receiving..
+I/qemu-props(  851): received: ro.config.low_ram=true
+I/qemu-props(  851): receiving..
+I/qemu-props(  851): received: qemu.sf.lcd_density=240
+I/qemu-props(  851): receiving..
+I/qemu-props(  851): received: qemu.hw.mainkeys=1
+I/qemu-props(  851): receiving..
+I/qemu-props(  851): received: qemu.sf.fake_camera=back
+I/qemu-props(  851): receiving..
+I/qemu-props(  851): exiting (5 properties set).
+D/qemud   (  839): fdhandler_event: disconnect on fd 10
+D/AndroidRuntime(  801): 
+D/AndroidRuntime(  801): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime(  801): CheckJNI is ON
+I/        (  808): ServiceManager: 0x8c49d50
+D/AudioHardwareInterface(  808): setMode(NORMAL)
+I/CameraService(  808): CameraService started (pid=808)
+I/AudioFlinger(  808): AudioFlinger's thread 0x8c4b5a0 ready to run
+D/qemud   (  839): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  839): created client 0xa016068 listening on fd 10
+D/qemud   (  839): fdhandler_event: disconnect on fd 10
+D/qemud   (  839): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  839): created client 0xa016068 listening on fd 10
+D/qemud   (  839): client_fd_receive: attempting registration for service 'gsm'
+D/qemud   (  839): client_fd_receive:    -> received channel id 2
+I/SamplingProfilerIntegration(  801): Profiler is disabled.
+D/qemud   (  839): client_registration: registration succeeded for client 2
+I/Zygote  (  801): Preloading classes...
+E/Zygote  (  801): setreuid() failed. errno: 30
+D/dalvikvm(  801): GC_EXPLICIT freed 45K, 78% free 232K/1024K, external 0K/0K, paused 7ms
+D/dalvikvm(  801): GC_EXPLICIT freed 1K, 73% free 284K/1024K, external 0K/0K, paused 3ms
+D/dalvikvm(  801): GC_EXPLICIT freed 21K, 70% free 316K/1024K, external 0K/0K, paused 3ms
+D/dalvikvm(  801): GC_EXPLICIT freed 16K, 66% free 355K/1024K, external 0K/0K, paused 3ms
+D/dalvikvm(  801): GC_EXPLICIT freed 27K, 63% free 382K/1024K, external 0K/0K, paused 3ms
+D/dalvikvm(  801): GC_EXPLICIT freed 17K, 58% free 436K/1024K, external 0K/0K, paused 3ms
+W/MediaProfiles(  801): could not find media config xml file
+D/dalvikvm(  801): GC_EXPLICIT freed 99K, 48% free 540K/1024K, external 0K/0K, paused 5ms
+D/dalvikvm(  801): GC_EXPLICIT freed 265K, 25% free 870K/1155K, external 0K/0K, paused 10ms
+D/dalvikvm(  801): GC_EXPLICIT freed 20K, 21% free 916K/1155K, external 0K/0K, paused 8ms
+D/RenderScript_jni(  801): RenderScript JNI library not found!
+D/dalvikvm(  801): GC_EXPLICIT freed 24K, 20% free 981K/1219K, external 0K/0K, paused 10ms
+D/dalvikvm(  801): GC_EXPLICIT freed 46K, 7% free 1255K/1347K, external 0K/0K, paused 15ms
+D/dalvikvm(  801): GC_EXPLICIT freed 24K, 5% free 1286K/1347K, external 0K/0K, paused 14ms
+D/dalvikvm(  801): GC_EXPLICIT freed 29K, 3% free 1311K/1347K, external 0K/0K, paused 14ms
+D/dalvikvm(  801): GC_EXPLICIT freed 14K, 5% free 1351K/1411K, external 0K/0K, paused 15ms
+W/Zygote  (  801): Class not found for preloading: android.widget.TextView$SelectionModifierCursorController$1
+D/dalvikvm(  801): GC_EXPLICIT freed 29K, 3% free 1377K/1411K, external 0K/0K, paused 14ms
+D/dalvikvm(  801): GC_EXPLICIT freed 26K, 5% free 1413K/1475K, external 0K/0K, paused 15ms
+D/dalvikvm(  801): GC_EXPLICIT freed 38K, 4% free 1430K/1475K, external 0K/0K, paused 16ms
+D/dalvikvm(  801): GC_EXPLICIT freed 40K, 7% free 1446K/1539K, external 0K/0K, paused 16ms
+D/dalvikvm(  801): GC_EXPLICIT freed 52K, 6% free 1458K/1539K, external 0K/0K, paused 16ms
+D/dalvikvm(  801): GC_FOR_MALLOC freed 2915K, 57% free 2207K/5123K, external 0K/0K, paused 57ms
+D/dalvikvm(  801): GC_EXPLICIT freed 2192K, 53% free 2432K/5123K, external 0K/0K, paused 42ms
+D/dalvikvm(  801): GC_EXPLICIT freed 135K, 52% free 2504K/5123K, external 0K/0K, paused 30ms
+D/dalvikvm(  801): GC_EXPLICIT freed 71K, 51% free 2528K/5123K, external 0K/0K, paused 31ms
+D/dalvikvm(  801): GC_EXPLICIT freed 36K, 51% free 2545K/5123K, external 0K/0K, paused 30ms
+D/dalvikvm(  801): GC_EXPLICIT freed 30K, 50% free 2569K/5123K, external 0K/0K, paused 32ms
+D/dalvikvm(  801): GC_EXPLICIT freed 36K, 50% free 2590K/5123K, external 0K/0K, paused 31ms
+I/Zygote  (  801): ...preloaded 1829 classes in 4940ms.
+E/Zygote  (  801): setreuid() failed. errno: 30
+D/dalvikvm(  801): GC_EXPLICIT freed 18K, 50% free 2588K/5123K, external 0K/0K, paused 30ms
+I/Zygote  (  801): Preloading resources...
+D/dalvikvm(  801): GC_EXTERNAL_ALLOC freed <1K, 50% free 2590K/5123K, external 0K/0K, paused 29ms
+D/dalvikvm(  801): GC_EXTERNAL_ALLOC freed 10K, 49% free 2615K/5123K, external 519K/521K, paused 37ms
+D/dalvikvm(  801): GC_EXPLICIT freed 8K, 49% free 2633K/5123K, external 920K/1048K, paused 31ms
+D/dalvikvm(  801): GC_EXTERNAL_ALLOC freed 15K, 49% free 2638K/5123K, external 1046K/1048K, paused 33ms
+I/Zygote  (  801): ...preloaded 51 resources in 646ms.
+D/dalvikvm(  801): GC_EXPLICIT freed 13K, 49% free 2662K/5123K, external 1527K/1559K, paused 33ms
+I/Zygote  (  801): ...preloaded 15 resources in 48ms.
+D/dalvikvm(  801): GC_EXPLICIT freed 17K, 49% free 2657K/5123K, external 1527K/1559K, paused 34ms
+D/dalvikvm(  801): GC_EXPLICIT freed 4K, 49% free 2652K/5123K, external 1527K/1559K, paused 33ms
+D/dalvikvm(  801): GC_EXPLICIT freed <1K, 49% free 2652K/5123K, external 1527K/1559K, paused 33ms
+I/dalvikvm(  801): System server process 861 has been created
+I/Zygote  (  801): Accepting command socket connections
+E/BatteryService(  861): usbOnlinePath not found
+E/BatteryService(  861): batteryVoltagePath not found
+E/BatteryService(  861): batteryTemperaturePath not found
+I/sysproc (  861): Entered system_init()
+I/sysproc (  861): ServiceManager: 0x8b70ec8
+I/SurfaceFlinger(  861): SurfaceFlinger is starting
+I/SurfaceFlinger(  861): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/gralloc_goldfish(  861): Emulator without GPU emulation detected.
+I/gralloc (  861): using (fd=24)
+I/gralloc (  861): id           = 
+I/gralloc (  861): xres         = 480 px
+I/gralloc (  861): yres         = 800 px
+I/gralloc (  861): xres_virtual = 480 px
+I/gralloc (  861): yres_virtual = 1600 px
+I/gralloc (  861): bpp          = 16
+I/gralloc (  861): r            = 11:5
+I/gralloc (  861): g            =  5:6
+I/gralloc (  861): b            =  0:5
+I/gralloc (  861): width        = 74 mm (164.756760 dpi)
+I/gralloc (  861): height       = 123 mm (165.203247 dpi)
+I/gralloc (  861): refresh rate = 260.42 Hz
+D/libEGL  (  861): Emulator without GPU support detected. Fallback to software renderer.
+D/libEGL  (  861): loaded /system/lib/egl/libGLES_android.so
+I/SurfaceFlinger(  861): EGL informations:
+I/SurfaceFlinger(  861): # of configs : 8
+I/SurfaceFlinger(  861): vendor    : Android
+I/SurfaceFlinger(  861): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(  861): extensions: EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_ANDROID_image_native_buffer EGL_ANDROID_swap_rectangle 
+I/SurfaceFlinger(  861): Client API: OpenGL ES
+I/SurfaceFlinger(  861): EGLSurface: 5-6-5-0, config=0x0
+I/SurfaceFlinger(  861): OpenGL informations:
+I/SurfaceFlinger(  861): vendor    : Android
+I/SurfaceFlinger(  861): renderer  : Android PixelFlinger 1.4
+I/SurfaceFlinger(  861): version   : OpenGL ES-CM 1.0
+I/SurfaceFlinger(  861): extensions: GL_OES_byte_coordinates GL_OES_fixed_point GL_OES_single_precision GL_OES_read_format GL_OES_compressed_paletted_texture GL_OES_draw_texture GL_OES_matrix_get GL_OES_query_matrix GL_OES_EGL_image GL_OES_compressed_ETC1_RGB8_texture GL_ARB_texture_compression GL_ARB_texture_non_power_of_two GL_ANDROID_user_clip_plane GL_ANDROID_vertex_buffer_object GL_ANDROID_generate_mipmap 
+I/SurfaceFlinger(  861): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(  861): GL_MAX_VIEWPORT_DIMS = 4096
+I/SurfaceFlinger(  861): flags = 000c0000
+D/SensorService(  861): nuSensorService starting...
+E/SensorService(  861): couldn't open device for module sensors (Invalid argument)
+I/sysproc (  861): System server: starting Android runtime.
+I/sysproc (  861): System server: starting Android services.
+I/SystemServer(  861): Entered the Android system server!
+I/sysproc (  861): System server: entering thread pool.
+I/SystemServer(  861): Entropy Service
+D/libEGL  (  871): Emulator without GPU support detected. Fallback to software renderer.
+D/libEGL  (  871): loaded /system/lib/egl/libGLES_android.so
+D/gralloc_goldfish(  871): Emulator without GPU emulation detected.
+W/zipro   (  871): Unable to open zip '/data/local/bootanimation.zip': No such file or directory
+W/zipro   (  871): Unable to open zip '/system/media/bootanimation.zip': No such file or directory
+I/SystemServer(  861): Power Manager
+I/SystemServer(  861): Activity Manager
+I/ActivityManager(  861): Memory class: 24
+W/UsageStats(  861): Usage stats version changed; dropping
+I/SystemServer(  861): Telephony Registry
+I/SystemServer(  861): Package Manager
+I/Installer(  861): connecting...
+I/installd(  814): new connection
+D/dalvikvm(  861): GC_CONCURRENT freed 196K, 49% free 2924K/5639K, external 1527K/1559K, paused 4ms+5ms
+W/PackageManager(  861): Running ENG build: no pre-dexopt!
+W/PackageParser(  861): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #124
+D/dalvikvm(  861): GC_CONCURRENT freed 221K, 47% free 3202K/5959K, external 1527K/1559K, paused 7ms+28ms
+D/dalvikvm(  861): GC_CONCURRENT freed 222K, 45% free 3431K/6151K, external 1527K/1559K, paused 6ms+15ms
+D/PackageManager(  861): No files in app dir /vendor/app
+I/PackageManager(  861): Unpacking native libraries for /data/app/it.unina.androidripper-1.apk
+I/PackageManager(  861): Unpacking native libraries for /data/app/net.mandaria.tippytipper-1.apk
+I/PackageManager(  861): Time to scan packages: 1.915 seconds
+W/PackageManager(  861): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.contacts
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cp in package com.android.providers.contacts
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+W/PackageManager(  861): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  861): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  861): Unknown permission android.permission.READ_OWNER_DATA in package com.android.email
+W/PackageManager(  861): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+D/dalvikvm(  861): GC_EXPLICIT freed 329K, 45% free 3456K/6279K, external 1527K/1559K, paused 41ms
+I/SystemServer(  861): Account Manager
+I/SystemServer(  861): Content Manager
+I/SystemServer(  861): System Content Providers
+I/ActivityThread(  861): Pub settings: com.android.providers.settings.SettingsProvider
+D/SettingsProvider(  861): cache for settings table 'secure' rows=26; fullycached=true
+I/SystemServer(  861): Battery Service
+D/SettingsProvider(  861): cache for settings table 'system' rows=49; fullycached=true
+I/SystemServer(  861): Lights Service
+I/SystemServer(  861): Vibrator Service
+D/qemud   (  839): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  839): created client 0xa01bed8 listening on fd 11
+D/qemud   (  839): client_fd_receive: attempting registration for service 'hw-control'
+D/qemud   (  839): client_fd_receive:    -> received channel id 3
+D/qemud   (  839): client_registration: registration succeeded for client 3
+I/SystemServer(  861): Alarm Manager
+I/SystemServer(  861): Init Watchdog
+I/SystemServer(  861): Window Manager
+I/InputManager(  861): Initializing input manager
+I/InputManager(  861): Starting input manager
+I/EventHub(  861): New keyboard: device->id=0x10000 devname='qwerty2' propName='hw.keyboards.65536.devname' keylayout='/system/usr/keylayout/qwerty.kl'
+I/EventHub(  861): New device: path=/dev/input/event0 name=qwerty2 id=0x10000 (of 0x1) index=1 fd=82 classes=0x2d
+E/EventHub(  861): could not get driver version for /dev/input/mouse0, Not a typewriter
+E/EventHub(  861): could not get driver version for /dev/input/mice, Not a typewriter
+I/EventHub(  861): New keyboard: device->id=0x10001 devname='AT Translated Set 2 keyboard' propName='hw.keyboards.65537.devname' keylayout='/system/usr/keylayout/qwerty.kl'
+I/EventHub(  861): New device: path=/dev/input/event1 name=AT Translated Set 2 keyboard id=0x10001 (of 0x2) index=2 fd=85 classes=0x3
+I/InputManager-Callbacks(  861): No input device calibration properties found for device AT Translated Set 2 keyboard.
+I/InputReader(  861): Device added: id=0x10001, name=AT Translated Set 2 keyboard, sources=00000101
+I/InputManager-Callbacks(  861): No input device calibration properties found for device qwerty2.
+I/InputReader(  861): Device added: id=0x0, name=qwerty2, sources=00011307
+I/SystemServer(  861): Registering null Bluetooth Service (emulator)
+E/System  (  861): Failure starting core service
+E/System  (  861): java.lang.SecurityException
+E/System  (  861): 	at android.os.BinderProxy.transact(Native Method)
+E/System  (  861): 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:146)
+E/System  (  861): 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+E/System  (  861): 	at com.android.server.ServerThread.run(SystemServer.java:207)
+I/SystemServer(  861): Device Policy
+I/SystemServer(  861): Status Bar
+I/SystemServer(  861): Clipboard Service
+I/SystemServer(  861): Input Method Service
+W/ResourceType(  861): Failure getting entry for 0x7f060000 (t=5 e=0) in package 0 (error -75)
+I/InputManagerService(  861): Enabled input methods: com.android.inputmethod.latin/.LatinIME:com.android.inputmethod.pinyin/.PinyinIME:jp.co.omronsoft.openwnn/.OpenWnnJAJP
+I/SystemServer(  861): NetStat Service
+I/SystemServer(  861): NetworkManagement Service
+I/SystemServer(  861): Connectivity Service
+I/WifiService(  861): WifiService starting up with Wi-Fi disabled
+D/NetworkManagmentService(  861): Registering observer
+I/SystemServer(  861): Throttle Service
+I/SystemServer(  861): Accessibility Manager
+I/SystemServer(  861): Mount Service
+I/SystemServer(  861): Notification Manager
+I/SystemServer(  861): Device Storage Monitor
+I/SystemServer(  861): Location Manager
+I/SystemServer(  861): Search Service
+I/SystemServer(  861): DropBox Service
+I/SystemServer(  861): Wallpaper Service
+D/VoldCmdListener(  795): volume list
+I/PackageManager(  861): Updating external media status from unmounted to unmounted
+D/VoldCmdListener(  795): share status ums
+I/SystemServer(  861): Audio Service
+D/AudioHardwareInterface(  808): setMode(NORMAL)
+W/AudioPolicyManagerBase(  808): setPhoneState() setting same state 0
+I/SystemServer(  861): Headset Observer
+W/HeadsetObserver(  861): This kernel does not have wired headset support
+I/SystemServer(  861): Dock Observer
+W/DockObserver(  861): This kernel does not have dock station support
+I/SystemServer(  861): USB Service
+W/UsbDeviceSettingsManager(  861): settings file not found
+I/UsbService(  861): This kernel does not have USB configuration switch support
+I/SystemServer(  861): UI Mode Manager Service
+I/SystemServer(  861): Backup Service
+D/dalvikvm(  861): GC_CONCURRENT freed 246K, 43% free 3741K/6471K, external 1527K/1559K, paused 6ms+7ms
+V/BackupManagerService(  861): No ancestral data
+I/BackupManagerService(  861): Found stale backup journal, scheduling
+I/BackupManagerService(  861):   android
+I/BackupManagerService(  861):   com.android.browser
+I/BackupManagerService(  861):   com.android.inputmethod.latin
+I/BackupManagerService(  861):   com.android.providers.settings
+I/BackupManagerService(  861):   com.android.providers.userdictionary
+I/BackupManagerService(  861): Backup enabled => false
+I/SystemServer(  861): AppWidget Service
+I/SystemServer(  861): Recognition Service
+I/SystemServer(  861): DiskStats Service
+I/WindowManager(  861): SAFE MODE not enabled
+D/PowerManagerService(  861): system ready!
+I/ActivityManager(  861): System now ready
+I/SystemServer(  861): Making services ready
+I/StatusBarManagerService(  861): Starting service: ComponentInfo{com.android.systemui/com.android.systemui.statusbar.StatusBarService}
+I/Zygote  (  861): Process: zygote socket opened
+I/ActivityManager(  861): Start proc com.android.systemui for service com.android.systemui/.statusbar.StatusBarService: pid=928 uid=1000 gids={3002, 3001, 3003}
+I/ActivityManager(  861): Config changed: { scale=1.0 imsi=0/0 loc=en_US touch=0 keys=0/0/0 nav=0/0 orien=0 layout=0 uiMode=17 seq=2}
+I/ActivityManager(  861): Config changed: { scale=1.0 imsi=0/0 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=3}
+W/RecognitionManagerService(  861): no available voice recognition services found
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 231K, 43% free 3766K/6535K, external 1527K/1559K, paused 114ms
+I/ActivityManager(  861): Start proc com.android.inputmethod.latin for service com.android.inputmethod.latin/.LatinIME: pid=936 uid=10008 gids={}
+D/NetworkManagmentService(  861): Registering observer
+E/ThrottleService(  861): Could not open GPS configuration file /etc/gps.conf
+I/ActivityManager(  861): Start proc com.android.phone for added application com.android.phone: pid=951 uid=1001 gids={3002, 3001, 3003, 1015}
+I/ActivityManager(  861): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher } from pid 0
+D/dalvikvm(  861): GREF has increased to 201
+I/ActivityManager(  861): Start proc com.android.launcher for activity com.android.launcher/com.android.launcher2.Launcher: pid=958 uid=10011 gids={}
+D/dalvikvm(  936): GC_CONCURRENT freed 349K, 51% free 2752K/5575K, external 1527K/1559K, paused 3ms+3ms
+I/SystemServer(  861): Enabled StrictMode for system server main thread.
+I/ActivityManager(  861): Start proc android.process.acore for content provider com.android.providers.userdictionary/.UserDictionaryProvider: pid=971 uid=10009 gids={3003, 1015}
+D/dalvikvm(  958): GC_CONCURRENT freed 380K, 52% free 2750K/5639K, external 1527K/1559K, paused 2ms+57ms
+I/ActivityThread(  958): Pub com.android.launcher2.settings: com.android.launcher2.LauncherProvider
+D/dalvikvm(  951): GC_CONCURRENT freed 384K, 51% free 2785K/5639K, external 1527K/1559K, paused 2ms+8ms
+I/ActivityThread(  951): Pub mms: com.android.providers.telephony.MmsProvider
+I/ActivityThread(  951): Pub sms: com.android.providers.telephony.SmsProvider
+D/dalvikvm(  936): GC_EXTERNAL_ALLOC freed 94K, 50% free 2825K/5575K, external 1527K/1559K, paused 257ms
+I/ActivityThread(  951): Pub telephony: com.android.providers.telephony.TelephonyProvider
+I/ActivityThread(  951): Pub icc: com.android.phone.IccProvider
+D/dalvikvm(  958): GC_EXTERNAL_ALLOC freed 25K, 52% free 2749K/5639K, external 1547K/1559K, paused 307ms
+I/ActivityThread(  951): Pub mms-sms: com.android.providers.telephony.MmsSmsProvider
+I/ActivityThread(  971): Pub com.android.social: com.android.providers.contacts.SocialProvider
+D/CallManager(  951): registerPhone(GSM Handler{b6cea2c0})
+D/dalvikvm(  928): GC_CONCURRENT freed 351K, 52% free 2756K/5639K, external 1543K/1559K, paused 2ms+433ms
+I/ActivityThread(  971): Pub applications: com.android.providers.applications.ApplicationsProvider
+D/dalvikvm(  971): GC_CONCURRENT freed 380K, 52% free 2752K/5639K, external 1527K/1559K, paused 2ms+5ms
+W/ActivityManager(  861): Unable to start service Intent { act=com.android.ussd.IExtendedNetworkService }: not found
+D/dalvikvm(  936): GC_EXTERNAL_ALLOC freed 8K, 50% free 2838K/5575K, external 2187K/2217K, paused 182ms
+D/dalvikvm(  958): GC_EXTERNAL_ALLOC freed 26K, 51% free 2791K/5639K, external 1839K/2081K, paused 245ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 102K, 42% free 3848K/6535K, external 2064K/2078K, paused 608ms
+W/GpsLocationProvider(  861): Could not open GPS configuration file /etc/gps.conf
+I/TelephonyRegistry(  861): notifyServiceState: 3 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+D/AlarmManagerService(  861): Kernel timezone updated to 0 minutes west of GMT
+I/ActivityThread(  971): Pub contacts;com.android.contacts: com.android.providers.contacts.ContactsProvider2
+D/SystemClock(  951): Setting time of day to sec=1483516159
+I/TelephonyRegistry(  861): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=radioTurnedOff interfaceName=null networkType=0
+I/TelephonyRegistry(  861): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsDetached interfaceName=null networkType=0
+I/ActivityManager(  861): Start proc com.android.deskclock for broadcast com.android.deskclock/.AlarmInitReceiver: pid=1012 uid=10021 gids={}
+D/dalvikvm(  958): GC_EXTERNAL_ALLOC freed 27K, 51% free 2814K/5639K, external 2540K/2544K, paused 555ms
+D/dalvikvm(  928): GC_EXTERNAL_ALLOC freed 16K, 52% free 2739K/5639K, external 1543K/1559K, paused 2007ms
+W/ActivityManager(  861): Unable to start service Intent { act=@0 }: not found
+W/ActivityManager(  861): Unable to start service Intent { act=@0 }: not found
+D/qemud   (  839): fdhandler_accept_event: accepting on fd 9
+D/qemud   (  839): created client 0xa01bf28 listening on fd 12
+D/qemud   (  839): client_fd_receive: attempting registration for service 'gps'
+D/qemud   (  839): client_fd_receive:    -> received channel id 4
+D/qemud   (  839): client_registration: registration succeeded for client 4
+D/dalvikvm(  958): GC_EXTERNAL_ALLOC freed 9K, 50% free 2826K/5639K, external 3197K/3203K, paused 439ms
+I/ActivityThread( 1012): Pub com.android.deskclock: com.android.deskclock.AlarmProvider
+I/ActivityThread(  971): Pub call_log: com.android.providers.contacts.CallLogProvider
+I/ActivityThread(  971): Pub user_dictionary: com.android.providers.userdictionary.UserDictionaryProvider
+I/TelephonyRegistry(  861): notifyServiceState: 0 home Android Android 310260  UMTS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+D/dalvikvm( 1012): GC_CONCURRENT freed 326K, 52% free 2719K/5575K, external 1527K/1559K, paused 3ms+42ms
+I/TelephonyRegistry(  861): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=null interfaceName=null networkType=3
+D/gralloc_goldfish(  958): Emulator without GPU emulation detected.
+I/ActivityManager(  861): Displayed com.android.launcher/com.android.launcher2.Launcher: +6s320ms
+I/ActivityManager(  861): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=1029 uid=1000 gids={3002, 3001, 3003}
+E/ThrottleService(  861): Error reading data file
+I//system/bin/tc(  796): Cannot find device "rmnet0"
+I/logwrapper(  796): /system/bin/tc terminated by exit(1)
+I//system/bin/tc(  796): Cannot find device "rmnet0"
+I/logwrapper(  796): /system/bin/tc terminated by exit(1)
+I//system/bin/tc(  796): Cannot find device "ifb0"
+I/logwrapper(  796): /system/bin/tc terminated by exit(1)
+D/MccTable(  951): updateMccMncConfiguration: mcc=310, mnc=260
+D/MccTable(  951): locale set to en_us
+D/MccTable(  951): WIFI_NUM_ALLOWED_CHANNELS set to 11
+I/WifiService(  861): WifiService trying to setNumAllowed to 11 with persist set to true
+I/ActivityManager(  861): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=4}
+D/dalvikvm(  951): GC_CONCURRENT freed 211K, 47% free 3057K/5767K, external 1527K/1559K, paused 3ms+73ms
+I/TelephonyRegistry(  861): notifyMessageWaitingChanged: false
+I/TelephonyRegistry(  861): notifyCallForwardingChanged: false
+D/dalvikvm(  861): GC_CONCURRENT freed 394K, 42% free 4043K/6919K, external 2395K/2638K, paused 6ms+29ms
+D/TelephonyProvider(  951): Setting numeric '310260' to be the current operator
+D/dalvikvm(  958): GC_EXTERNAL_ALLOC freed 100K, 49% free 2925K/5639K, external 3962K/4023K, paused 135ms
+I/TelephonyRegistry(  861): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=simLoaded interfaceName=null networkType=3
+I/TelephonyRegistry(  861): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=simLoaded interfaceName=/dev/omap_csmi_tty1 networkType=3
+D/dalvikvm(  958): GC_EXTERNAL_ALLOC freed 39K, 48% free 2935K/5639K, external 5124K/5140K, paused 194ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 384K, 44% free 3932K/6983K, external 2566K/2638K, paused 760ms
+D/MobileDataStateTracker(  861): CONNECTED event did not supply a default gateway.
+D/Tethering(  861): MasterInitialState.processMessage what=3
+I/SurfaceFlinger(  861): Boot is finished (15113 ms)
+I/StatusBarManagerService(  861): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@b6deefe8
+D/dalvikvm(  958): GC_EXPLICIT freed 63K, 49% free 2911K/5639K, external 5718K/6430K, paused 88ms
+D/PowerManagerService(  861): bootCompleted
+D/dalvikvm( 1029): GC_CONCURRENT freed 389K, 51% free 2781K/5639K, external 1527K/1559K, paused 2ms+464ms
+D/VoldCmdListener(  795): volume mount /mnt/sdcard
+I/Vold    (  795): /dev/block/vold/179:0 being considered for volume sdcard
+D/Vold    (  795): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/logwrapper( 1066): Unable to background process (No such file or directory)
+I//system/bin/fsck_msdos(  795): ** /dev/block/vold/179:0
+I//system/bin/fsck_msdos(  795): ** Phase 1 - Read and Compare FATs
+I//system/bin/fsck_msdos(  795): Attempting to allocate 2044 KB for FAT
+I/SearchManagerService(  861): Building list of searchable activities
+I//system/bin/fsck_msdos(  795): Attempting to allocate 2044 KB for FAT
+I/ActivityManager(  861): Start proc com.android.quicksearchbox for broadcast com.android.quicksearchbox/.SearchWidgetProvider: pid=1067 uid=10020 gids={3003}
+I//system/bin/fsck_msdos(  795): ** Phase 2 - Check Cluster Chains
+I//system/bin/fsck_msdos(  795): ** Phase 3 - Checking Directories
+I//system/bin/fsck_msdos(  795): ** Phase 4 - Checking for Lost Files
+I//system/bin/fsck_msdos(  795): Next free cluster in FSInfo block (6) not free
+I//system/bin/fsck_msdos(  795): FIXED
+I//system/bin/fsck_msdos(  795): 4 files, 1044464 free (522232 clusters)
+I/Vold    (  795): Filesystem check completed OK
+I/Vold    (  795): Device /dev/block/vold/179:0, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (  795): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+I/PackageManager(  861): Updating external media status from unmounted to mounted
+D/VoldCmdListener(  795): share status ums
+D/StorageNotification(  928): Startup with UMS connection false (media state mounted)
+D/dalvikvm( 1067): GC_CONCURRENT freed 319K, 52% free 2724K/5575K, external 1527K/1559K, paused 2ms+26ms
+I/ActivityThread( 1067): Pub com.android.quicksearchbox.google: com.android.quicksearchbox.google.GoogleSuggestionProvider
+I/ActivityThread( 1067): Pub com.android.quicksearchbox.shortcuts: com.android.quicksearchbox.ShortcutsProvider
+I/ActivityManager(  861): Start proc com.android.protips for broadcast com.android.protips/.ProtipWidget: pid=1092 uid=10002 gids={}
+D/dalvikvm(  801): GC_EXPLICIT freed 9K, 51% free 2664K/5379K, external 1527K/1559K, paused 100ms
+D/dalvikvm(  801): GC_EXPLICIT freed <1K, 51% free 2664K/5379K, external 1527K/1559K, paused 78ms
+I/StorageNotification(  928): UMS connection changed to false (media state mounted)
+D/VoldCmdListener(  795): asec list
+D/dalvikvm(  801): GC_EXPLICIT freed <1K, 51% free 2664K/5379K, external 1527K/1559K, paused 95ms
+I/PackageManager(  861): No secure containers on sdcard
+W/PackageManager(  861): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.contacts
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cp in package com.android.providers.contacts
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+D/dalvikvm(  958): GC_EXTERNAL_ALLOC freed 185K, 48% free 3006K/5703K, external 4280K/4296K, paused 64ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 329K, 43% free 4016K/6983K, external 3188K/3209K, paused 82ms
+W/PackageManager(  861): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  861): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  861): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  861): Unknown permission android.permission.READ_OWNER_DATA in package com.android.email
+D/dalvikvm(  861): GC_EXPLICIT freed 34K, 43% free 4003K/6983K, external 2656K/3317K, paused 47ms
+W/PackageManager(  861): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 29K, 42% free 4091K/6983K, external 3261K/3317K, paused 52ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 107K, 42% free 4079K/6983K, external 3300K/3951K, paused 78ms
+D/dalvikvm(  861): GC_EXTERNAL_ALLOC freed 11K, 42% free 4068K/6983K, external 3964K/4951K, paused 47ms
+I/ActivityManager(  861): Start proc com.android.music for broadcast com.android.music/.MediaAppWidgetProvider: pid=1100 uid=10001 gids={3003, 1015}
+I/ActivityManager(  861): Start proc android.process.media for broadcast com.android.providers.downloads/.DownloadReceiver: pid=1108 uid=10000 gids={1015, 2001, 3003}
+D/dalvikvm(  861): GREF has increased to 301
+I/ActivityThread( 1108): Pub media: com.android.providers.media.MediaProvider
+V/MediaProvider( 1108): Attached volume: internal
+D/dalvikvm(  958): GC_EXPLICIT freed 186K, 47% free 3028K/5703K, external 4721K/5182K, paused 160ms
+V/MediaProvider( 1108): /mnt/sdcard volume ID: 252524548
+V/MediaProvider( 1108): Attached volume: external
+I/ActivityThread( 1108): Pub downloads: com.android.providers.downloads.DownloadProvider
+I/ActivityThread( 1108): Pub drm: com.android.providers.drm.DrmProvider
+D/OtaStartupReceiver(  951): Not a CDMA phone, no need to process OTA
+I/RecoverySystem(  861): No recovery log file
+D/gralloc_goldfish(  928): Emulator without GPU emulation detected.
+I/ActivityManager(  861): Start proc com.android.email for broadcast com.android.email/.service.EmailBroadcastReceiver: pid=1126 uid=10003 gids={3003, 1015}
+I/ActivityThread( 1126): Pub com.android.email.provider: com.android.email.provider.EmailProvider
+I/ActivityThread( 1126): Pub com.android.email.attachmentprovider: com.android.email.provider.AttachmentProvider
+I/ActivityThread( 1126): Pub com.android.exchange.provider: com.android.exchange.provider.ExchangeProvider
+D/EAS SyncManager( 1126): !!! EAS SyncManager, onCreate
+I/ActivityManager(  861): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=1143 uid=10006 gids={3002}
+D/EAS SyncManager( 1126): !!! EAS SyncManager, onStartCommand
+D/VoiceDialerReceiver( 1143): onReceive Intent { act=android.intent.action.BOOT_COMPLETED cmp=com.android.voicedialer/.VoiceDialerReceiver }
+V/RecognizerEngine( 1143): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+I/ActivityManager(  861): Start proc com.android.mms for broadcast com.android.mms/.transaction.MmsSystemEventReceiver: pid=1160 uid=10007 gids={3003, 1015}
+D/EAS SyncManager( 1126): !!! EAS SyncManager, stopping self
+D/Eas Debug( 1126): Logging: 
+D/Email   ( 1126): BOOT_COMPLETED
+D/EAS SyncManager( 1126): !!! EAS SyncManager, onDestroy
+D/EAS SyncManager( 1126): !!! EAS SyncManager, onCreate
+D/EAS SyncManager( 1126): !!! EAS SyncManager, onStartCommand
+D/EAS SyncManager( 1126): !!! EAS SyncManager, stopping self
+D/EAS SyncManager( 1126): !!! EAS SyncManager, onStartCommand
+I/ActivityThread( 1160): Pub com.android.mms.SuggestionsProvider: com.android.mms.SuggestionsProvider
+D/EAS SyncManager( 1126): !!! EAS SyncManager, stopping self
+D/EAS SyncManager( 1126): !!! EAS SyncManager, onDestroy
+I/ActivityManager(  861): Start proc com.android.bluetooth for broadcast com.android.bluetooth/.opp.BluetoothOppReceiver: pid=1191 uid=10012 gids={3003, 3002, 3001, 1015}
+D/dalvikvm(  951): GREF has increased to 201
+I/ActivityThread( 1191): Pub com.android.bluetooth.opp: com.android.bluetooth.opp.BluetoothOppProvider
+I/ActivityManager(  861): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1208 uid=10023 gids={3003}
+W/BtOpp Service( 1191): Local BT device is not enabled
+W/BtOpp Service( 1191): Local BT device is not enabled
+I/ActivityThread( 1208): Pub com.android.calendar: com.android.providers.calendar.CalendarProvider2
+D/Calendar( 1208): missed alarms found: 0
+D/MediaScannerService( 1108): start scanning volume internal
+D/MediaScanner( 1108):  prescan time: 120ms
+D/MediaScanner( 1108):     scan time: 64ms
+D/MediaScanner( 1108): postscan time: 0ms
+D/MediaScanner( 1108):    total time: 184ms
+D/MediaScannerService( 1108): done scanning volume internal
+I/ActivityManager(  861): Start proc com.cooliris.media for broadcast com.cooliris.media/com.cooliris.cache.BootReceiver: pid=1225 uid=10019 gids={1015, 3003}
+I/ActivityThread( 1225): Pub com.cooliris.picasa.contentprovider: com.cooliris.picasa.PicasaContentProvider
+I/BootReceiver( 1225): Got intent with action android.intent.action.MEDIA_MOUNTED
+D/MediaScannerService( 1108): start scanning volume external
+D/dalvikvm(  861): GREF has increased to 401
+V/MediaScanner( 1108): pruneDeadThumbnailFiles... android.database.sqlite.SQLiteCursor@b6d8b0e0
+V/MediaScanner( 1108): /pruneDeadThumbnailFiles... android.database.sqlite.SQLiteCursor@b6d8b0e0
+D/MediaScanner( 1108):  prescan time: 28ms
+D/MediaScanner( 1108):     scan time: 1ms
+D/MediaScanner( 1108): postscan time: 17ms
+D/MediaScanner( 1108):    total time: 46ms
+D/MediaScannerService( 1108): done scanning volume external
+I/BootReceiver( 1225): Got intent with action android.intent.action.MEDIA_SCANNER_FINISHED
+I/BootReceiver( 1225): Got intent with action android.intent.action.MEDIA_SCANNER_FINISHED
+D/AndroidRuntime( 1241): 
+D/AndroidRuntime( 1241): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1241): CheckJNI is ON
+D/AndroidRuntime( 1241): Calling main entry com.android.commands.input.Input
+I/SendKeyEvent( 1241): 82
+D/SntpClient(  861): request time failed: java.net.SocketTimeoutException: Try again
+D/AndroidRuntime( 1241): Shutting down VM
+D/dalvikvm( 1241): GC_CONCURRENT freed 99K, 73% free 285K/1024K, external 0K/0K, paused 1ms+1ms
+D/jdwp    ( 1241): adbd disconnected
+D/dalvikvm(  861): GC_CONCURRENT freed 818K, 46% free 4070K/7431K, external 4264K/5464K, paused 1ms+5ms
+D/AndroidRuntime( 1263): 
+D/AndroidRuntime( 1263): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1263): CheckJNI is ON
+D/AndroidRuntime( 1263): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  861): Force stopping package net.mandaria.tippytipper uid=10031
+I/ActivityManager(  861): Start proc net.mandaria.tippytipper for added application net.mandaria.tippytipper: pid=1270 uid=10031 gids={1015, 3003}
+D/androidripper( 1270): Updating node 
+D/androidripper( 1270): Loading node 
+I/androidripper( 1270): Preferences file found.
+V/androidripper( 1270): Updating value ACTIVITY_DESCRIPTION_IN_SESSION
+V/androidripper( 1270): Updating value ADDITIONAL_CRITERIAS
+V/androidripper( 1270): Updating value ADDITIONAL_EVENTS
+V/androidripper( 1270): Updating value ADDITIONAL_INPUTS
+V/androidripper( 1270): Updating value CLASS_NAME
+D/androidripper( 1270): Updated value of parameter CLASS_NAME to net.mandaria.tippytipper.activities.TippyTipper (default = app.package.class)
+V/androidripper( 1270): Updating value ENABLE_MODEL
+V/androidripper( 1270): Updating value ENABLE_RESUME
+V/androidripper( 1270): Updating value INTENT_ACTION
+V/androidripper( 1270): Updating value INTENT_ACTIVITY
+V/androidripper( 1270): Updating value INTENT_CATEGORY
+V/androidripper( 1270): Updating value INTENT_DATA
+V/androidripper( 1270): Updating value INTENT_FLAGS
+V/androidripper( 1270): Updating value INTENT_TYPE
+V/androidripper( 1270): Updating value PACKAGE_NAME
+D/androidripper( 1270): Updated value of parameter PACKAGE_NAME to net.mandaria.tippytipper (default = app.package)
+V/androidripper( 1270): Updating value RANDOM_SEED
+D/androidripper( 1270): Updated value of parameter RANDOM_SEED to -4244019791393197310 (default = 5466516511651561651)
+V/androidripper( 1270): Updating value RETRY_FAILED_TRACES
+V/androidripper( 1270): Updating value theClass
+I/System.out( 1270): EMMA: collecting runtime coverage data ...
+D/androidripper( 1270): Updating node scheduler
+D/androidripper( 1270): Loading node scheduler
+V/androidripper( 1270): Updating value ACTIONBARHOME_EVENTS
+V/androidripper( 1270): Updating value ALL_EVENTS_ON_PREFERENCES
+V/androidripper( 1270): Updating value BACK_BUTTON_EVENT
+V/androidripper( 1270): Updating value DICTIONARY_FIXED_VALUE
+V/androidripper( 1270): Updating value DICTIONARY_IGNORE_CONTENT_TYPES
+V/androidripper( 1270): Updating value EMULATOR_PORT
+V/androidripper( 1270): Updating value EVENTS
+D/androidripper( 1270): Updated values of array parameter EVENTS
+V/androidripper( 1270): Updating value EVENT_WHEN_NO_ID
+V/androidripper( 1270): Updating value EXCLUDE_WIDGETS_INPUTS_IN_GPS_EVENTS
+V/androidripper( 1270): Updating value EXCLUDE_WIDGETS_INPUTS_IN_SENSORS_EVENTS
+V/androidripper( 1270): Updating value FIX_GPS_POSITION
+V/androidripper( 1270): Updating value INPUTS
+D/androidripper( 1270): Updated values of array parameter INPUTS
+V/androidripper( 1270): Updating value KEY_EVENTS
+V/androidripper( 1270): Updating value MAX_EVENTS_PER_WIDGET
+V/androidripper( 1270): Updating value MAX_TASKS_IN_SCHEDULER
+V/androidripper( 1270): Updating value MAX_TASKS_PER_EVENT
+V/androidripper( 1270): Updating value MENU_EVENTS
+V/androidripper( 1270): Updating value ORIENTATION_EVENTS
+V/androidripper( 1270): Updating value PLANNER
+V/androidripper( 1270): Updating value REFLECT_ACTIVITY_LISTENERS
+V/androidripper( 1270): Updating value REFLECT_WIDGETS
+V/androidripper( 1270): Updating value SCHEDULER_ALGORITHM
+V/androidripper( 1270): Updating value SCROLL_DOWN_EVENT
+V/androidripper( 1270): Updating value SENSOR_TYPES
+V/androidripper( 1270): Updating value SIMULATE_INCOMING_CALL
+V/androidripper( 1270): Updating value SIMULATE_INCOMING_SMS
+V/androidripper( 1270): Updating value TAB_EVENTS_START_ONLY
+V/androidripper( 1270): Updating value TEST_LOCATION_PROVIDER
+V/androidripper( 1270): Updating value TEXT_VALUES_FROM_DICTIONARY
+V/androidripper( 1270): Updating value TEXT_VALUES_ID_HASH
+V/androidripper( 1270): Updating value USE_GPS
+V/androidripper( 1270): Updating value USE_SENSORS
+D/androidripper( 1270): Updating node planner
+D/androidripper( 1270): Loading node planner
+V/androidripper( 1270): Updating value ACTIONBARHOME_EVENTS
+V/androidripper( 1270): Updating value ALL_EVENTS_ON_PREFERENCES
+V/androidripper( 1270): Updating value BACK_BUTTON_EVENT
+V/androidripper( 1270): Updating value DICTIONARY_FIXED_VALUE
+V/androidripper( 1270): Updating value DICTIONARY_IGNORE_CONTENT_TYPES
+V/androidripper( 1270): Updating value EMULATOR_PORT
+V/androidripper( 1270): Updating value EVENTS
+D/androidripper( 1270): Updated values of array parameter EVENTS
+V/androidripper( 1270): Updating value EVENT_WHEN_NO_ID
+V/androidripper( 1270): Updating value EXCLUDE_WIDGETS_INPUTS_IN_GPS_EVENTS
+V/androidripper( 1270): Updating value EXCLUDE_WIDGETS_INPUTS_IN_SENSORS_EVENTS
+V/androidripper( 1270): Updating value FIX_GPS_POSITION
+V/androidripper( 1270): Updating value INPUTS
+D/androidripper( 1270): Updated values of array parameter INPUTS
+V/androidripper( 1270): Updating value KEY_EVENTS
+V/androidripper( 1270): Updating value MAX_EVENTS_PER_WIDGET
+V/androidripper( 1270): Updating value MAX_TASKS_IN_SCHEDULER
+V/androidripper( 1270): Updating value MAX_TASKS_PER_EVENT
+V/androidripper( 1270): Updating value MENU_EVENTS
+V/androidripper( 1270): Updating value ORIENTATION_EVENTS
+V/androidripper( 1270): Updating value PLANNER
+V/androidripper( 1270): Updating value REFLECT_ACTIVITY_LISTENERS
+V/androidripper( 1270): Updating value REFLECT_WIDGETS
+V/androidripper( 1270): Updating value SCHEDULER_ALGORITHM
+V/androidripper( 1270): Updating value SCROLL_DOWN_EVENT
+V/androidripper( 1270): Updating value SENSOR_TYPES
+V/androidripper( 1270): Updating value SIMULATE_INCOMING_CALL
+V/androidripper( 1270): Updating value SIMULATE_INCOMING_SMS
+V/androidripper( 1270): Updating value TAB_EVENTS_START_ONLY
+V/androidripper( 1270): Updating value TEST_LOCATION_PROVIDER
+V/androidripper( 1270): Updating value TEXT_VALUES_FROM_DICTIONARY
+V/androidripper( 1270): Updating value TEXT_VALUES_ID_HASH
+D/androidripper( 1270): Updated value of parameter TEXT_VALUES_ID_HASH to true (default = false)
+V/androidripper( 1270): Updating value USE_GPS
+V/androidripper( 1270): Updating value USE_SENSORS
+D/androidripper( 1270): Updating node interactions
+D/androidripper( 1270): Loading node interactions
+V/androidripper( 1270): Updating value ACTIONBARHOME_EVENTS
+V/androidripper( 1270): Updating value ALL_EVENTS_ON_PREFERENCES
+V/androidripper( 1270): Updating value BACK_BUTTON_EVENT
+V/androidripper( 1270): Updating value DICTIONARY_FIXED_VALUE
+V/androidripper( 1270): Updating value DICTIONARY_IGNORE_CONTENT_TYPES
+V/androidripper( 1270): Updating value EMULATOR_PORT
+V/androidripper( 1270): Updating value EVENTS
+D/androidripper( 1270): Updated values of array parameter EVENTS
+V/androidripper( 1270): Updating value EVENT_WHEN_NO_ID
+V/androidripper( 1270): Updating value EXCLUDE_WIDGETS_INPUTS_IN_GPS_EVENTS
+V/androidripper( 1270): Updating value EXCLUDE_WIDGETS_INPUTS_IN_SENSORS_EVENTS
+V/androidripper( 1270): Updating value FIX_GPS_POSITION
+V/androidripper( 1270): Updating value INPUTS
+D/androidripper( 1270): Updated values of array parameter INPUTS
+V/androidripper( 1270): Updating value KEY_EVENTS
+V/androidripper( 1270): Updating value MAX_EVENTS_PER_WIDGET
+V/androidripper( 1270): Updating value MAX_TASKS_IN_SCHEDULER
+V/androidripper( 1270): Updating value MAX_TASKS_PER_EVENT
+V/androidripper( 1270): Updating value MENU_EVENTS
+V/androidripper( 1270): Updating value ORIENTATION_EVENTS
+V/androidripper( 1270): Updating value PLANNER
+V/androidripper( 1270): Updating value REFLECT_ACTIVITY_LISTENERS
+V/androidripper( 1270): Updating value REFLECT_WIDGETS
+V/androidripper( 1270): Updating value SCHEDULER_ALGORITHM
+V/androidripper( 1270): Updating value SCROLL_DOWN_EVENT
+V/androidripper( 1270): Updating value SENSOR_TYPES
+V/androidripper( 1270): Updating value SIMULATE_INCOMING_CALL
+V/androidripper( 1270): Updating value SIMULATE_INCOMING_SMS
+V/androidripper( 1270): Updating value TAB_EVENTS_START_ONLY
+V/androidripper( 1270): Updating value TEST_LOCATION_PROVIDER
+V/androidripper( 1270): Updating value TEXT_VALUES_FROM_DICTIONARY
+V/androidripper( 1270): Updating value TEXT_VALUES_ID_HASH
+V/androidripper( 1270): Updating value USE_GPS
+V/androidripper( 1270): Updating value USE_SENSORS
+D/androidripper( 1270): Updating node comparator
+D/androidripper( 1270): Loading node comparator
+V/androidripper( 1270): Updating value COMPARATOR
+V/androidripper( 1270): Updating value COMPARATOR_TYPE
+D/androidripper( 1270): Updated value of parameter COMPARATOR_TYPE to CustomWidgetsSimpleComparator (default = NullComparator)
+V/androidripper( 1270): Updating value COMPARE_ACTIVITY_NAME
+V/androidripper( 1270): Updating value COMPARE_LIST_COUNT
+V/androidripper( 1270): Updating value COMPARE_MENU_COUNT
+V/androidripper( 1270): Updating value COMPARE_STATE_TITLE
+D/androidripper( 1270): Updated value of parameter COMPARE_STATE_TITLE to true (default = false)
+V/androidripper( 1270): Updating value COMPARE_VALUES
+V/androidripper( 1270): Updating value WIDGET_TYPES
+D/androidripper( 1270): Updated values of array parameter WIDGET_TYPES
+D/androidripper( 1270): Comparation by name is enabled
+D/androidripper( 1270): Comparation by title is disabled
+D/androidripper( 1270): Updating node strategy
+D/androidripper( 1270): Loading node strategy
+V/androidripper( 1270): Updating value AFTER_EVENT_DONT_EXPLORE
+V/androidripper( 1270): Updating value AFTER_WIDGET_DONT_EXPLORE
+V/androidripper( 1270): Updating value CHECK_FOR_TRANSITION
+V/androidripper( 1270): Updating value EXPLORE_ONLY_NEW_STATES
+V/androidripper( 1270): Updating value MAX_NUM_TRACES
+V/androidripper( 1270): Updating value MAX_TIME_CRAWLING
+V/androidripper( 1270): Updating value PAUSE_AFTER_TIME
+V/androidripper( 1270): Updating value PAUSE_AFTER_TRACES
+V/androidripper( 1270): Updating value TRACE_MAX_DEPTH
+V/androidripper( 1270): Updating value TRACE_MIN_DEPTH
+I/TestRunner( 1270): started: testAndCrawl(it.unina.androidripper.guitree.GuiTreeEngine)
+I/ActivityManager(  861): Starting: Intent { act=android.intent.action.MAIN flg=0x10000000 cmp=net.mandaria.tippytipper/.activities.TippyTipper } from pid 1270
+D/FlurryAgent( 1270): Starting new session
+D/gralloc_goldfish( 1270): Emulator without GPU emulation detected.
+D/androidripper( 1270): Generated Resuming Persistence
+D/androidripper( 1270): Updating node storage
+D/androidripper( 1270): Loading node storage
+V/androidripper( 1270): Updating value ACTIVITY_LIST_FILE_NAME
+V/androidripper( 1270): Updating value FILE_NAME
+V/androidripper( 1270): Updating value MAX_TRACES_IN_RAM
+V/androidripper( 1270): Updating value ONLY_FINALTRANSITION
+V/androidripper( 1270): Updating value PARAMETERS_FILE_NAME
+V/androidripper( 1270): Updating value TASK_LIST_FILE_NAME
+I/dalvikvm( 1270): Could not find method android.app.Activity.getFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getFragment
+W/dalvikvm( 1270): VFY: unable to resolve virtual method 7: Landroid/app/Activity;.getFragmentManager ()Landroid/app/FragmentManager;
+D/dalvikvm( 1270): VFY: replacing opcode 0x6e at 0x0008
+I/dalvikvm( 1270): Could not find method android.app.Activity.getFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getFragment
+W/dalvikvm( 1270): VFY: unable to resolve virtual method 7: Landroid/app/Activity;.getFragmentManager ()Landroid/app/FragmentManager;
+D/dalvikvm( 1270): VFY: replacing opcode 0x6e at 0x0017
+W/dalvikvm( 1270): VFY: unable to find class referenced in signature (Landroid/app/Fragment;)
+D/dalvikvm( 1270): VFY: dead code 0x000b-000f in Lcom/jayway/android/robotium/solo/Waiter;.getFragment (Ljava/lang/String;I)Landroid/app/Fragment;
+D/dalvikvm( 1270): VFY: dead code 0x001a-001f in Lcom/jayway/android/robotium/solo/Waiter;.getFragment (Ljava/lang/String;I)Landroid/app/Fragment;
+E/dalvikvm( 1270): Could not find class 'android.support.v4.app.FragmentActivity', referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm( 1270): VFY: unable to resolve check-cast 56 (Landroid/support/v4/app/FragmentActivity;) in Lcom/jayway/android/robotium/solo/Waiter;
+D/dalvikvm( 1270): VFY: replacing opcode 0x1f at 0x0009
+I/dalvikvm( 1270): Could not find method android.support.v4.app.FragmentActivity.getSupportFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm( 1270): VFY: unable to resolve virtual method 141: Landroid/support/v4/app/FragmentActivity;.getSupportFragmentManager ()Landroid/support/v4/app/FragmentManager;
+D/dalvikvm( 1270): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm( 1270): Could not find method android.support.v4.app.FragmentActivity.getSupportFragmentManager, referenced from method com.jayway.android.robotium.solo.Waiter.getSupportFragment
+W/dalvikvm( 1270): VFY: unable to resolve virtual method 141: Landroid/support/v4/app/FragmentActivity;.getSupportFragmentManager ()Landroid/support/v4/app/FragmentManager;
+D/dalvikvm( 1270): VFY: replacing opcode 0x6e at 0x0019
+W/dalvikvm( 1270): VFY: unable to find class referenced in signature (Landroid/support/v4/app/Fragment;)
+D/dalvikvm( 1270): VFY: dead code 0x000b-000b in Lcom/jayway/android/robotium/solo/Waiter;.getSupportFragment (Ljava/lang/String;I)Landroid/support/v4/app/Fragment;
+D/dalvikvm( 1270): VFY: dead code 0x0013-0017 in Lcom/jayway/android/robotium/solo/Waiter;.getSupportFragment (Ljava/lang/String;I)Landroid/support/v4/app/Fragment;
+D/dalvikvm( 1270): VFY: dead code 0x001c-0021 in Lcom/jayway/android/robotium/solo/Waiter;.getSupportFragment (Ljava/lang/String;I)Landroid/support/v4/app/Fragment;
+W/dalvikvm( 1270): VFY: unable to find class referenced in signature (Landroid/support/v4/app/Fragment;)
+W/dalvikvm( 1270): VFY: unable to find class referenced in signature (Landroid/app/Fragment;)
+W/dalvikvm( 1270): VFY: unable to find class referenced in signature (Landroid/support/v4/app/Fragment;)
+E/dalvikvm( 1270): Could not find class '[Landroid.view.MotionEvent$PointerProperties;', referenced from method com.jayway.android.robotium.solo.Zoomer.generateZoomGesture
+W/dalvikvm( 1270): VFY: unable to resolve new-array 526 ([Landroid/view/MotionEvent$PointerProperties;) in Lcom/jayway/android/robotium/solo/Zoomer;
+D/dalvikvm( 1270): VFY: replacing opcode 0x23 at 0x0084
+D/dalvikvm( 1270): VFY: dead code 0x0086-0152 in Lcom/jayway/android/robotium/solo/Zoomer;.generateZoomGesture (Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)V
+E/dalvikvm( 1270): Could not find class '[Landroid.view.MotionEvent$PointerProperties;', referenced from method com.jayway.android.robotium.solo.Swiper.generateSwipeGesture
+W/dalvikvm( 1270): VFY: unable to resolve new-array 526 ([Landroid/view/MotionEvent$PointerProperties;) in Lcom/jayway/android/robotium/solo/Swiper;
+D/dalvikvm( 1270): VFY: replacing opcode 0x23 at 0x0084
+D/dalvikvm( 1270): VFY: dead code 0x0086-0152 in Lcom/jayway/android/robotium/solo/Swiper;.generateSwipeGesture (Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)V
+E/dalvikvm( 1270): Could not find class '[Landroid.view.MotionEvent$PointerProperties;', referenced from method com.jayway.android.robotium.solo.Tapper.generateTapGesture
+W/dalvikvm( 1270): VFY: unable to resolve new-array 526 ([Landroid/view/MotionEvent$PointerProperties;) in Lcom/jayway/android/robotium/solo/Tapper;
+D/dalvikvm( 1270): VFY: replacing opcode 0x23 at 0x007c
+D/dalvikvm( 1270): VFY: dead code 0x007e-0142 in Lcom/jayway/android/robotium/solo/Tapper;.generateTapGesture (I[Landroid/graphics/PointF;)V
+E/dalvikvm( 1270): Could not find class '[Landroid.view.MotionEvent$PointerProperties;', referenced from method com.jayway.android.robotium.solo.Rotator.generateRotateGesture
+W/dalvikvm( 1270): VFY: unable to resolve new-array 526 ([Landroid/view/MotionEvent$PointerProperties;) in Lcom/jayway/android/robotium/solo/Rotator;
+D/dalvikvm( 1270): VFY: replacing opcode 0x23 at 0x006e
+D/dalvikvm( 1270): VFY: dead code 0x0070-0195 in Lcom/jayway/android/robotium/solo/Rotator;.generateRotateGesture (ILandroid/graphics/PointF;Landroid/graphics/PointF;)V
+W/InputManagerService(  861): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@b6dd0a30 (uid=10011 pid=958)
+I/ActivityManager(  861): Displayed net.mandaria.tippytipper/.activities.TippyTipper: +710ms
+D/androidripper( 1270): Updating node automation
+D/androidripper( 1270): Loading node automation
+V/androidripper( 1270): Updating value FORCE_RESTART
+V/androidripper( 1270): Updating value IN_AND_OUT_FOCUS
+V/androidripper( 1270): Updating value PRECRAWLING
+V/androidripper( 1270): Updating value SCREENSHOT_FOR_EVENTS
+V/androidripper( 1270): Updating value SCREENSHOT_FOR_STATES
+V/androidripper( 1270): Updating value SCREENSHOT_ONLY_NEW_STATES
+V/androidripper( 1270): Updating value SLEEP_AFTER_EVENT
+V/androidripper( 1270): Updating value SLEEP_AFTER_RESTART
+V/androidripper( 1270): Updating value SLEEP_AFTER_TASK
+V/androidripper( 1270): Updating value SLEEP_ON_THROBBER
+I/androidripper( 1270): Waiting for 1 sec.
+D/androidripper( 1270): Ready to operate after restarting...
+I/androidripper( 1270): Current activity is activities.TippyTipper
+W/androidripper( 1270): --->activities.TippyTipper
+I/androidripper( 1270): Retrieving widgets
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df3f78)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.FrameLayout@b6df4940)
+D/androidripper( 1270): Found widget: id=16908310 (android.widget.TextView@b6df4f00): Tippy Tipper
+D/androidripper( 1270): Found widget: id=16908290 (android.widget.FrameLayout@b6df5c78)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df6180)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.TextView@b6df63d8): Enter bill amount:
+D/androidripper( 1270): Found widget: id=2131361792 (android.widget.EditText@b6df6af0): $0.00
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df77d0)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df79e8)
+D/androidripper( 1270): Found widget: id=2131361793 (android.widget.Button@b6df7e70): 7
+D/androidripper( 1270): Found widget: id=2131361794 (android.widget.Button@b6df8738): 8
+D/androidripper( 1270): Found widget: id=2131361795 (android.widget.Button@b6df8fc0): 9
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df9848)
+D/androidripper( 1270): Found widget: id=2131361796 (android.widget.Button@b6df9a60): 4
+D/androidripper( 1270): Found widget: id=2131361797 (android.widget.Button@b6dfa2e8): 5
+D/androidripper( 1270): Found widget: id=2131361798 (android.widget.Button@b6dfab70): 6
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6dfb3f8)
+D/androidripper( 1270): Found widget: id=2131361799 (android.widget.Button@b6dfb610): 1
+D/androidripper( 1270): Found widget: id=2131361800 (android.widget.Button@b6dfbe98): 2
+D/androidripper( 1270): Found widget: id=2131361801 (android.widget.Button@b6dfc720): 3
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6dfcfa8)
+D/androidripper( 1270): Found widget: id=2131361802 (android.widget.Button@b6dfd1c0): DEL
+D/androidripper( 1270): Found widget: id=2131361803 (android.widget.Button@b6dfda48): 0
+D/androidripper( 1270): Found widget: id=2131361804 (android.widget.Button@b6dfe2d0): OK
+D/androidripper( 1270): Found widget: id=-1 (com.android.internal.policy.impl.PhoneWindow$DecorView@b6df3798)
+V/androidripper( 1270): TextualID : null
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : null
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): android.widget.EditText > mOnFocusChangeListener FOUND | NOT ACTIVE
+V/androidripper( 1270): TextualID : txt_amount
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_seven
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_eight
+V/androidripper( 1270): ContentType detected : default
+D/dalvikvm( 1270): GC_CONCURRENT freed 1006K, 53% free 3187K/6663K, external 1527K/1559K, paused 4ms+6ms
+V/androidripper( 1270): TextualID : btn_nine
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_four
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_five
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_six
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_one
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_two
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_three
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_delete
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_zero
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_ok
+V/androidripper( 1270): ContentType detected : default
+I/androidripper( 1270): Attempting to resume previous session
+I/androidripper( 1270): Reading task file
+D/androidripper( 1270): Importing trace #1 from disk
+D/androidripper( 1270): Importing trace #2 from disk
+D/androidripper( 1270): Importing trace #3 from disk
+D/androidripper( 1270): Importing trace #4 from disk
+D/androidripper( 1270): Importing trace #5 from disk
+D/androidripper( 1270): Importing trace #6 from disk
+D/androidripper( 1270): Importing trace #7 from disk
+D/androidripper( 1270): Importing trace #8 from disk
+D/androidripper( 1270): Importing trace #9 from disk
+D/androidripper( 1270): Importing trace #10 from disk
+D/androidripper( 1270): Importing trace #11 from disk
+D/dalvikvm( 1270): GC_FOR_MALLOC freed 358K, 51% free 3277K/6663K, external 1527K/1559K, paused 38ms
+D/androidripper( 1270): Importing trace #12 from disk
+D/androidripper( 1270): Importing trace #13 from disk
+I/androidripper( 1270): Reading state file
+D/androidripper( 1270): Imported activity state a1 from disk
+D/androidripper( 1270): Performing backup of the old activity list on disk
+D/androidripper( 1270): Saving new found state 'a1' on disk
+V/androidripper( 1270): Opening state file in overwrite mode.
+D/dalvikvm( 1270): GetFieldID: unable to find field Ljava/util/Hashtable;.loadFactor:F
+D/dalvikvm( 1270): GetFieldID: unable to find field Ljava/util/Hashtable;.loadFactor:F
+D/dalvikvm( 1270): GetFieldID: unable to find field Ljava/util/Hashtable;.loadFactor:F
+D/dalvikvm( 1270): GetFieldID: unable to find field Ljava/util/Hashtable;.loadFactor:F
+D/androidripper( 1270): Backup session footer restored to 
+D/androidripper( 1270): </SESSION>
+D/androidripper( 1270): Restored trace count to 14
+D/androidripper( 1270): Restored abstractor counters to: event = 14 - input = 12 - activity = 2
+I/androidripper( 1270): Saving the session on disk.
+D/dalvikvm( 1270): GC_CONCURRENT freed 433K, 49% free 3452K/6663K, external 1527K/1559K, paused 3ms+4ms
+D/dalvikvm( 1270): GC_EXPLICIT freed 42K, 49% free 3409K/6663K, external 1527K/1559K, paused 57ms
+I/androidripper( 1270): Dispatching new task. 13 more tasks remaining.
+D/androidripper( 1270): Performing backup of the old task list on disk
+D/androidripper( 1270): Saving task list on disk
+V/androidripper( 1270): Backing up trace #1 to disk.
+V/androidripper( 1270): Backing up trace #2 to disk.
+V/androidripper( 1270): Backing up trace #3 to disk.
+V/androidripper( 1270): Backing up trace #4 to disk.
+V/androidripper( 1270): Backing up trace #5 to disk.
+V/androidripper( 1270): Backing up trace #6 to disk.
+V/androidripper( 1270): Backing up trace #7 to disk.
+V/androidripper( 1270): Backing up trace #8 to disk.
+V/androidripper( 1270): Backing up trace #9 to disk.
+V/androidripper( 1270): Backing up trace #10 to disk.
+V/androidripper( 1270): Backing up trace #11 to disk.
+V/androidripper( 1270): Backing up trace #12 to disk.
+V/androidripper( 1270): Backing up trace #13 to disk.
+D/androidripper( 1270): Deleting backup of the old task list from disk
+D/androidripper( 1270): Deleting backup of the old activity list from disk
+I/androidripper( 1270): Restarting
+I/androidripper( 1270): Waiting for 1 sec.
+D/androidripper( 1270): Ready to operate after restarting...
+I/androidripper( 1270): Retrieving widgets
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df3f78)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.FrameLayout@b6df4940)
+D/androidripper( 1270): Found widget: id=16908310 (android.widget.TextView@b6df4f00): Tippy Tipper
+D/androidripper( 1270): Found widget: id=16908290 (android.widget.FrameLayout@b6df5c78)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df6180)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.TextView@b6df63d8): Enter bill amount:
+D/androidripper( 1270): Found widget: id=2131361792 (android.widget.EditText@b6df6af0): $0.00
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df77d0)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df79e8)
+D/androidripper( 1270): Found widget: id=2131361793 (android.widget.Button@b6df7e70): 7
+D/androidripper( 1270): Found widget: id=2131361794 (android.widget.Button@b6df8738): 8
+D/androidripper( 1270): Found widget: id=2131361795 (android.widget.Button@b6df8fc0): 9
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df9848)
+D/androidripper( 1270): Found widget: id=2131361796 (android.widget.Button@b6df9a60): 4
+D/androidripper( 1270): Found widget: id=2131361797 (android.widget.Button@b6dfa2e8): 5
+D/androidripper( 1270): Found widget: id=2131361798 (android.widget.Button@b6dfab70): 6
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6dfb3f8)
+D/androidripper( 1270): Found widget: id=2131361799 (android.widget.Button@b6dfb610): 1
+D/androidripper( 1270): Found widget: id=2131361800 (android.widget.Button@b6dfbe98): 2
+D/androidripper( 1270): Found widget: id=2131361801 (android.widget.Button@b6dfc720): 3
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6dfcfa8)
+D/androidripper( 1270): Found widget: id=2131361802 (android.widget.Button@b6dfd1c0): DEL
+D/androidripper( 1270): Found widget: id=2131361803 (android.widget.Button@b6dfda48): 0
+D/androidripper( 1270): Found widget: id=2131361804 (android.widget.Button@b6dfe2d0): OK
+D/androidripper( 1270): Found widget: id=-1 (com.android.internal.policy.impl.PhoneWindow$DecorView@b6df3798)
+I/androidripper( 1270): Playing Trace 1
+I/androidripper( 1270): Setting input: type= writeText id=2131361792 value=15
+D/androidripper( 1270): Added to return list id=2131361792
+I/androidripper( 1270): Retrieved from return list id=2131361792
+D/androidripper( 1270): Testing for type (android.widget.EditText) against the original (android.widget.EditText)
+D/androidripper( 1270): Testing for name () against the original ()
+D/dalvikvm( 1270): GC_CONCURRENT freed 687K, 49% free 3432K/6663K, external 1527K/1559K, paused 3ms+4ms
+I/androidripper( 1270): Retrieved from return list id=2131361794
+D/androidripper( 1270): Testing for type (android.widget.Button) against the original (android.widget.Button)
+D/androidripper( 1270): Testing for name (8) against the original (8)
+I/androidripper( 1270): Firing event: type= click index=10 widget=android.widget.Button
+W/KeyCharacterMap( 1270): No keyboard for id 0
+W/KeyCharacterMap( 1270): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+D/androidripper( 1270): Event description: 8
+I/androidripper( 1270): Waiting for 1 sec.
+I/androidripper( 1270): Current activity is activities.TippyTipper
+I/androidripper( 1270): Retrieving widgets
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df3f78)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.FrameLayout@b6df4940)
+D/androidripper( 1270): Found widget: id=16908310 (android.widget.TextView@b6df4f00): Tippy Tipper
+D/androidripper( 1270): Found widget: id=16908290 (android.widget.FrameLayout@b6df5c78)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df6180)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.TextView@b6df63d8): Enter bill amount:
+D/androidripper( 1270): Found widget: id=2131361792 (android.widget.EditText@b6df6af0): $0.08
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df77d0)
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df79e8)
+D/androidripper( 1270): Found widget: id=2131361793 (android.widget.Button@b6df7e70): 7
+D/androidripper( 1270): Found widget: id=2131361794 (android.widget.Button@b6df8738): 8
+D/androidripper( 1270): Found widget: id=2131361795 (android.widget.Button@b6df8fc0): 9
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6df9848)
+D/androidripper( 1270): Found widget: id=2131361796 (android.widget.Button@b6df9a60): 4
+D/androidripper( 1270): Found widget: id=2131361797 (android.widget.Button@b6dfa2e8): 5
+D/androidripper( 1270): Found widget: id=2131361798 (android.widget.Button@b6dfab70): 6
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6dfb3f8)
+D/androidripper( 1270): Found widget: id=2131361799 (android.widget.Button@b6dfb610): 1
+D/androidripper( 1270): Found widget: id=2131361800 (android.widget.Button@b6dfbe98): 2
+D/androidripper( 1270): Found widget: id=2131361801 (android.widget.Button@b6dfc720): 3
+D/androidripper( 1270): Found widget: id=-1 (android.widget.LinearLayout@b6dfcfa8)
+D/androidripper( 1270): Found widget: id=2131361802 (android.widget.Button@b6dfd1c0): DEL
+D/androidripper( 1270): Found widget: id=2131361803 (android.widget.Button@b6dfda48): 0
+D/androidripper( 1270): Found widget: id=2131361804 (android.widget.Button@b6dfe2d0): OK
+D/androidripper( 1270): Found widget: id=-1 (com.android.internal.policy.impl.PhoneWindow$DecorView@b6df3798)
+V/androidripper( 1270): TextualID : null
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : null
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): android.widget.EditText > mOnFocusChangeListener FOUND | NOT ACTIVE
+V/androidripper( 1270): TextualID : txt_amount
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_seven
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_eight
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_nine
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_four
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_five
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_six
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_one
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_two
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_three
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_delete
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_zero
+V/androidripper( 1270): ContentType detected : default
+V/androidripper( 1270): TextualID : btn_ok
+V/androidripper( 1270): ContentType detected : default
+I/androidripper( 1270): Performing comparation for activity TippyTipper
+D/androidripper( 1270): Comparing against activity TippyTipper
+D/androidripper( 1270): Looking for additional widgets
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget -1 (type = )
+D/androidripper( 1270): Comparator found widget 16908310 (type = text)
+V/androidripper( 1270): Comparing text #16908310
+D/androidripper( 1270): Comparator found widget 16908290 (type = )
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget -1 (type = text)
+D/androidripper( 1270): Comparator found widget 2131361792 (type = editText)
+V/androidripper( 1270): Comparing editText #2131361792
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget 2131361793 (type = button)
+V/androidripper( 1270): Comparing button #2131361793
+D/androidripper( 1270): Comparator found widget 2131361794 (type = button)
+V/androidripper( 1270): Comparing button #2131361794
+D/androidripper( 1270): Comparator found widget 2131361795 (type = button)
+V/androidripper( 1270): Comparing button #2131361795
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget 2131361796 (type = button)
+V/androidripper( 1270): Comparing button #2131361796
+D/androidripper( 1270): Comparator found widget 2131361797 (type = button)
+V/androidripper( 1270): Comparing button #2131361797
+D/androidripper( 1270): Comparator found widget 2131361798 (type = button)
+V/androidripper( 1270): Comparing button #2131361798
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget 2131361799 (type = button)
+V/androidripper( 1270): Comparing button #2131361799
+D/androidripper( 1270): Comparator found widget 2131361800 (type = button)
+V/androidripper( 1270): Comparing button #2131361800
+D/androidripper( 1270): Comparator found widget 2131361801 (type = button)
+V/androidripper( 1270): Comparing button #2131361801
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget 2131361802 (type = button)
+V/androidripper( 1270): Comparing button #2131361802
+D/androidripper( 1270): Comparator found widget 2131361803 (type = button)
+V/androidripper( 1270): Comparing button #2131361803
+D/androidripper( 1270): Comparator found widget 2131361804 (type = button)
+V/androidripper( 1270): Comparing button #2131361804
+D/androidripper( 1270): Comparator found widget -1 (type = )
+D/androidripper( 1270): Looking for missing widgets
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget -1 (type = )
+D/androidripper( 1270): Comparator found widget 16908310 (type = text)
+D/androidripper( 1270): Comparator found widget 16908290 (type = )
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget -1 (type = text)
+D/androidripper( 1270): Comparator found widget 2131361792 (type = editText)
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget 2131361793 (type = button)
+D/androidripper( 1270): Comparator found widget 2131361794 (type = button)
+D/androidripper( 1270): Comparator found widget 2131361795 (type = button)
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget 2131361796 (type = button)
+D/androidripper( 1270): Comparator found widget 2131361797 (type = button)
+D/androidripper( 1270): Comparator found widget 2131361798 (type = button)
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget 2131361799 (type = button)
+D/androidripper( 1270): Comparator found widget 2131361800 (type = button)
+D/androidripper( 1270): Comparator found widget 2131361801 (type = button)
+D/androidripper( 1270): Comparator found widget -1 (type = linearLayout)
+D/androidripper( 1270): Comparator found widget 2131361802 (type = button)
+D/androidripper( 1270): Comparator found widget 2131361803 (type = button)
+D/androidripper( 1270): Comparator found widget 2131361804 (type = button)
+D/androidripper( 1270): Comparator found widget -1 (type = )
+D/androidripper( 1270): This activity state is equivalent to a1
+D/dalvikvm( 1270): GC_EXTERNAL_ALLOC freed 467K, 48% free 3476K/6663K, external 1527K/1559K, paused 78ms
+D/dalvikvm( 1270): GC_EXTERNAL_ALLOC freed 25K, 49% free 3450K/6663K, external 3027K/3780K, paused 41ms
+I/androidripper( 1270): Saved image on disk: a3.jpg
+I/androidripper( 1270): Waiting for 1 sec.
+I/androidripper( 1270): Session count is 1. Will dump to disk at 1
+I/androidripper( 1270): Saving the session on disk.
+D/dalvikvm( 1270): GC_EXPLICIT freed 113K, 49% free 3443K/6663K, external 4527K/5653K, paused 42ms
+I/androidripper( 1270): Check for pause: 0 steps left of 1
+I/androidripper( 1270): Saving the session on disk. This is the last batch. The session will be terminated.
+D/androidripper( 1270): Performing backup of the old task list on disk
+D/androidripper( 1270): Saving task list on disk
+V/androidripper( 1270): Backing up trace #2 to disk.
+V/androidripper( 1270): Backing up trace #3 to disk.
+V/androidripper( 1270): Backing up trace #4 to disk.
+V/androidripper( 1270): Backing up trace #5 to disk.
+V/androidripper( 1270): Backing up trace #6 to disk.
+V/androidripper( 1270): Backing up trace #7 to disk.
+V/androidripper( 1270): Backing up trace #8 to disk.
+V/androidripper( 1270): Backing up trace #9 to disk.
+V/androidripper( 1270): Backing up trace #10 to disk.
+V/androidripper( 1270): Backing up trace #11 to disk.
+V/androidripper( 1270): Backing up trace #12 to disk.
+V/androidripper( 1270): Backing up trace #13 to disk.
+D/androidripper( 1270): Deleting backup of the old task list from disk
+W/ActivityManager(  861): Duplicate finish request for HistoryRecord{b6dd4990 net.mandaria.tippytipper/.activities.TippyTipper}
+D/dalvikvm( 1270): GC_EXPLICIT freed 510K, 49% free 3443K/6663K, external 3027K/4527K, paused 75ms
+D/dalvikvm( 1270): GC_EXPLICIT freed 4K, 49% free 3439K/6663K, external 3027K/4527K, paused 96ms
+I/TestRunner( 1270): finished: testAndCrawl(it.unina.androidripper.guitree.GuiTreeEngine)
+I/TestRunner( 1270): passed: testAndCrawl(it.unina.androidripper.guitree.GuiTreeEngine)
+D/AndroidRuntime( 1263): Shutting down VM
+D/dalvikvm( 1263): GC_CONCURRENT freed 102K, 72% free 293K/1024K, external 0K/0K, paused 3ms+1ms
+D/jdwp    ( 1263): adbd disconnected
+I/ActivityManager(  861): Force stopping package net.mandaria.tippytipper uid=10031
+I/Process (  861): Sending signal. PID: 1270 SIG: 9
+I/WindowManager(  861): WIN DEATH: Window{b6e33ba0 net.mandaria.tippytipper/net.mandaria.tippytipper.activities.TippyTipper paused=false}
+D/AndroidRuntime( 1301): 
+D/AndroidRuntime( 1301): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1301): CheckJNI is ON
+D/AndroidRuntime( 1301): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  861): Start proc net.mandaria.tippytipper for broadcast net.mandaria.tippytipper/.EmmaInstrument.SMSInstrumentedReceiver: pid=1309 uid=10031 gids={1015, 3003}
+I/System.out( 1309): EMMA: collecting runtime coverage data ...
+D/EmmaInstrumentation:( 1309): Intermidate Dump Called with file name :/mnt/sdcard/coverage.ec
+D/EmmaInstrumentation:( 1309): generateCoverageReport()
+I/System.out( 1309): EMMA: runtime coverage data merged into [/mnt/sdcard/coverage.ec] {in 9 ms}
+D/AndroidRuntime( 1301): Shutting down VM
+D/dalvikvm( 1301): GC_CONCURRENT freed 99K, 70% free 315K/1024K, external 0K/0K, paused 1ms+1ms
+D/jdwp    ( 1301): adbd disconnected

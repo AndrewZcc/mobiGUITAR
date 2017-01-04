@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/net.mandaria.tippytipper">
+	<PreferenceCategory android:title="Tipping Options">
+		<net.mandaria.tippytipper.preferences.SeekBarPreference
+			android:key="default_tip_percentage"
+	        android:title="Default Tip Percentage"
+	        android:summary="Percentage to tip by default"
+	        android:dialogMessage="Percentage to tip by default"
+	        android:defaultValue="15"
+	        android:text="%"
+	        android:max="40"
+	        app:min="0"
+	        />
+	    <net.mandaria.tippytipper.preferences.SeekBarPreference
+			android:key="tip_percentage_one"
+	        android:title="First Tip Percentage"
+	        android:summary="Custom value for first tip percentage preset button"
+	        android:dialogMessage="Tip percentage"
+	        android:defaultValue="10"
+	        android:text="%"
+	        android:max="40"
+	        app:min="0"
+	        />
+	    <net.mandaria.tippytipper.preferences.SeekBarPreference
+			android:key="tip_percentage_two"
+	        android:title="Second Tip Percentage"
+	        android:summary="Custom value for second tip percentage preset button"
+	        android:dialogMessage="Tip percentage"
+	        android:defaultValue="15"
+	        android:text="%"
+	        android:max="40"
+	        app:min="0"
+	        />
+	    <net.mandaria.tippytipper.preferences.SeekBarPreference
+			android:key="tip_percentage_three"
+	        android:title="Third Tip Percentage"
+	        android:summary="Custom value for third tip percentage preset button"
+	        android:dialogMessage="Tip percentage"
+	        android:defaultValue="20"
+	        android:text="%"
+	        android:max="40"
+	        app:min="0"
+	        />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Tax Options">
+		<CheckBoxPreference
+			android:key="enable_exclude_tax_rate"
+	   		android:title="Enable Exclude Tax Rate"
+	   		android:summary="Excludes tax rate from tip when enabled"
+	   		android:defaultValue="false"
+	   		android:disableDependentsState="false"
+			/>
+	    <net.mandaria.tippytipper.preferences.DecimalPreference
+			android:key="exclude_tax"
+	        android:title="Tax Rate to Exclude"
+	        android:summary="The tax rate to exclude when calculating tip"
+	        android:dialogMessage="Tax Rate"
+	        android:defaultValue="0"
+	        android:dependency="enable_exclude_tax_rate"
+	        />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Rounding Options">
+	    <ListPreference
+			android:title="Round Type"
+			android:summary="Choose to round by tip or total"
+			android:key="round_type"
+			android:defaultValue="round_total"
+			android:entries="@array/listRoundArray"
+			android:entryValues="@array/listRoundValues" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Splitting Options">
+	   <net.mandaria.tippytipper.preferences.NumberPickerPreference
+			android:key="default_number_of_people"
+	        android:title="Default Number People"
+	        android:summary="The number of people to split bill by"
+	        android:dialogMessage="Number of people"
+	        android:defaultValue="2"
+	        android:text=" people"
+	        android:max="20"
+	        app:min="2"
+	        />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Privacy Options">
+	   <CheckBoxPreference
+	   		android:key="enable_error_logging"
+	   		android:title="Enable Error Logging"
+	   		android:summary="Application reports anonymous error/event information to developer"
+	   		android:defaultValue="true"
+	   		/>
+	</PreferenceCategory>
+</PreferenceScreen>

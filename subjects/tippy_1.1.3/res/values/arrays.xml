@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><resources><string-array name="listRoundArray"><item>Round Tip</item>
+<item>Round Total</item>
+</string-array>
+<string-array name="listRoundValues"><item>round_tip</item>
+<item>round_total</item>
+</string-array>
+</resources>

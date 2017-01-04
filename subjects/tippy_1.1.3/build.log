@@ -1,0 +1,233 @@
+Buildfile: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/build.xml
+
+emma:
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /home/vagrant/android-sdk-linux
+
+-setup:
+     [echo] Project Name: TippyTipper
+  [gettype] Project Type: Self-Tested Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for TippyTipper...
+[gettarget] Project Target:   Android 2.3.3
+[gettarget] API level:        10
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/rsObj
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/rsLibs
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/gen
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/classes
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for TippyTipper...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'instrument'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 19 source files to /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/classes
+     [echo] Instrumenting classes from /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/classes...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/classes
+      [dex] input: /home/vagrant/android-sdk-linux/tools/support/annotations.jar
+      [dex] input: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/libs/FlurryAgent.jar
+      [dex] input: /home/vagrant/android-sdk-linux/tools/lib/emma_device.jar
+      [dex] Pre-Dexing /home/vagrant/android-sdk-linux/tools/support/annotations.jar -> annotations-5442badee1f6d6457826eac12c92c46e.jar
+      [dex] Pre-Dexing /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/libs/FlurryAgent.jar -> FlurryAgent-725e957cfc3b6c7a5e14125a72c81212.jar
+      [dex] Pre-Dexing /home/vagrant/android-sdk-linux/tools/lib/emma_device.jar -> emma_device-e790229f52a04d2b195df6976ccc31d7.jar
+      [dex] Converting compiled files and external libraries into /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/classes.dex...
+       [dx] Merged dex A (60 defs/71.5KiB) with dex B (2 defs/1.1KiB). Result is 62 defs/85.6KiB. Took 0.6s
+       [dx] Merged dex A (62 defs/85.6KiB) with dex B (8 defs/18.5KiB). Result is 70 defs/126.4KiB. Took 0.3s
+       [dx] Merged dex A (70 defs/126.4KiB) with dex B (297 defs/326.8KiB). Result is 367 defs/554.3KiB. Took 0.7s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res
+   [crunch] To destination dir: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/icon.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/icon.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/icon.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_down_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_down_disabled_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_disabled_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_disabled_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_down_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_down_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_down_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_down_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_input_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_input_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_input_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_input_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_input_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_input_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_input_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_input_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_input_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_input_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_input_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_input_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_up_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_up_disabled_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_disabled_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_disabled_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_up_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_up_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-hdpi/timepicker_up_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-hdpi/timepicker_up_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/icon.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/icon.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/icon.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_down_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_down_disabled_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_disabled_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_disabled_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_down_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_down_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_down_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_down_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_input_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_input_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_input_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_input_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_input_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_input_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_input_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_input_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_input_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_input_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_input_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_input_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_up_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_up_disabled_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_disabled_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_disabled_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_up_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_up_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-ldpi/timepicker_up_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-ldpi/timepicker_up_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/icon.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/icon.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/icon.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_down_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_down_disabled_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_disabled_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_disabled_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_down_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_down_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_down_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_down_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_input_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_input_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_input_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_input_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_input_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_input_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_input_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_input_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_input_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_input_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_input_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_input_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_up_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_up_disabled_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_disabled_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_disabled_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_up_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_up_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable-mdpi/timepicker_up_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable-mdpi/timepicker_up_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/icon.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/icon.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/icon.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_down_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_down_disabled_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_disabled_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_disabled_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_down_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_down_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_down_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_down_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_input_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_input_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_input_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_input_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_input_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_input_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_input_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_input_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_input_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_input_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_input_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_input_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_up_disabled.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_disabled.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_disabled.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_up_disabled_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_disabled_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_disabled_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_up_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_up_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/res/drawable/timepicker_up_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/res/drawable/timepicker_up_selected.9.png: 0% size of source)
+   [crunch] Crunched 60 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating TippyTipper-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/TippyTipper-debug.apk
+[propertyfile] Creating new property file: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/build.prop
+[propertyfile] Updating property file: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/build.prop
+[propertyfile] Updating property file: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/build.prop
+[propertyfile] Updating property file: /vagrant/subjects/tool_subjects/swifthand/tippy_1.1.3/bin/build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 50 seconds

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/ScrollView">
+	<LinearLayout
+		style="@style/LinearLayout">
+		<TableLayout 
+			style="@style/TableLayout">
+			<TableRow>
+				<LinearLayout
+					style="@style/LinearLayoutRow">
+						<TextView 
+							style="@style/TextView.Label"
+							
+							android:text="@string/bill_amount" />
+						<TextView  
+							android:id="@+id/lbl_bill_amount"
+						style="@style/TextView.Amount"/>
+				</LinearLayout>
+			</TableRow>
+			<TableRow>		
+				<ViewStub android:id="@+id/stub_excludeTax"
+					android:inflatedId="@+id/inflated_excludeTax"
+					android:layout="@layout/stub_exclude_tax"
+					/>
+			</TableRow>
+			<TableRow>
+				<LinearLayout
+					style="@style/LinearLayoutRow">
+						<TextView 
+							android:id="@+id/lbl_tip_text"
+							style="@style/TextView.Label"
+							android:text="@string/tip" />
+						<TextView 
+							android:id="@+id/lbl_tip_amount"
+							style="@style/TextView.Amount"/>
+				</LinearLayout>
+			</TableRow>
+			<TableRow 
+				style="@style/TableRow_Bar">
+			</TableRow>
+			<TableRow>
+				<LinearLayout
+					style="@style/LinearLayoutRow">
+						<TextView 
+							style="@style/TextView.Label.Large"
+							android:text="@string/total" />
+						<TextView 
+							android:id="@+id/lbl_total_amount"
+							style="@style/TextView.Amount.Large"/>
+				</LinearLayout>
+			</TableRow>
+			<TableRow 
+				style="@style/TableRow_Bar.Dark">			
+			</TableRow>
+			<TableRow>
+				<TableLayout
+					style="@style/TableLayout">
+					<TableRow>
+					<TextView 
+						style="@style/TextView"
+						android:textSize="14sp"
+						android:paddingTop="0sp"
+						android:paddingBottom="0sp"
+						android:text="@string/tip_percentage" />
+					
+					<TextView
+						android:visibility="invisible"
+						android:id="@+id/lbl_tip_percentage"
+						style="@style/TextView"
+						android:text="0%"
+					/>
+					</TableRow>
+				</TableLayout>
+			</TableRow>
+			<TableRow>
+				<SeekBar android:id="@+id/seek_tip_percentage"
+					style="@style/SeekBar"
+			       /> 
+			</TableRow>
+			<TableRow>
+				<TableLayout
+					style="@style/TableLayout"
+					android:paddingBottom="10dp">
+					<TableRow>
+						<TextView 
+							style="@style/TextView_Small"
+							android:layout_marginLeft="30dp"
+							android:text="0%" />
+						<TextView 
+							style="@style/TextView_Small"
+							android:gravity="right"
+							android:layout_marginRight="30dp"
+							android:text="40%" />
+					</TableRow>
+				</TableLayout>
+			</TableRow>
+			<TableRow>
+				<TableLayout
+					style="@style/TableLayout">
+					<TableRow>
+						<Button
+							android:id="@+id/btn_TipAmount1" 
+							style="@style/TippingButton"
+							android:text="10%" />
+						<Button
+							android:id="@+id/btn_TipAmount2" 
+							style="@style/TippingButton"
+							android:text="15%" />
+						<Button
+							android:id="@+id/btn_TipAmount3" 
+							style="@style/TippingButton"
+							android:text="20%" />
+					</TableRow>
+				</TableLayout>
+			</TableRow>
+			<TableRow>
+				<TableLayout
+					style="@style/TableLayout">
+					<TableRow>
+					<Button 
+						android:id="@+id/btn_round_down"
+						style="@style/TippingButton"
+						android:text="@string/round_down" />
+					<Button 
+						android:id="@+id/btn_round_up"
+						style="@style/TippingButton"
+						android:text="@string/round_up" />
+					</TableRow>
+				</TableLayout>				
+			</TableRow>
+			<TableRow>
+				<Button
+					android:id="@+id/btn_SplitBill" 
+					style="@style/TippingButton"
+					android:text="@string/split_bill" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+</ScrollView>

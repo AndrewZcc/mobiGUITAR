@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		style="@style/TableLayout">
+	<TableRow>
+		<LinearLayout
+			style="@style/LinearLayoutRow">
+			<TextView 
+				style="@style/TextView.Label.Small"
+				android:text="@string/split_tax" />
+			<TextView 
+				android:id="@+id/lbl_split_tax"
+				style="@style/TextView.Amount.Horizontal.Small"/>
+		</LinearLayout>
+	</TableRow>
+</TableLayout> 

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="it.unina.androidripper">
+		  <map>
+		    <entry key="PACKAGE_NAME" value="app.package"/>
+			<entry key="CLASS_NAME"   value="app.package.main.class"/>
+			<entry key="RANDOM_SEED" value="93874383493"/>
+			<entry key="ENABLE_MODEL" value="true"/>
+		  </map>
+		  <node name="automation">
+			<map>
+				<entry key="SLEEP_AFTER_EVENT"   value="1000"/>
+				<entry key="SLEEP_AFTER_RESTART" value="1000"/>
+				<entry key="SLEEP_ON_THROBBER"   value="1000"/>
+				<entry key="SLEEP_AFTER_TASK"    value="1000"/> 
+				<entry key="SCREENSHOT_FOR_STATES" value="false"/>
+				<entry key="SCREENSHOT_ONLY_NEW_STATES" value="false"/> 
+				<entry key="SCREENSHOT_FOR_EVENTS" value="false"/>
+			</map>
+		  </node>
+		  <node name="comparator">
+			<map>
+				 <entry key="COMPARATOR_TYPE" value="NullComparator"/>
+				 <entry key="COMPARE_STATE_TITLE"   value="false"/>
+				 <entry key="COMPARE_LIST_COUNT"    value="false"/>
+				 <entry key="COMPARE_MENU_COUNT"    value="false"/>
+				 <entry key="COMPARE_VALUES"        value="false"/> 
+			</map>
+		  </node>
+		  <node name="interactions">
+			<map>
+				 <entry key="EVENTS[0]" value="click, button, menuItem, text, image, linearLayout, check, toggle"/>
+				 <entry key="EVENTS[1]" value="longClick, image, webPage"/>
+				 <entry key="EVENTS[2]" value="selectListItem, listView, singleChoiceList, multiChoiceList, preferenceList"/>
+				 <entry key="EVENTS[3]" value="longClickListItem, listView, singleChoiceList, multiChoiceList"/>
+				 <entry key="EVENTS[4]" value="selectSpinnerItem, spinner"/>
+				 <entry key="EVENTS[5]" value="selectRadioItem, radioGroup"/>
+				 <entry key="EVENTS[6]" value="swapTab, tabHost"/>
+				 <entry key="EVENTS[7]" value="setBar, seekBar, ratingBar"/>
+				 <entry key="EVENTS[8]" value="focus, focusableEditText"/>
+				 <entry key="EVENTS[9]" value="searchText, searchBar"/>
+				 <entry key="EVENTS[10]" value="autoText, autoCText"/>
+			<!-- <entry key="EVENTS[11]" value="drag, slidingDrawer"/> -->
+			<!-- <entry key="EVENTS[12]" value="writeText, editText"/> -->
+				 <entry key="INPUTS[0]" value="writeText, editText"/>
+			<!-- <entry key="INPUTS[1]" value="searchText, searchBar"/> -->
+			<!-- <entry key="INPUTS[2]" value="editText, editText"/> -->
+			<!-- <entry key="INPUTS[3]" value="click, check, radio, toggle"/> -->
+			<!-- <entry key="INPUTS[4]" value="setBar, seekBar, ratingBar"/> -->
+			<!-- <entry key="INPUTS[5]" value="selectSpinnerItem, spinner"/> -->
+			</map>
+		  </node>
+		  <node name="planner">
+			<map>
+				<entry key="MAX_EVENTS_PER_WIDGET" value="0"/>
+				<entry key="PLANNER" value="SimplePlanner"/> 
+				<entry key="TEXT_VALUES_ID_HASH" value="true"/>
+				<entry key="ACTIONBARHOME_EVENTS" value="false"/> 
+				<entry key="ORIENTATION_EVENTS" value="true"/> 
+			</map>
+		  </node>
+		    <node name="scheduler">
+			<map>
+				 <entry key="SCHEDULER_ALGORITHM" value="DEPTH_FIRST"/> 
+				 <entry key="MAX_TASKS_IN_SCHEDULER" value="2"/>          
+			</map>
+		  </node>
+		   <node name="storage">
+			<map>
+				 <entry key="ONLY_FINALTRANSITION" value="false"/> 
+			</map>
+		  </node>
+		  <node name="strategy">
+			<map>
+				 <entry key="MAX_NUM_TRACES"          value="100"/> 
+				 <entry key="TRACE_MAX_DEPTH"         value="0"/>     
+				 <entry key="EXPLORE_ONLY_NEW_STATES" value="false"/> 
+			</map>
+		  </node>
+    </node>
+  </root>
+</preferences>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<dimen name="calc_button">24.5sp</dimen>
+<dimen name="enter_bill_amount">24.5sp</dimen>
+<dimen name="calc_text">24.5sp</dimen>
+<dimen name="small_text">10sp</dimen>
+</resources>

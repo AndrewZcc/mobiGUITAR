@@ -1,0 +1,166 @@
+#System Path
+JAVA_CMD=/usr/bin/java
+JARSIGNER_CMD=/usr/bin/jarsigner
+ANDROID_HOME=/Applications/eclipse-adt/sdk
+EMULATORPATH=$(ANDROID_HOME)/tools
+PLATFORMPATH=$(ANDROID_HOME)/platform-tools
+
+#AVD Path
+EMULATORTASK=$(EMULATORPATH)/emulator-arm
+AVDNAME=gui-ripper
+ANDROIDCONF=/Users/gorla/.android
+SNAPSHOTPATH=$(ANDROIDCONF)/avd/$(AVDNAME).avd/snapshots.img
+
+#App Information
+APKPATH=apks/tomdroid-0.7.5.apk
+APPPACKAGE=org.tomdroid
+CLASSPACKAGE=org.tomdroid.ui.Tomdroid
+DEVICEPATH=/data/data/$(APPPACKAGE)/files
+
+#Output Experiment Path
+EXPPATH=output-exp
+COVERAGEPATH=$(EXPPATH)/coverage
+FILESPATH=$(EXPPATH)/files
+RESTOREPATH=$(EXPPATH)/restore
+SCREENSHOTSPATH=$(EXPPATH)/screenshots
+
+#Tool Information
+ROOT_DIR=/Users/gorla/Documents/papers/androtest-shauvik/guiripper/GuiRipperV1.1
+BATCHPATH=$(ROOT_DIR)/batch
+DATAPATH=$(ROOT_DIR)/data
+TOOLSPATH=$(ROOT_DIR)/tools
+SMALIPATH=$(TOOLSPATH)/smali
+
+TESTPACKAGE=it.unina.androidripper
+TESTCLASS_SYSTEMATIC=guitree.GuiTreeEngine
+TESTCLASS_RANDOM=guitree.NomadEngine
+RIPPERPATH=/data/data/$(TESTPACKAGE)/files
+WAITFORAVD=40
+
+#EXPLORE=Ripper
+EXPLORE=Random
+
+log:
+	$(PLATFORMPATH)/adb logcat >> $(EXPPATH)/log.txt
+
+logf: 
+	$(PLATFORMPATH)/adb logcat androidripper:i AndroidRuntime:e *:s >> $(EXPPATH)/log.txt
+
+close:
+	$(PLATFORMPATH)/adb kill-server
+
+firstBoot:
+	$(EMULATORTASK) -avd $(AVDNAME) -partition-size 512 -snapshot $(SNAPSHOTPATH) -no-snapshot-load -wipe-data &
+
+installerAPK:
+	mkdir -p $(COVERAGEPATH)
+	mkdir -p $(RESTOREPATH)
+	mkdir -p $(FILESPATH)
+	mkdir -p $(SCREENSHOTSPATH)
+	rm -rf $(EXPPATH)/*
+	rm -rf $(TOOLSPATH)/diet
+	rm -rf $(DATAPATH)/*.apk
+	rm -rf $(DATAPATH)/preferences.xml
+	rm -rf $(SMALIPATH)/build/*
+
+	echo "Installing the packages on the virtual device..."
+	$(PLATFORMPATH)/adb kill-server
+	sleep 5
+	$(PLATFORMPATH)/adb devices
+	sleep 5
+	$(JAVA_CMD) -jar $(TOOLSPATH)/Retarget.jar $(SMALIPATH)/AndroidManifest.xml $(APPPACKAGE)
+	$(JAVA_CMD) -jar /usr/local/bin/apktool.jar b $(TOOLSPATH)/smali $(DATAPATH)/crawler.apk
+	$(JARSIGNER_CMD) -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $(ANDROIDCONF)/debug.keystore -storepass android -keypass android $(DATAPATH)/crawler.apk androiddebugkey
+	$(ANDROID_HOME)/build-tools/android-4.4W/zipalign 4 $(DATAPATH)/crawler.apk $(DATAPATH)/ripper.apk
+	mkdir $(DATAPATH)/temp
+	cp $(APKPATH) $(DATAPATH)/APP.apk
+	unzip $(DATAPATH)/APP.apk -d $(DATAPATH)/temp
+	rm -rf $(DATAPATH)/temp/META-INF
+	rm $(DATAPATH)/APP.apk
+	cd $(DATAPATH)/temp; zip -r $(DATAPATH)/APP.apk *
+	rm -rf $(DATAPATH)/temp
+	$(JARSIGNER_CMD) -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $(ANDROIDCONF)/debug.keystore -storepass android -keypass android $(DATAPATH)/APP.apk androiddebugkey
+	$(ANDROID_HOME)/build-tools/android-4.4W/zipalign 4 $(DATAPATH)/APP.apk $(DATAPATH)/AUT.apk
+
+	$(PLATFORMPATH)/adb install -r $(DATAPATH)/AUT.apk
+	$(PLATFORMPATH)/adb install -r $(DATAPATH)/ripper.apk > $(EXPPATH)/building.txt
+
+	$(PLATFORMPATH)/adb shell mkdir $(DEVICEPATH)
+	$(PLATFORMPATH)/adb shell chmod 777 $(DEVICEPATH)
+
+	$(PLATFORMPATH)/adb shell mkdir $(RIPPERPATH)
+	$(PLATFORMPATH)/adb shell chmod 777 $(RIPPERPATH)
+
+	cp $(DATAPATH)/preferences_$(EXPLORE).xml $(DATAPATH)/preferences.xml
+	$(JAVA_CMD) -jar $(TOOLSPATH)/PreferenceEditor.jar $(DATAPATH)/preferences.xml retarget $(APPPACKAGE) $(CLASSPACKAGE)
+
+	$(PLATFORMPATH)/adb push $(DATAPATH)/preferences.xml $(RIPPERPATH)/preferences.xml
+	sleep 5
+
+	$(JAVA_CMD) -jar $(TOOLSPATH)/BuildControl.jar $(EXPPATH)/building.txt
+	rm -rf $(DATAPATH)/*.apk
+	echo "Deploy Completed"
+
+createSnapshot:
+	$(EMULATORTASK) -avd $(AVDNAME) -partition-size 512 -snapshot $(SNAPSHOTPATH) &
+	sleep $(WAITFORAVD)
+	$(PLATFORMPATH)/adb shell chmod 777 $(RIPPERPATH)
+	$(PLATFORMPATH)/adb shell rm $(RIPPERPATH)/*
+
+ripper-random:
+	counter=-1
+	extCounter=1
+	echo "** Start Random Ripping"
+	while [[ $$extCounter -lt 3 ]]; do \
+		$(PLATFORMPATH)/adb start-server; \
+		($(EMULATORTASK) -avd $(AVDNAME) -partition-size 512 -snapshot $(SNAPSHOTPATH) -no-snapshot-save &); \
+		sleep $(WAITFORAVD); \
+		($(PLATFORMPATH)/adb logcat >> $(EXPPATH)/log-all.txt &); \
+		($(PLATFORMPATH)/adb logcat androidripper:i AndroidRuntime:e *:s >> $(EXPPATH)/log-filtered.txt &); \
+		sleep 5; \
+		mkdir $(FILESPATH)/$$extCounter; \
+		mkdir $(RESTOREPATH)/$$extCounter; \
+		mkdir $(SCREENSHOTSPATH)/$$extCounter; \
+		mkdir $(COVERAGEPATH)/$$extCounter; \
+		if ls $(COVERAGEPATH)/coverage.em &> /dev/null; then \
+			cp $(COVERAGEPATH)/coverage.em $(COVERAGEPATH)/$$extCounter/coverage.em; \
+		fi; \
+		counter=$$counter+1; \
+		echo "Playing Session $$extCounter_$$counter"; \
+		echo "Playing Session $$extCounter_$$counter" >> $(EXPPATH)/test.txt; \
+		echo ""; \
+		$(JAVA_CMD) -jar $(TOOLSPATH)/PreferenceEditor.jar $(DATAPATH)/preferences.xml randomize 5 >> $(EXPPATH)/test.txt; \
+		echo "changing prefs"; \
+		$(PLATFORMPATH)/adb shell rm $(RIPPERPATH)/* ;\
+		$(PLATFORMPATH)/adb push $(DATAPATH)/preferences.xml $(RIPPERPATH)/preferences.xml; \
+		echo "running instr"; \
+		$(PLATFORMPATH)/adb shell am instrument -w -e coverage false -e class $(TESTPACKAGE).$(TESTCLASS_RANDOM) \
+					$(TESTPACKAGE)/android.test.InstrumentationTestRunner >> $(EXPPATH)/test.txt; \
+		if ls $(FILESPATH)/$$extCounter/*.xml &> /dev/null; then \
+			mv $(FILESPATH)/$$extCounter/*.xml $(RESTOREPATH)/$$extCounter/; \
+			mv $(FILESPATH)/$$extCounter/*.bak $(RESTOREPATH)/$$extCounter/; \
+			mv $(FILESPATH)/$$extCounter/*.obj $(RESTOREPATH)/$$extCounter/; \
+			mv $(FILESPATH)/$$extCounter/*.txt $(RESTOREPATH)/$$extCounter/; \
+		fi; \
+		$(PLATFORMPATH)/adb pull $(DEVICEPATH) $(FILESPATH)/$$extCounter; \
+		if ls $(FILESPATH)/$$extCounter/coverage.ec &> /dev/null; then \
+			mv $(FILESPATH)/$$extCounter/coverage.ec $(COVERAGEPATH)/$$extCounter/coverage_$$extCounter_$$counter.ec; \
+			mv $(FILESPATH)/$$extCounter/*.jpg $(SCREENSHOTSPATH)/$$extCounter/; \
+		fi; \
+		$(PLATFORMPATH)/adb emu kill; \
+		sleep 5; \
+		$(JAVA_CMD) -jar $(TOOLSPATH)/GuiTSplitter.jar $(FILESPATH)/$$extCounter $$extCounter; \
+		$(JAVA_CMD) -jar $(TOOLSPATH)/ActTSplitter.jar $(FILESPATH)/$$extCounter $$extCounter; \
+		cd $(COVERAGEPATH)/$$extCounter; \
+		$(JAVA_CMD) -jar $(TOOLSPATH)/IncrementalCoverage.jar $$extCounter; \
+		rm -rf $(EXPPATH)/temp.txt; \
+		$(JAVA_CMD) -jar $(TOOLSPATH)/CoverageTextParsing.jar coverage.txt; \
+		$(JAVA_CMD) -jar $(TOOLSPATH)/CountEvents.jar $(EXPPATH)/logf.txt >> $(EXPPATH)/test.txt; \
+		echo "End of Session $$extCounter_$$counter"; \
+		echo "End of Session $$extCounter_$$counter" >> $(EXPPATH)/test.txt; \
+
+	done
+	if [ -a $(FILESPATH)/$$extCounter/closed.txt ] ; then \
+		echo "** Crawling finished"; \
+		$(PLATFORMPATH)/adb kill-server; \
+	fi;

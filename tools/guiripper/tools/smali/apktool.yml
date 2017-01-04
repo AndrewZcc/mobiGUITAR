@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: Ripper.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '10'
+packageInfo:
+  cur_package: it.unina.androidripper
+  orig_package: it.unina.androidripper
+compressionType: false

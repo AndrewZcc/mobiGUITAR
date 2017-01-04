@@ -1,0 +1,133 @@
+<resources>
+	<style name="CalculatorButton">
+		<item name="android:layout_margin">4dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	<style name="CalculatorButton.Horizontal">
+		<item name="android:layout_margin">3dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	<style name="BillAmountEditText">
+		<item name="android:textSize">24.5sp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:editable">false</item>
+		<item name="android:cursorVisible">false</item>
+		<item name="android:gravity">right</item>
+	</style>
+	<style name="TextView">
+		<item name="android:textSize">20sp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:paddingBottom">10dp</item>
+	</style>
+	<style name="TextView.Label">
+		<item name="android:gravity">right</item>
+		<item name="android:width">110dp</item>
+		
+	</style>
+	<style name="TextView.Label.Small">
+		<item name="android:textSize">16sp</item>
+	</style>
+	<style name="TextView.Label.Large">
+		<item name="android:textSize">24sp</item>
+	</style>
+	<style name="TextView.Amount">
+		<item name="android:gravity">right</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:paddingRight">15dp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:width">150dp</item>
+	</style>
+	<style name="TextView.Amount.Horizontal">
+		<item name="android:width">110dp</item>
+	</style>
+	<style name="TextView.Amount.Horizontal.Small">
+		<item name="android:textSize">16sp</item>
+	</style>
+	<style name="TextView.Amount.Horizontal.Large">
+		<item name="android:textSize">24sp</item>
+	</style>
+	<style name="TextView.Amount.Small">
+		<item name="android:textSize">16sp</item>
+	</style>
+	<style name="TextView.Amount.Large">
+		<item name="android:textSize">24sp</item>
+	</style>
+	<style name="LinearLayout">
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:paddingLeft">10dp</item>
+		<item name="android:paddingRight">10dp</item>
+	</style>
+	<style name="LinearLayoutRow">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_gravity">right</item>
+	</style>
+	<style name="ScrollView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	<style name="TableLayout">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:stretchColumns">*</item>
+	</style>
+	<style name="TableLayout.Main">
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:stretchColumns">*</item>
+	</style>
+	<style name="TableRow_Bar">
+		<item name="android:background">#FFFFFF</item>
+		<item name="android:layout_marginLeft">10dp</item>
+		<item name="android:layout_marginRight">10dp</item>
+		<item name="android:layout_marginTop">10dp</item>
+		<item name="android:layout_marginBottom">10dp</item>
+		<item name="android:minHeight">2sp</item>
+	</style>
+	<style name="TableRow_Bar.Dark">
+		<item name="android:background">#333333</item>
+		<item name="android:layout_marginLeft">0dp</item>
+		<item name="android:layout_marginRight">0dp</item>
+	</style>
+	<style name="SeekBar">
+		<item name="android:paddingLeft">30dp</item>
+		<item name="android:paddingRight">30dp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">0dp</item>
+		<item name="android:layout_marginBottom">0dp</item>
+		<item name="android:max">40</item>
+		<item name="android:progress">15</item>
+	</style>
+	<style name="TextView_Small">
+		<item name="android:textSize">10sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="TippingButton">
+		<item name="android:textSize">20sp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	<style name="TextView.Center">
+		<item name="android:gravity">center_horizontal</item>
+	</style>
+	<style name="SplitBillButton">
+		<item name="android:textSize">24.5sp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+</resources>

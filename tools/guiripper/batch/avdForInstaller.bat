@@ -1,0 +1,1 @@
+%EMULATORTASK% -avd %AVDNAME% -partition-size 512 -snapshot %SNAPSHOTPATH% -no-snapshot-load -wipe-data > NUL

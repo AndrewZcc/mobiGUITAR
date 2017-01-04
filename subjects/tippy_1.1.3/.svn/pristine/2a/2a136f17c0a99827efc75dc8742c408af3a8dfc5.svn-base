@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/LinearLayout">
+	<TextView 
+		style="@style/TextView"
+		android:text="@string/enter_bill_amount" />
+	<EditText 
+		android:id="@+id/txt_amount"
+		style="@style/BillAmountEditText"/>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		<LinearLayout
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+			<Button
+				android:id="@+id/btn_seven" 
+				style="@style/CalculatorButton"
+				android:text="7" />
+			<Button 
+				android:id="@+id/btn_eight"
+				style="@style/CalculatorButton"
+				android:text="8" />
+	
+			<Button
+				android:id="@+id/btn_nine" 
+				style="@style/CalculatorButton"
+				android:text="9" />
+		</LinearLayout>
+		<LinearLayout
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+			<Button 
+				android:id="@+id/btn_four"
+				style="@style/CalculatorButton"
+				android:text="4" />
+	
+			<Button 
+				android:id="@+id/btn_five"
+				style="@style/CalculatorButton"
+				android:text="5" />
+	
+			<Button
+				android:id="@+id/btn_six" 
+				style="@style/CalculatorButton"
+				android:text="6" />
+		</LinearLayout>
+		<LinearLayout
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+			<Button 
+				android:id="@+id/btn_one"
+				style="@style/CalculatorButton"
+				android:text="1" />
+	
+			<Button 
+				android:id="@+id/btn_two"
+				style="@style/CalculatorButton"
+				android:text="2" />
+	
+			<Button 
+				android:id="@+id/btn_three"
+				style="@style/CalculatorButton"
+				android:text="3" />
+		</LinearLayout>
+		<LinearLayout
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+			<Button 
+				android:id="@+id/btn_delete"
+				style="@style/CalculatorButton"
+				android:text="DEL" />
+				
+			<Button 
+				android:id="@+id/btn_zero"
+				style="@style/CalculatorButton"
+				android:text="0" />
+				
+			<Button 
+				android:id="@+id/btn_ok"
+				style="@style/CalculatorButton"
+				android:text="OK" />
+		</LinearLayout>
+	
+	</LinearLayout>
+
+</LinearLayout>
