@@ -1,2 +1,0 @@
-	pkg: /data/local/tmp/ripper.apk
-Success
