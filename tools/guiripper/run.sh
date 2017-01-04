@@ -183,7 +183,8 @@ case  $1  in
  
     echo "copy coverage for run" $extCounter
     adb shell am broadcast -a edu.gatech.m3.emma.COLLECT_COVERAGE
-    adb pull /mnt/sdcard/coverage.ec $COVERAGEPATH/$extCounter/coverage.ec   
+    # adb pull /mnt/sdcard/coverage.ec $COVERAGEPATH/$extCounter/coverage.ec   
+    adb pull /mnt/sdcard/coverage.ec $COVERAGEPATH/coverage$extCounter.ec   
 
     if [ -f $FILESPATH/*.jpg ] ; then \
       cp $FILESPATH/*.jpg $SCREENSHOTSPATH

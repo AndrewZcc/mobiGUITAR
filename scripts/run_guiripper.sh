@@ -5,6 +5,7 @@ source ~/.profile
 DIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT_mobiGuitar/guiripper/scripts
 MOBIDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT_mobiGuitar/guiripper
 APPDIR=$MOBIDIR/subjects/
+#APPDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/
 RESULTDIR=$MOBIDIR/results/
 export TOOLDIR=$MOBIDIR/tools/guiripper
 
@@ -36,7 +37,7 @@ for p in `cat $DIR/projects2.txt`; do
 
   echo "** PROCESSING APP " $app
   rm -rf $TOOLDIR/apks/*
-  mkdir $TOOLDIR/apks/  # 目录不存在,MacOSX系统下需要自己手动先创建这个目录
+  mkdir -p $TOOLDIR/apks/  # 目录不存在,MacOSX系统下需要自己手动先创建这个目录
   cp bin/*-debug.apk $TOOLDIR/apks/
 
   echo "** Preparing Emulator for GUI Ripper with APK" $apkName
