@@ -23,7 +23,7 @@ cp $ecfile "./aut_coverage/"$aut"/"
 echo "\n--------------------"
 echo "Copy em file"
 echo "Copy ==> /subjects/"$aut"/bin/coverage.em"
-cp "../subjects/"$aut"/bin/coverage.em" "./aut_coverage/"$aut
+cp "../../subjects/"$aut"/bin/coverage.em" "./aut_coverage/"$aut
 
 echo "\n--------------------"
 echo "END ..."

@@ -7,11 +7,6 @@ export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build
 ### DYNODROID
 export SDK_INSTALL=$ANDROID_HOME
 
-### ACTEVE
-export Z3_BIN=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/tools/z3/bin/z3
-export JavaHeap=512m
-export A3T_DIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/tools/acteve
-
 ### SWIFTHAND
 export ADK_ROOT=$ANDROID_HOME
 export ADK_LIB=$ADK_ROOT/tools/lib

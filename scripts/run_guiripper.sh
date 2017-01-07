@@ -2,8 +2,8 @@
 
 source ~/.profile
 
-DIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT/guiripper/scripts
-MOBIDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT/guiripper
+DIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT/MobiGUITAR/scripts
+MOBIDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT/MobiGUITAR
 #APPDIR=$MOBIDIR/subjects/
 APPDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT/subjects/
 #APPDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/

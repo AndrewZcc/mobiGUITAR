@@ -2,7 +2,7 @@
 
 #### 共分为四步
 
-> 项目位置：`~/Desktop/paper/Backup/constrast_experi/ATGT/guiripper/`  
+> 项目位置：`~/Desktop/paper/Backup/constrast_experi/ATGT/MobiGUITAR/`  
 
 1️⃣ 配置 `./scripts` 目录下的 `project2.txt` 文件，指明 AUT 待测应用信息
 
