@@ -2,9 +2,10 @@
 
 source ~/.profile
 
-DIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT_mobiGuitar/guiripper/scripts
-MOBIDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT_mobiGuitar/guiripper
-APPDIR=$MOBIDIR/subjects/
+DIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT/guiripper/scripts
+MOBIDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT/guiripper
+#APPDIR=$MOBIDIR/subjects/
+APPDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/ATGT/subjects/
 #APPDIR=/Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/
 RESULTDIR=$MOBIDIR/results/
 export TOOLDIR=$MOBIDIR/tools/guiripper
