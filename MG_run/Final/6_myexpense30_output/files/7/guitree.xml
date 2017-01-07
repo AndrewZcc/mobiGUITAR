@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SESSION PUBLIC "SESSION" "guitree.dtd">
+<SESSION date_time="Thu Jan 05 14:56:29 GMT 2017" app="ApplicationInfo{40cd0ff0 org.totschnig.myexpenses}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="org.totschnig.myexpenses.MyExpenses" package_name="org.totschnig.myexpenses" comparation_widgets="editText,button,menu,dialog,listView,singleChoiceList,multiChoiceList,webPage,tabHost,image,text,searchBar,autoCText" in_and_out_focus="true" end_task_sleep="1000" random_seed="-4244019791393197310" max_depth="0" state_file="activities.xml">
+    <TRACE id="0" fail="false" date_time="Thu Jan 05 14:56:39 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="MyExpenses" title="My Expenses" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="My Expenses comes with two command interfaces: A button bar and the Android standard menu (hardware Menu button). You can set which one to use in the settings screen. The buttons in the button bar execute the following actions on short clicks:&#10;&#10; - New : Add a transaction.&#10; - Accounts : Switch to different account.&#10; - Reset : exports expenses onto SD-card in QIF format, deletes the expenses and updates the opening balance.&#10; - Settings : Gives access to all configurations and administrative functions (of accounts, categories, payees, payment methods, templates, backups, imports).&#10; - Help : Opens this help screen.&#10; &#10;Some buttons (indicated by a triangle in the left upper corner) open popup menus on long clicks:&#10;&#10; - New : Transfer allows to create a transfer from one account to another (must have same currency). Also enumerates available templates you can instantiate. (Templates can be created from transactions from their context menu in the list)&#10; - Accounts : Enumerates all accounts you can switch to. New … creates a new account, Summary opens an overview of all accounts with current financial status.&#10; - Settings : Quick access to backup and properties for current account.&#10; - Help : Quick access to Tutorial, News, FAQ and Changes.&#10; &#10;Please refer to the manual for detailed explanation. ">
+                <WIDGET id="2131165207" name="My Expenses comes with two command interfaces: A button bar and the Android standard menu (hardware Menu button). You can set which one to use in the settings screen. The buttons in the button bar execute the following actions on short clicks:&#10;&#10; - New : Add a transaction.&#10; - Accounts : Switch to different account.&#10; - Reset : exports expenses onto SD-card in QIF format, deletes the expenses and updates the opening balance.&#10; - Settings : Gives access to all configurations and administrative functions (of accounts, categories, payees, payment methods, templates, backups, imports).&#10; - Help : Opens this help screen.&#10; &#10;Some buttons (indicated by a triangle in the left upper corner) open popup menus on long clicks:&#10;&#10; - New : Transfer allows to create a transfer from one account to another (must have same currency). Also enumerates available templates you can instantiate. (Templates can be created from transactions from their context menu in the list)&#10; - Accounts : Enumerates all accounts you can switch to. New … creates a new account, Summary opens an overview of all accounts with current financial status.&#10; - Settings : Quick access to backup and properties for current account.&#10; - Help : Quick access to Tutorial, News, FAQ and Changes.&#10; &#10;Please refer to the manual for detailed explanation. " type="android.widget.TextView" unique_id="w15" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="17" value="My Expenses comes with two command interfaces: A button bar and the Android standard menu (hardware Menu button). You can set which one to use in the settings screen. The buttons in the button bar execute the following actions on short clicks:&#10;&#10; - New : Add a transaction.&#10; - Accounts : Switch to different account.&#10; - Reset : exports expenses onto SD-card in QIF format, deletes the expenses and updates the opening balance.&#10; - Settings : Gives access to all configurations and administrative functions (of accounts, categories, payees, payment methods, templates, backups, imports).&#10; - Help : Opens this help screen.&#10; &#10;Some buttons (indicated by a triangle in the left upper corner) open popup menus on long clicks:&#10;&#10; - New : Transfer allows to create a transfer from one account to another (must have same currency). Also enumerates available templates you can instantiate. (Templates can be created from transactions from their context menu in the list)&#10; - Accounts : Enumerates all accounts you can switch to. New … creates a new account, Summary opens an overview of all accounts with current financial status.&#10; - Settings : Quick access to backup and properties for current account.&#10; - Help : Quick access to Tutorial, News, FAQ and Changes.&#10; &#10;Please refer to the manual for detailed explanation. "/>
+            </EVENT>
+            <FINAL_ACTIVITY name="MyExpenses" title="My Expenses" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="1" fail="true" date_time="Thu Jan 05 14:59:06 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="MyExpenses" title="My Expenses" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e1">
+                <WIDGET id="-1" name="News" type="android.widget.TextView" unique_id="w16" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="18" value="News"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE id="2" fail="true" date_time="Thu Jan 05 15:01:17 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="MyExpenses" title="My Expenses" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e2">
+                <WIDGET id="-1" name="FAQ" type="android.widget.TextView" unique_id="w17" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="19" value="FAQ"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE id="3" fail="true" date_time="Thu Jan 05 15:03:23 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="MyExpenses" title="My Expenses" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e3">
+                <WIDGET id="-1" name="Privacy policy" type="android.widget.TextView" unique_id="w18" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="20" value="Privacy policy"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE id="4" fail="true" date_time="Thu Jan 05 15:05:53 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="MyExpenses" title="My Expenses" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e4">
+                <WIDGET id="2131165209" name=" - Create transactions from templates&#10; - Character encoding of exported QIF file configurable to support MS Money&#10; - User interface improvements&#10; - Newest transactions on top&#10; - Account list gives overview of financial status" type="android.widget.TextView" unique_id="w21" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="23" value=" - Create transactions from templates&#10; - Character encoding of exported QIF file configurable to support MS Money&#10; - User interface improvements&#10; - Newest transactions on top&#10; - Account list gives overview of financial status"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE id="5" fail="true" date_time="Thu Jan 05 15:08:13 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="MyExpenses" title="My Expenses" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e5">
+                <WIDGET id="-1" name="Changelog" type="android.widget.TextView" unique_id="w22" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="24" value="Changelog"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE id="6" fail="true" date_time="Thu Jan 05 15:10:35 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="MyExpenses" title="My Expenses" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e6">
+                <WIDGET id="-1" name="Credits" type="android.widget.TextView" unique_id="w23" text_type="0" simple_type="text" available="true" clickable="true" long_clickable="true" index="25" value="Credits"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>

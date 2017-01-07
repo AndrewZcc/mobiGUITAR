@@ -1,0 +1,354 @@
+I/androidripper(  840): Preferences file found.
+I/androidripper(  840): Waiting for 1 sec.
+I/androidripper(  840): Current activity is ListLentObjects
+W/androidripper(  840): --->ListLentObjects
+I/androidripper(  840): Retrieving widgets
+E/androidripper(  840): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  840): Starting a new session
+I/androidripper(  840): Saved image on disk: a1.jpg
+I/androidripper(  840): Planning for new Activity ListLentObjects
+I/androidripper(  840): Created trace to press the menu button
+I/androidripper(  840): Created trace to change orientation
+I/androidripper(  840): Dispatching new task. 6 more tasks remaining.
+I/androidripper(  840): Restarting
+I/androidripper(  840): Waiting for 1 sec.
+I/androidripper(  840): Retrieving widgets
+I/androidripper(  840): Playing Trace 0
+I/androidripper(  840): Retrieved from return list id=16908298
+I/androidripper(  840): Firing event: type= selectListItem index=16 widget=android.widget.ListView
+I/androidripper(  840): Swapping to listview item 1
+I/androidripper(  840): Waiting for 1 sec.
+I/androidripper(  840): Current activity is AddObject
+I/androidripper(  840): Retrieving widgets
+E/androidripper(  840): java.lang.NoSuchFieldException: mOnFocusChangeListener
+E/androidripper(  840): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  840): Performing comparation for activity AddObject
+I/androidripper(  840): Registering activity AddObject (id: a2) as a new found state
+I/androidripper(  840): Saved image on disk: a2.jpg
+I/androidripper(  840): Waiting for 1 sec.
+I/androidripper(  840): Session count is 1. Will dump to disk at 1
+I/androidripper(  840): Saving the session on disk. This is the first batch: the file will be created.
+I/androidripper(  840): Planning for new Activity AddObject
+I/androidripper(  840): Created trace to press the back button
+I/androidripper(  840): Created trace to press the menu button
+I/androidripper(  840): Created trace to change orientation
+I/androidripper(  840): Check for pause: 0 steps left of 1
+I/androidripper(  840): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  895): Preferences file found.
+I/androidripper(  895): Waiting for 1 sec.
+I/androidripper(  895): Current activity is ListLentObjects
+W/androidripper(  895): --->ListLentObjects
+I/androidripper(  895): Retrieving widgets
+E/androidripper(  895): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  895): Attempting to resume previous session
+I/androidripper(  895): Reading task file
+I/androidripper(  895): Reading state file
+I/androidripper(  895): Saving the session on disk.
+I/androidripper(  895): Dispatching new task. 17 more tasks remaining.
+I/androidripper(  895): Restarting
+I/androidripper(  895): Waiting for 1 sec.
+I/androidripper(  895): Retrieving widgets
+I/androidripper(  895): Playing Trace 1
+I/androidripper(  895): Retrieved from return list id=16908298
+I/androidripper(  895): Firing event: type= selectListItem index=16 widget=android.widget.ListView
+I/androidripper(  895): Swapping to listview item 2
+I/androidripper(  895): Waiting for 1 sec.
+I/androidripper(  895): Current activity is AddObject
+I/androidripper(  895): Retrieving widgets
+E/androidripper(  895): java.lang.NoSuchFieldException: mOnFocusChangeListener
+E/androidripper(  895): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  895): Performing comparation for activity AddObject
+I/androidripper(  895): Saved image on disk: a3.jpg
+I/androidripper(  895): Waiting for 1 sec.
+I/androidripper(  895): Session count is 1. Will dump to disk at 1
+I/androidripper(  895): Saving the session on disk.
+I/androidripper(  895): Check for pause: 0 steps left of 1
+I/androidripper(  895): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  802): Preferences file found.
+I/androidripper(  802): Waiting for 1 sec.
+I/androidripper(  802): Current activity is ListLentObjects
+W/androidripper(  802): --->ListLentObjects
+I/androidripper(  802): Retrieving widgets
+E/androidripper(  802): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  802): Attempting to resume previous session
+I/androidripper(  802): Reading task file
+I/androidripper(  802): Reading state file
+I/androidripper(  802): Saving the session on disk.
+I/androidripper(  802): Dispatching new task. 16 more tasks remaining.
+I/androidripper(  802): Restarting
+I/androidripper(  802): Waiting for 1 sec.
+I/androidripper(  802): Retrieving widgets
+I/androidripper(  802): Playing Trace 2
+I/androidripper(  802): Retrieved from return list id=16908298
+I/androidripper(  802): Firing event: type= longClickListItem index=16 widget=android.widget.ListView
+I/androidripper(  802): Swapping to listview item 1
+I/androidripper(  802): Waiting for 1 sec.
+I/androidripper(  802): Current activity is ListLentObjects
+I/androidripper(  802): Retrieving widgets
+E/androidripper(  802): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  802): Performing comparation for activity ListLentObjects
+I/androidripper(  802): Registering activity ListLentObjects (id: a4) as a new found state
+I/androidripper(  802): Saved image on disk: a4.jpg
+I/androidripper(  802): Waiting for 1 sec.
+I/androidripper(  802): Session count is 1. Will dump to disk at 1
+I/androidripper(  802): Saving the session on disk.
+I/androidripper(  802): Planning for new Activity ListLentObjects
+I/androidripper(  802): Created trace to press the back button
+I/androidripper(  802): Created trace to press the menu button
+I/androidripper(  802): Created trace to change orientation
+I/androidripper(  802): Check for pause: 0 steps left of 1
+I/androidripper(  802): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  902): Preferences file found.
+I/androidripper(  902): Waiting for 1 sec.
+I/androidripper(  902): Current activity is ListLentObjects
+W/androidripper(  902): --->ListLentObjects
+I/androidripper(  902): Retrieving widgets
+E/androidripper(  902): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  902): Attempting to resume previous session
+I/androidripper(  902): Reading task file
+I/androidripper(  902): Reading state file
+I/androidripper(  902): Saving the session on disk.
+I/androidripper(  902): Dispatching new task. 24 more tasks remaining.
+I/androidripper(  902): Restarting
+I/androidripper(  902): Waiting for 1 sec.
+I/androidripper(  902): Retrieving widgets
+I/androidripper(  902): Playing Trace 3
+I/androidripper(  902): Retrieved from return list id=16908298
+I/androidripper(  902): Firing event: type= longClickListItem index=16 widget=android.widget.ListView
+I/androidripper(  902): Swapping to listview item 2
+I/androidripper(  902): Waiting for 1 sec.
+I/androidripper(  902): Current activity is ListLentObjects
+I/androidripper(  902): Retrieving widgets
+E/androidripper(  902): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  902): Performing comparation for activity ListLentObjects
+I/androidripper(  902): Saved image on disk: a5.jpg
+I/androidripper(  902): Waiting for 1 sec.
+I/androidripper(  902): Session count is 1. Will dump to disk at 1
+I/androidripper(  902): Saving the session on disk.
+I/androidripper(  902): Check for pause: 0 steps left of 1
+I/androidripper(  902): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  834): Preferences file found.
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Current activity is ListLentObjects
+W/androidripper(  834): --->ListLentObjects
+I/androidripper(  834): Retrieving widgets
+E/androidripper(  834): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  834): Attempting to resume previous session
+I/androidripper(  834): Reading task file
+I/androidripper(  834): Reading state file
+I/androidripper(  834): Saving the session on disk.
+I/androidripper(  834): Dispatching new task. 23 more tasks remaining.
+I/androidripper(  834): Restarting
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Retrieving widgets
+I/androidripper(  834): Playing Trace 4
+I/androidripper(  834): Retrieved from return list id=-1
+I/androidripper(  834): Firing event: type= openMenu name= widget=null
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Current activity is ListLentObjects
+I/androidripper(  834): Retrieving widgets
+E/androidripper(  834): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  834): Performing comparation for activity ListLentObjects
+I/androidripper(  834): Registering activity ListLentObjects (id: a6) as a new found state
+I/androidripper(  834): Saved image on disk: a6.jpg
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Session count is 1. Will dump to disk at 1
+I/androidripper(  834): Saving the session on disk.
+I/androidripper(  834): Planning for new Activity ListLentObjects
+I/androidripper(  834): Created trace to press the back button
+I/androidripper(  834): Created trace to press the menu button
+I/androidripper(  834): Created trace to change orientation
+I/androidripper(  834): Check for pause: 0 steps left of 1
+I/androidripper(  834): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  850): Preferences file found.
+I/androidripper(  850): Waiting for 1 sec.
+I/androidripper(  850): Current activity is ListLentObjects
+W/androidripper(  850): --->ListLentObjects
+I/androidripper(  850): Retrieving widgets
+E/androidripper(  850): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  850): Attempting to resume previous session
+I/androidripper(  850): Reading task file
+I/androidripper(  850): Reading state file
+I/androidripper(  850): Saving the session on disk.
+I/androidripper(  850): Dispatching new task. 33 more tasks remaining.
+I/androidripper(  850): Restarting
+I/androidripper(  850): Waiting for 1 sec.
+I/androidripper(  850): Retrieving widgets
+I/androidripper(  850): Playing Trace 5
+I/androidripper(  850): Retrieved from return list id=-1
+I/androidripper(  850): Firing event: type= changeOrientation name= widget=null
+I/androidripper(  850): Waiting for 1 sec.
+I/androidripper(  850): Current activity is ListLentObjects
+I/androidripper(  850): Retrieving widgets
+E/androidripper(  850): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  850): Performing comparation for activity ListLentObjects
+I/androidripper(  850): Saved image on disk: a7.jpg
+I/androidripper(  850): Waiting for 1 sec.
+I/androidripper(  850): Session count is 1. Will dump to disk at 1
+I/androidripper(  850): Saving the session on disk.
+I/androidripper(  850): Check for pause: 0 steps left of 1
+I/androidripper(  850): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  823): Preferences file found.
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Current activity is ListLentObjects
+W/androidripper(  823): --->ListLentObjects
+I/androidripper(  823): Retrieving widgets
+E/androidripper(  823): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  823): Attempting to resume previous session
+I/androidripper(  823): Reading task file
+I/androidripper(  823): Reading state file
+I/androidripper(  823): Saving the session on disk.
+I/androidripper(  823): Dispatching new task. 32 more tasks remaining.
+I/androidripper(  823): Restarting
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Retrieving widgets
+I/androidripper(  823): Playing Trace 6
+I/androidripper(  823): Retrieved from return list id=16908298
+I/androidripper(  823): Firing event: type= selectListItem index=16 widget=android.widget.ListView
+I/androidripper(  823): Swapping to listview item 1
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Current activity is AddObject
+I/androidripper(  823): Retrieving widgets
+I/androidripper(  823): Setting input: type= writeText id=2131165189 value=87
+I/androidripper(  823): Retrieved from return list id=2131165189
+I/androidripper(  823): Setting input: type= writeText id=2131165192 value=11
+I/androidripper(  823): Retrieved from return list id=2131165192
+I/androidripper(  823): Retrieved from return list id=2131165185
+I/androidripper(  823): Firing event: type= click index=18 widget=android.widget.Button
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Current activity is ListLentObjects
+I/androidripper(  823): Retrieving widgets
+E/androidripper(  823): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  823): Performing comparation for activity ListLentObjects
+I/androidripper(  823): Saved image on disk: a8.jpg
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Session count is 1. Will dump to disk at 1
+I/androidripper(  823): Saving the session on disk.
+I/androidripper(  823): Check for pause: 0 steps left of 1
+I/androidripper(  823): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  859): Preferences file found.
+I/androidripper(  859): Waiting for 1 sec.
+I/androidripper(  859): Current activity is ListLentObjects
+W/androidripper(  859): --->ListLentObjects
+I/androidripper(  859): Retrieving widgets
+E/androidripper(  859): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  859): Attempting to resume previous session
+I/androidripper(  859): Reading task file
+I/androidripper(  859): Reading state file
+I/androidripper(  859): Saving the session on disk.
+I/androidripper(  859): Dispatching new task. 31 more tasks remaining.
+I/androidripper(  859): Restarting
+I/androidripper(  859): Waiting for 1 sec.
+I/androidripper(  859): Retrieving widgets
+I/androidripper(  859): Playing Trace 7
+I/androidripper(  859): Retrieved from return list id=16908298
+I/androidripper(  859): Firing event: type= selectListItem index=16 widget=android.widget.ListView
+I/androidripper(  859): Swapping to listview item 1
+I/androidripper(  859): Waiting for 1 sec.
+I/androidripper(  859): Current activity is AddObject
+I/androidripper(  859): Retrieving widgets
+I/androidripper(  859): Setting input: type= writeText id=2131165189 value=87
+I/androidripper(  859): Retrieved from return list id=2131165189
+I/androidripper(  859): Setting input: type= writeText id=2131165192 value=11
+I/androidripper(  859): Retrieved from return list id=2131165192
+I/androidripper(  859): Retrieved from return list id=2131165187
+I/androidripper(  859): Firing event: type= click index=19 widget=android.widget.Button
+I/androidripper(  859): Waiting for 1 sec.
+I/androidripper(  859): Current activity is ListLentObjects
+I/androidripper(  859): Retrieving widgets
+E/androidripper(  859): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  859): Performing comparation for activity ListLentObjects
+I/androidripper(  859): Saved image on disk: a9.jpg
+I/androidripper(  859): Waiting for 1 sec.
+I/androidripper(  859): Session count is 1. Will dump to disk at 1
+I/androidripper(  859): Saving the session on disk.
+I/androidripper(  859): Check for pause: 0 steps left of 1
+I/androidripper(  859): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  591): Preferences file found.
+I/androidripper(  591): Waiting for 1 sec.
+I/androidripper(  591): Current activity is ListLentObjects
+W/androidripper(  591): --->ListLentObjects
+I/androidripper(  591): Retrieving widgets
+E/androidripper(  591): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  591): Attempting to resume previous session
+I/androidripper(  591): Reading task file
+I/androidripper(  591): Reading state file
+I/androidripper(  591): Saving the session on disk.
+I/androidripper(  591): Dispatching new task. 30 more tasks remaining.
+I/androidripper(  591): Restarting
+I/androidripper(  591): Waiting for 1 sec.
+I/androidripper(  591): Retrieving widgets
+I/androidripper(  591): Playing Trace 8
+I/androidripper(  591): Retrieved from return list id=16908298
+I/androidripper(  591): Firing event: type= selectListItem index=16 widget=android.widget.ListView
+I/androidripper(  591): Swapping to listview item 1
+I/androidripper(  591): Waiting for 1 sec.
+I/androidripper(  591): Current activity is AddObject
+I/androidripper(  591): Retrieving widgets
+I/androidripper(  591): Setting input: type= writeText id=2131165189 value=87
+I/androidripper(  591): Retrieved from return list id=2131165189
+I/androidripper(  591): Setting input: type= writeText id=2131165192 value=11
+I/androidripper(  591): Retrieved from return list id=2131165192
+I/androidripper(  591): Retrieved from return list id=2131165190
+I/androidripper(  591): Firing event: type= selectSpinnerItem index=28 widget=android.widget.Spinner
+I/androidripper(  591): Clicking the spinner view
+I/androidripper(  591): Swapping to listview item 1
+I/androidripper(  591): Waiting for 1 sec.
+I/androidripper(  591): Current activity is AddObject
+I/androidripper(  591): Retrieving widgets
+E/androidripper(  591): java.lang.NoSuchFieldException: mOnFocusChangeListener
+E/androidripper(  591): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  591): Performing comparation for activity AddObject
+I/androidripper(  591): Saved image on disk: a10.jpg
+I/androidripper(  591): Waiting for 1 sec.
+I/androidripper(  591): Session count is 1. Will dump to disk at 1
+I/androidripper(  591): Saving the session on disk.
+I/androidripper(  591): Check for pause: 0 steps left of 1
+I/androidripper(  591): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  823): Preferences file found.
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Current activity is ListLentObjects
+W/androidripper(  823): --->ListLentObjects
+I/androidripper(  823): Retrieving widgets
+E/androidripper(  823): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  823): Attempting to resume previous session
+I/androidripper(  823): Reading task file
+I/androidripper(  823): Reading state file
+I/androidripper(  823): Saving the session on disk.
+I/androidripper(  823): Dispatching new task. 29 more tasks remaining.
+I/androidripper(  823): Restarting
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Retrieving widgets
+I/androidripper(  823): Playing Trace 9
+I/androidripper(  823): Retrieved from return list id=16908298
+I/androidripper(  823): Firing event: type= selectListItem index=16 widget=android.widget.ListView
+I/androidripper(  823): Swapping to listview item 1
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Current activity is AddObject
+I/androidripper(  823): Retrieving widgets
+I/androidripper(  823): Setting input: type= writeText id=2131165189 value=87
+I/androidripper(  823): Retrieved from return list id=2131165189
+I/androidripper(  823): Setting input: type= writeText id=2131165192 value=11
+I/androidripper(  823): Retrieved from return list id=2131165192
+I/androidripper(  823): Retrieved from return list id=2131165190
+I/androidripper(  823): Firing event: type= selectSpinnerItem index=28 widget=android.widget.Spinner
+I/androidripper(  823): Clicking the spinner view
+I/androidripper(  823): Swapping to listview item 2
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Current activity is AddObject
+I/androidripper(  823): Retrieving widgets
+E/androidripper(  823): java.lang.NoSuchFieldException: mOnFocusChangeListener
+E/androidripper(  823): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  823): Performing comparation for activity AddObject
+I/androidripper(  823): Saved image on disk: a11.jpg
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Session count is 1. Will dump to disk at 1
+I/androidripper(  823): Saving the session on disk.
+I/androidripper(  823): Check for pause: 0 steps left of 1
+I/androidripper(  823): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  788): Preferences file found.
+I/androidripper(  788): Waiting for 1 sec.

@@ -150,6 +150,9 @@ case  $1  in
     $EMULATORTASK -avd $AVDNAME -partition-size 512 -snapshot $SNAPSHOTPATH -no-snapshot-save &
     #sleep $(WAITFORAVD)
     $ROOT_DIR/waitForEmu.sh
+
+    adb kill-server   ## 重启 adb server 连接
+    adb start-server
     mkdir -p $EXPPATH
     $PLATFORMPATH/adb logcat >> $EXPPATH/log-all.txt &
     $PLATFORMPATH/adb logcat androidripper:i AndroidRuntime:e *:s >> $EXPPATH/log-filtered.txt &
@@ -158,6 +161,7 @@ case  $1  in
     mkdir -p $RESTOREPATH/$extCounter
     mkdir -p $SCREENSHOTSPATH/$extCounter
     mkdir -p $COVERAGEPATH/$extCounter
+
     echo "Playing Session $extCounter"
     echo "Playing Session $extCounter" >> $EXPPATH/test.txt
     echo ""

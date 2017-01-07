@@ -6,9 +6,9 @@
     <node name="it.unina.androidripper">
       <map>
         <entry key="ENABLE_MODEL" value="true"/>
-        <entry key="CLASS_NAME" value="net.mandaria.tippytipper.activities.TippyTipper"/>
+        <entry key="CLASS_NAME" value="org.liberty.android.fantastischmemo.MainTabs"/>
         <entry key="RANDOM_SEED" value="-4244019791393197310"/>
-        <entry key="PACKAGE_NAME" value="net.mandaria.tippytipper"/>
+        <entry key="PACKAGE_NAME" value="org.liberty.android.fantastischmemo"/>
       </map>
       <node name="automation">
         <map>

@@ -1,0 +1,299 @@
+I/androidripper(  823): Preferences file found.
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Current activity is DalvikExplorerActivity
+W/androidripper(  823): --->DalvikExplorerActivity
+I/androidripper(  823): Retrieving widgets
+E/androidripper(  823): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  823): Starting a new session
+I/androidripper(  823): Saved image on disk: a1.jpg
+I/androidripper(  823): Planning for new Activity DalvikExplorerActivity
+I/androidripper(  823): Created trace to press the menu button
+I/androidripper(  823): Created trace to change orientation
+I/androidripper(  823): Dispatching new task. 18 more tasks remaining.
+I/androidripper(  823): Restarting
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Retrieving widgets
+I/androidripper(  823): Playing Trace 0
+I/androidripper(  823): Retrieved from return list id=16908298
+I/androidripper(  823): Firing event: type= selectListItem index=15 widget=android.widget.ListView
+I/androidripper(  823): Swapping to listview item 1
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Current activity is BuildActivity
+I/androidripper(  823): Retrieving widgets
+I/androidripper(  823): Performing comparation for activity BuildActivity
+I/androidripper(  823): Registering activity BuildActivity (id: a2) as a new found state
+I/androidripper(  823): Saved image on disk: a2.jpg
+I/androidripper(  823): Waiting for 1 sec.
+I/androidripper(  823): Session count is 1. Will dump to disk at 1
+I/androidripper(  823): Saving the session on disk. This is the first batch: the file will be created.
+I/androidripper(  823): Planning for new Activity BuildActivity
+I/androidripper(  823): Created trace to press the back button
+I/androidripper(  823): Created trace to press the menu button
+I/androidripper(  823): Created trace to change orientation
+I/androidripper(  823): Check for pause: 0 steps left of 1
+I/androidripper(  823): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  788): Preferences file found.
+I/androidripper(  788): Waiting for 1 sec.
+I/androidripper(  788): Current activity is DalvikExplorerActivity
+W/androidripper(  788): --->DalvikExplorerActivity
+I/androidripper(  788): Retrieving widgets
+E/androidripper(  788): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  788): Attempting to resume previous session
+I/androidripper(  788): Reading task file
+I/androidripper(  788): Reading state file
+I/androidripper(  788): Saving the session on disk.
+I/androidripper(  788): Dispatching new task. 21 more tasks remaining.
+I/androidripper(  788): Restarting
+I/androidripper(  788): Waiting for 1 sec.
+I/androidripper(  788): Retrieving widgets
+I/androidripper(  788): Playing Trace 1
+I/androidripper(  788): Retrieved from return list id=16908298
+I/androidripper(  788): Firing event: type= selectListItem index=15 widget=android.widget.ListView
+I/androidripper(  788): Swapping to listview item 2
+I/androidripper(  788): Waiting for 1 sec.
+I/androidripper(  788): Current activity is CharsetsActivity
+I/androidripper(  788): Retrieving widgets
+E/androidripper(  788): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  788): Performing comparation for activity CharsetsActivity
+I/androidripper(  788): Registering activity CharsetsActivity (id: a3) as a new found state
+I/androidripper(  788): Saved image on disk: a3.jpg
+I/androidripper(  788): Waiting for 1 sec.
+I/androidripper(  788): Session count is 1. Will dump to disk at 1
+I/androidripper(  788): Saving the session on disk.
+I/androidripper(  788): Planning for new Activity CharsetsActivity
+I/androidripper(  788): Created trace to press the back button
+I/androidripper(  788): Created trace to press the menu button
+I/androidripper(  788): Created trace to change orientation
+I/androidripper(  788): Check for pause: 0 steps left of 1
+I/androidripper(  788): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  784): Preferences file found.
+I/androidripper(  784): Waiting for 1 sec.
+I/androidripper(  784): Current activity is DalvikExplorerActivity
+W/androidripper(  784): --->DalvikExplorerActivity
+I/androidripper(  784): Retrieving widgets
+E/androidripper(  784): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  784): Attempting to resume previous session
+I/androidripper(  784): Reading task file
+I/androidripper(  784): Reading state file
+I/androidripper(  784): Saving the session on disk.
+I/androidripper(  784): Dispatching new task. 1004 more tasks remaining.
+I/androidripper(  784): Restarting
+I/androidripper(  784): Waiting for 1 sec.
+I/androidripper(  784): Retrieving widgets
+I/androidripper(  784): Playing Trace 2
+I/androidripper(  784): Retrieved from return list id=16908298
+I/androidripper(  784): Firing event: type= selectListItem index=15 widget=android.widget.ListView
+I/androidripper(  784): Swapping to listview item 3
+I/androidripper(  784): Waiting for 1 sec.
+I/androidripper(  784): Current activity is DeviceActivity
+I/androidripper(  784): Retrieving widgets
+I/androidripper(  784): Performing comparation for activity DeviceActivity
+I/androidripper(  784): Registering activity DeviceActivity (id: a4) as a new found state
+I/androidripper(  784): Saved image on disk: a4.jpg
+I/androidripper(  784): Waiting for 1 sec.
+I/androidripper(  784): Session count is 1. Will dump to disk at 1
+I/androidripper(  784): Saving the session on disk.
+I/androidripper(  784): Planning for new Activity DeviceActivity
+I/androidripper(  784): Created trace to press the back button
+I/androidripper(  784): Created trace to press the menu button
+I/androidripper(  784): Created trace to change orientation
+I/androidripper(  784): Check for pause: 0 steps left of 1
+I/androidripper(  784): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  813): Preferences file found.
+I/androidripper(  813): Waiting for 1 sec.
+I/androidripper(  813): Current activity is DalvikExplorerActivity
+W/androidripper(  813): --->DalvikExplorerActivity
+I/androidripper(  813): Retrieving widgets
+E/androidripper(  813): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  813): Attempting to resume previous session
+I/androidripper(  813): Reading task file
+I/androidripper(  813): Reading state file
+I/androidripper(  813): Saving the session on disk.
+I/androidripper(  813): Dispatching new task. 1007 more tasks remaining.
+I/androidripper(  813): Restarting
+I/androidripper(  813): Waiting for 1 sec.
+I/androidripper(  813): Retrieving widgets
+I/androidripper(  813): Playing Trace 3
+I/androidripper(  813): Retrieved from return list id=16908298
+I/androidripper(  813): Firing event: type= selectListItem index=15 widget=android.widget.ListView
+I/androidripper(  813): Swapping to listview item 4
+I/androidripper(  813): Waiting for 1 sec.
+I/androidripper(  813): Current activity is EnvironmentVariablesActivity
+I/androidripper(  813): Retrieving widgets
+I/androidripper(  813): Performing comparation for activity EnvironmentVariablesActivity
+I/androidripper(  813): Registering activity EnvironmentVariablesActivity (id: a5) as a new found state
+I/androidripper(  813): Saved image on disk: a5.jpg
+I/androidripper(  813): Waiting for 1 sec.
+I/androidripper(  813): Session count is 1. Will dump to disk at 1
+I/androidripper(  813): Saving the session on disk.
+I/androidripper(  813): Planning for new Activity EnvironmentVariablesActivity
+I/androidripper(  813): Created trace to press the back button
+I/androidripper(  813): Created trace to press the menu button
+I/androidripper(  813): Created trace to change orientation
+I/androidripper(  813): Check for pause: 0 steps left of 1
+I/androidripper(  813): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  810): Preferences file found.
+I/androidripper(  810): Waiting for 1 sec.
+I/androidripper(  810): Current activity is DalvikExplorerActivity
+W/androidripper(  810): --->DalvikExplorerActivity
+I/androidripper(  810): Retrieving widgets
+E/androidripper(  810): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  810): Attempting to resume previous session
+I/androidripper(  810): Reading task file
+I/androidripper(  810): Reading state file
+I/androidripper(  810): Saving the session on disk.
+I/androidripper(  810): Dispatching new task. 1010 more tasks remaining.
+I/androidripper(  810): Restarting
+I/androidripper(  810): Waiting for 1 sec.
+I/androidripper(  810): Retrieving widgets
+I/androidripper(  810): Playing Trace 4
+I/androidripper(  810): Retrieved from return list id=16908298
+I/androidripper(  810): Firing event: type= selectListItem index=15 widget=android.widget.ListView
+I/androidripper(  810): Swapping to listview item 5
+I/androidripper(  810): Waiting for 1 sec.
+I/androidripper(  810): Current activity is FileSystemsActivity
+I/androidripper(  810): Retrieving widgets
+E/androidripper(  810): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  810): Performing comparation for activity FileSystemsActivity
+I/androidripper(  810): Registering activity FileSystemsActivity (id: a6) as a new found state
+I/androidripper(  810): Saved image on disk: a6.jpg
+I/androidripper(  810): Waiting for 1 sec.
+I/androidripper(  810): Session count is 1. Will dump to disk at 1
+I/androidripper(  810): Saving the session on disk.
+I/androidripper(  810): Planning for new Activity FileSystemsActivity
+I/androidripper(  810): Created trace to press the back button
+I/androidripper(  810): Created trace to press the menu button
+I/androidripper(  810): Created trace to change orientation
+I/androidripper(  810): Check for pause: 0 steps left of 1
+I/androidripper(  810): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  780): Preferences file found.
+I/androidripper(  780): Waiting for 1 sec.
+I/androidripper(  780): Current activity is DalvikExplorerActivity
+W/androidripper(  780): --->DalvikExplorerActivity
+I/androidripper(  780): Retrieving widgets
+E/androidripper(  780): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  780): Attempting to resume previous session
+I/androidripper(  780): Reading task file
+I/androidripper(  780): Reading state file
+I/androidripper(  780): Saving the session on disk.
+I/androidripper(  780): Dispatching new task. 1031 more tasks remaining.
+I/androidripper(  780): Restarting
+I/androidripper(  780): Waiting for 1 sec.
+I/androidripper(  780): Retrieving widgets
+I/androidripper(  780): Playing Trace 5
+I/androidripper(  780): Retrieved from return list id=16908298
+I/androidripper(  780): Firing event: type= selectListItem index=15 widget=android.widget.ListView
+I/androidripper(  780): Swapping to listview item 6
+I/androidripper(  780): Waiting for 1 sec.
+I/androidripper(  780): Current activity is LocalesActivity
+I/androidripper(  780): Retrieving widgets
+E/androidripper(  780): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  780): Performing comparation for activity LocalesActivity
+I/androidripper(  780): Registering activity LocalesActivity (id: a7) as a new found state
+I/androidripper(  780): Saved image on disk: a7.jpg
+I/androidripper(  780): Waiting for 1 sec.
+I/androidripper(  780): Session count is 1. Will dump to disk at 1
+I/androidripper(  780): Saving the session on disk.
+I/androidripper(  780): Planning for new Activity LocalesActivity
+I/androidripper(  780): Created trace to press the back button
+I/androidripper(  780): Created trace to press the menu button
+I/androidripper(  780): Created trace to change orientation
+I/androidripper(  780): Check for pause: 0 steps left of 1
+I/androidripper(  780): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  834): Preferences file found.
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Current activity is DalvikExplorerActivity
+W/androidripper(  834): --->DalvikExplorerActivity
+I/androidripper(  834): Retrieving widgets
+E/androidripper(  834): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  834): Attempting to resume previous session
+I/androidripper(  834): Reading task file
+I/androidripper(  834): Reading state file
+I/androidripper(  834): Saving the session on disk.
+I/androidripper(  834): Dispatching new task. 1138 more tasks remaining.
+I/androidripper(  834): Restarting
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Retrieving widgets
+I/androidripper(  834): Playing Trace 6
+I/androidripper(  834): Retrieved from return list id=16908298
+I/androidripper(  834): Firing event: type= selectListItem index=15 widget=android.widget.ListView
+I/androidripper(  834): Swapping to listview item 7
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Current activity is SystemPropertiesActivity
+I/androidripper(  834): Retrieving widgets
+I/androidripper(  834): Performing comparation for activity SystemPropertiesActivity
+I/androidripper(  834): Registering activity SystemPropertiesActivity (id: a8) as a new found state
+I/androidripper(  834): Saved image on disk: a8.jpg
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Session count is 1. Will dump to disk at 1
+I/androidripper(  834): Saving the session on disk.
+I/androidripper(  834): Planning for new Activity SystemPropertiesActivity
+I/androidripper(  834): Created trace to press the back button
+I/androidripper(  834): Created trace to press the menu button
+I/androidripper(  834): Created trace to change orientation
+I/androidripper(  834): Check for pause: 0 steps left of 1
+I/androidripper(  834): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  794): Preferences file found.
+I/androidripper(  794): Waiting for 1 sec.
+I/androidripper(  794): Current activity is DalvikExplorerActivity
+W/androidripper(  794): --->DalvikExplorerActivity
+I/androidripper(  794): Retrieving widgets
+E/androidripper(  794): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  794): Attempting to resume previous session
+I/androidripper(  794): Reading task file
+I/androidripper(  794): Reading state file
+I/androidripper(  794): Saving the session on disk.
+I/androidripper(  794): Dispatching new task. 1141 more tasks remaining.
+I/androidripper(  794): Restarting
+I/androidripper(  794): Waiting for 1 sec.
+I/androidripper(  794): Retrieving widgets
+I/androidripper(  794): Playing Trace 7
+I/androidripper(  794): Retrieved from return list id=16908298
+I/androidripper(  794): Firing event: type= selectListItem index=15 widget=android.widget.ListView
+I/androidripper(  794): Swapping to listview item 8
+I/androidripper(  794): Waiting for 1 sec.
+I/androidripper(  794): Current activity is TimeZonesActivity
+I/androidripper(  794): Retrieving widgets
+E/androidripper(  794): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  794): Performing comparation for activity TimeZonesActivity
+I/androidripper(  794): Registering activity TimeZonesActivity (id: a9) as a new found state
+I/androidripper(  794): Saved image on disk: a9.jpg
+I/androidripper(  794): Waiting for 1 sec.
+I/androidripper(  794): Session count is 1. Will dump to disk at 1
+I/androidripper(  794): Saving the session on disk.
+I/androidripper(  794): Planning for new Activity TimeZonesActivity
+I/androidripper(  773): Preferences file found.
+I/androidripper(  773): Waiting for 1 sec.
+I/androidripper(  773): Current activity is DalvikExplorerActivity
+W/androidripper(  773): --->DalvikExplorerActivity
+I/androidripper(  773): Retrieving widgets
+E/androidripper(  773): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  773): Attempting to resume previous session
+I/androidripper(  773): Reading task file
+I/androidripper(  773): Reading state file
+I/androidripper(  773): Saving the session on disk.
+I/androidripper(  773): Dispatching new task. 1140 more tasks remaining.
+I/androidripper(  773): Restarting
+I/androidripper(  773): Waiting for 1 sec.
+I/androidripper(  773): Retrieving widgets
+I/androidripper(  773): Playing Trace 8
+I/androidripper(  773): Retrieved from return list id=16908298
+I/androidripper(  773): Firing event: type= longClickListItem index=15 widget=android.widget.ListView
+I/androidripper(  773): Swapping to listview item 1
+I/androidripper(  773): Waiting for 1 sec.
+I/androidripper(  773): Current activity is BuildActivity
+I/androidripper(  773): Retrieving widgets
+I/androidripper(  773): Performing comparation for activity BuildActivity
+I/androidripper(  773): Saved image on disk: a9.jpg
+I/androidripper(  773): Waiting for 1 sec.
+I/androidripper(  773): Session count is 1. Will dump to disk at 1
+I/androidripper(  773): Saving the session on disk.
+I/androidripper(  773): Check for pause: 0 steps left of 1
+I/androidripper(  773): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'

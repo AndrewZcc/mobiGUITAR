@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SESSION PUBLIC "SESSION" "guitree.dtd">
+<SESSION date_time="Thu Jan 05 13:03:27 GMT 2017" app="ApplicationInfo{40cd0f20 es.senselesssolutions.gpl.weightchart}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="es.senselesssolutions.gpl.weightchart.ChartActivity" package_name="es.senselesssolutions.gpl.weightchart" comparation_widgets="editText,button,menu,dialog,listView,singleChoiceList,multiChoiceList,webPage,tabHost,image,text,searchBar,autoCText" in_and_out_focus="true" end_task_sleep="1000" random_seed="-4244019791393197310" max_depth="0" state_file="activities.xml">
+    <TRACE id="0" fail="false" date_time="Thu Jan 05 13:03:36 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e0" value="1" desc="kilogram">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w8" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="3"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="1" fail="false" date_time="Thu Jan 05 13:05:41 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e1" value="2" desc="pound">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w8" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="3"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a3" screenshot="a3.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="2" fail="false" date_time="Thu Jan 05 13:08:13 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e2" value="3" desc="stone">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w8" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="3"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ChartActivity" title="Weight Chart" id="a4" unique_id="a4" screenshot="a4.jpg">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="3" fail="true" date_time="Thu Jan 05 13:10:27 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" id="e3" value="1">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w8" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="3"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE id="4" fail="true" date_time="Thu Jan 05 13:13:00 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" id="e4" value="2">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w8" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="3"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE id="5" fail="true" date_time="Thu Jan 05 13:16:36 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" id="e5" value="3">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w8" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="3"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE id="6" fail="false" date_time="Thu Jan 05 13:18:49 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e6">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ChartActivity" title="Weight Chart" id="a5" unique_id="a5" screenshot="a5.jpg">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="7" fail="false" date_time="Thu Jan 05 13:21:12 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e7">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ChartActivity" title="Weight Chart" id="a6" unique_id="a6" screenshot="a6.jpg">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE fail="true" async="false" id="8" date_time="Thu Jan 05 13:23:37 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="3" id="e2" desc="stone">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w8" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="3"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ChartActivity" title="Weight Chart" id="a4" unique_id="a4" screenshot="a4.jpg">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a4" unique_id="a4" screenshot="a4.jpg">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e8" value="1">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w47" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+    <TRACE fail="true" async="false" id="9" date_time="Thu Jan 05 13:26:02 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="3" id="e2" desc="stone">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w8" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="3"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ChartActivity" title="Weight Chart" id="a4" unique_id="a4" screenshot="a4.jpg">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ChartActivity" title="Weight Chart" id="a4" unique_id="a4" screenshot="a4.jpg">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e9" value="2">
+                <WIDGET id="16909165" name="" type="com.android.internal.app.AlertController$RecycleListView" unique_id="w47" text_type="0" simple_type="singleChoiceList" available="true" clickable="true" long_clickable="false" index="9" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="fail" id="fail" title="fail">
+                <DESCRIPTION/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>

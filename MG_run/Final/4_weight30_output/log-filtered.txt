@@ -1,0 +1,277 @@
+I/androidripper(  829): Preferences file found.
+I/androidripper(  829): Waiting for 1 sec.
+I/androidripper(  829): Current activity is ChartActivity
+W/androidripper(  829): --->ChartActivity
+I/androidripper(  829): Retrieving widgets
+E/androidripper(  829): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  829): Starting a new session
+I/androidripper(  829): Saved image on disk: a1.jpg
+I/androidripper(  829): Planning for new Activity ChartActivity
+I/androidripper(  829): Created trace to press the menu button
+I/androidripper(  829): Created trace to change orientation
+I/androidripper(  829): Dispatching new task. 8 more tasks remaining.
+I/androidripper(  829): Restarting
+I/androidripper(  829): Waiting for 1 sec.
+I/androidripper(  829): Retrieving widgets
+I/androidripper(  829): Playing Trace 0
+I/androidripper(  829): Retrieved from return list id=16909165
+I/androidripper(  829): Firing event: type= selectListItem index=9 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  829): Swapping to listview item 1
+I/androidripper(  829): Waiting for 1 sec.
+I/androidripper(  829): Current activity is ChartActivity
+I/androidripper(  829): Retrieving widgets
+E/androidripper(  829): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  829): Performing comparation for activity ChartActivity
+I/androidripper(  829): Saved image on disk: a2.jpg
+I/androidripper(  829): Waiting for 1 sec.
+I/androidripper(  829): Session count is 1. Will dump to disk at 1
+I/androidripper(  829): Saving the session on disk. This is the first batch: the file will be created.
+I/androidripper(  829): Check for pause: 0 steps left of 1
+I/androidripper(  829): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  818): Preferences file found.
+I/androidripper(  818): Waiting for 1 sec.
+I/androidripper(  818): Current activity is ChartActivity
+W/androidripper(  818): --->ChartActivity
+I/androidripper(  818): Retrieving widgets
+E/androidripper(  818): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  818): Attempting to resume previous session
+I/androidripper(  818): Reading task file
+I/androidripper(  818): Reading state file
+I/androidripper(  818): Saving the session on disk.
+I/androidripper(  818): Dispatching new task. 7 more tasks remaining.
+I/androidripper(  818): Restarting
+I/androidripper(  818): Waiting for 1 sec.
+I/androidripper(  818): Retrieving widgets
+I/androidripper(  818): Playing Trace 1
+I/androidripper(  818): Retrieved from return list id=16909165
+I/androidripper(  818): Firing event: type= selectListItem index=9 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  818): Swapping to listview item 2
+I/androidripper(  818): Waiting for 1 sec.
+I/androidripper(  818): Current activity is ChartActivity
+I/androidripper(  818): Retrieving widgets
+E/androidripper(  818): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  818): Performing comparation for activity ChartActivity
+I/androidripper(  818): Saved image on disk: a3.jpg
+I/androidripper(  818): Waiting for 1 sec.
+I/androidripper(  818): Session count is 1. Will dump to disk at 1
+I/androidripper(  818): Saving the session on disk.
+I/androidripper(  818): Check for pause: 0 steps left of 1
+I/androidripper(  818): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  862): Preferences file found.
+I/androidripper(  862): Waiting for 1 sec.
+I/androidripper(  862): Current activity is ChartActivity
+W/androidripper(  862): --->ChartActivity
+I/androidripper(  862): Retrieving widgets
+E/androidripper(  862): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  862): Attempting to resume previous session
+I/androidripper(  862): Reading task file
+I/androidripper(  862): Reading state file
+I/androidripper(  862): Saving the session on disk.
+I/androidripper(  862): Dispatching new task. 6 more tasks remaining.
+I/androidripper(  862): Restarting
+I/androidripper(  862): Waiting for 1 sec.
+I/androidripper(  862): Retrieving widgets
+I/androidripper(  862): Playing Trace 2
+I/androidripper(  862): Retrieved from return list id=16909165
+I/androidripper(  862): Firing event: type= selectListItem index=9 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  862): Swapping to listview item 3
+I/androidripper(  862): Waiting for 1 sec.
+I/androidripper(  862): Current activity is ChartActivity
+I/androidripper(  862): Retrieving widgets
+E/androidripper(  862): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  862): Performing comparation for activity ChartActivity
+I/androidripper(  862): Registering activity ChartActivity (id: a4) as a new found state
+I/androidripper(  862): Saved image on disk: a4.jpg
+I/androidripper(  862): Waiting for 1 sec.
+I/androidripper(  862): Session count is 1. Will dump to disk at 1
+I/androidripper(  862): Saving the session on disk.
+I/androidripper(  862): Planning for new Activity ChartActivity
+I/androidripper(  862): Created trace to press the back button
+I/androidripper(  862): Created trace to press the menu button
+I/androidripper(  862): Created trace to change orientation
+I/androidripper(  862): Check for pause: 0 steps left of 1
+I/androidripper(  862): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  798): Preferences file found.
+I/androidripper(  798): Waiting for 1 sec.
+I/androidripper(  798): Current activity is ChartActivity
+W/androidripper(  798): --->ChartActivity
+I/androidripper(  798): Retrieving widgets
+I/androidripper(  798): Attempting to resume previous session
+I/androidripper(  798): Reading task file
+I/androidripper(  798): Reading state file
+I/androidripper(  798): Saving the session on disk.
+I/androidripper(  798): Dispatching new task. 13 more tasks remaining.
+I/androidripper(  798): Restarting
+I/androidripper(  798): Waiting for 1 sec.
+I/androidripper(  798): Retrieving widgets
+I/androidripper(  798): Playing Trace 3
+I/androidripper(  798): Firing event: type= longClickListItem id=16909165 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  798): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  699): Preferences file found.
+I/androidripper(  699): Waiting for 1 sec.
+I/androidripper(  699): Current activity is ChartActivity
+W/androidripper(  699): --->ChartActivity
+I/androidripper(  699): Retrieving widgets
+I/androidripper(  699): Attempting to resume previous session
+I/androidripper(  699): Reading task file
+I/androidripper(  699): Reading state file
+I/androidripper(  699): Saving the session on disk.
+I/androidripper(  699): Dispatching new task. 12 more tasks remaining.
+I/androidripper(  699): Restarting
+I/androidripper(  699): Waiting for 1 sec.
+I/androidripper(  699): Retrieving widgets
+I/androidripper(  699): Playing Trace 4
+I/androidripper(  699): Firing event: type= longClickListItem id=16909165 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  699): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  783): Preferences file found.
+I/androidripper(  783): Waiting for 1 sec.
+I/androidripper(  783): Current activity is ChartActivity
+W/androidripper(  783): --->ChartActivity
+I/androidripper(  783): Retrieving widgets
+I/androidripper(  783): Attempting to resume previous session
+I/androidripper(  783): Reading task file
+I/androidripper(  783): Reading state file
+I/androidripper(  783): Saving the session on disk.
+I/androidripper(  783): Dispatching new task. 11 more tasks remaining.
+I/androidripper(  783): Restarting
+I/androidripper(  783): Waiting for 1 sec.
+I/androidripper(  783): Retrieving widgets
+I/androidripper(  783): Playing Trace 5
+I/androidripper(  783): Firing event: type= longClickListItem id=16909165 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  783): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  795): Preferences file found.
+I/androidripper(  795): Waiting for 1 sec.
+I/androidripper(  795): Current activity is ChartActivity
+W/androidripper(  795): --->ChartActivity
+I/androidripper(  795): Retrieving widgets
+I/androidripper(  795): Attempting to resume previous session
+I/androidripper(  795): Reading task file
+I/androidripper(  795): Reading state file
+I/androidripper(  795): Saving the session on disk.
+I/androidripper(  795): Dispatching new task. 10 more tasks remaining.
+I/androidripper(  795): Restarting
+I/androidripper(  795): Waiting for 1 sec.
+I/androidripper(  795): Retrieving widgets
+I/androidripper(  795): Playing Trace 6
+I/androidripper(  795): Retrieved from return list id=-1
+I/androidripper(  795): Firing event: type= openMenu name= widget=null
+I/androidripper(  795): Waiting for 1 sec.
+I/androidripper(  795): Current activity is ChartActivity
+I/androidripper(  795): Retrieving widgets
+E/androidripper(  795): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  795): Performing comparation for activity ChartActivity
+I/androidripper(  795): Registering activity ChartActivity (id: a5) as a new found state
+I/androidripper(  795): Saved image on disk: a5.jpg
+I/androidripper(  795): Waiting for 1 sec.
+I/androidripper(  795): Session count is 1. Will dump to disk at 1
+I/androidripper(  795): Saving the session on disk.
+I/androidripper(  795): Planning for new Activity ChartActivity
+I/androidripper(  795): Created trace to press the back button
+I/androidripper(  795): Created trace to press the menu button
+I/androidripper(  795): Created trace to change orientation
+I/androidripper(  795): Check for pause: 0 steps left of 1
+I/androidripper(  795): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  811): Preferences file found.
+I/androidripper(  811): Waiting for 1 sec.
+I/androidripper(  811): Current activity is ChartActivity
+W/androidripper(  811): --->ChartActivity
+I/androidripper(  811): Retrieving widgets
+I/androidripper(  811): Attempting to resume previous session
+I/androidripper(  811): Reading task file
+I/androidripper(  811): Reading state file
+I/androidripper(  811): Saving the session on disk.
+I/androidripper(  811): Dispatching new task. 18 more tasks remaining.
+I/androidripper(  811): Restarting
+I/androidripper(  811): Waiting for 1 sec.
+I/androidripper(  811): Retrieving widgets
+I/androidripper(  811): Playing Trace 7
+I/androidripper(  811): Retrieved from return list id=-1
+I/androidripper(  811): Firing event: type= changeOrientation name= widget=null
+I/androidripper(  811): Waiting for 1 sec.
+I/androidripper(  811): Current activity is ChartActivity
+I/androidripper(  811): Retrieving widgets
+I/androidripper(  811): Performing comparation for activity ChartActivity
+I/androidripper(  811): Registering activity ChartActivity (id: a6) as a new found state
+I/androidripper(  811): Saved image on disk: a6.jpg
+I/androidripper(  811): Waiting for 1 sec.
+I/androidripper(  811): Session count is 1. Will dump to disk at 1
+I/androidripper(  811): Saving the session on disk.
+I/androidripper(  811): Planning for new Activity ChartActivity
+I/androidripper(  811): Created trace to press the back button
+I/androidripper(  811): Created trace to press the menu button
+I/androidripper(  811): Created trace to change orientation
+I/androidripper(  811): Check for pause: 0 steps left of 1
+I/androidripper(  811): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  832): Preferences file found.
+I/androidripper(  832): Waiting for 1 sec.
+I/androidripper(  832): Current activity is ChartActivity
+W/androidripper(  832): --->ChartActivity
+I/androidripper(  832): Retrieving widgets
+I/androidripper(  832): Attempting to resume previous session
+I/androidripper(  832): Reading task file
+I/androidripper(  832): Reading state file
+I/androidripper(  832): Saving the session on disk.
+I/androidripper(  832): Dispatching new task. 20 more tasks remaining.
+I/androidripper(  832): Restarting
+I/androidripper(  832): Waiting for 1 sec.
+I/androidripper(  832): Retrieving widgets
+I/androidripper(  832): Playing Trace 8
+I/androidripper(  832): Firing event: type= selectListItem id=16909165 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  832): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  844): Preferences file found.
+I/androidripper(  844): Waiting for 1 sec.
+I/androidripper(  844): Current activity is ChartActivity
+W/androidripper(  844): --->ChartActivity
+I/androidripper(  844): Retrieving widgets
+I/androidripper(  844): Attempting to resume previous session
+I/androidripper(  844): Reading task file
+I/androidripper(  844): Reading state file
+I/androidripper(  844): Saving the session on disk.
+I/androidripper(  844): Dispatching new task. 19 more tasks remaining.
+I/androidripper(  844): Restarting
+I/androidripper(  844): Waiting for 1 sec.
+I/androidripper(  844): Retrieving widgets
+I/androidripper(  844): Playing Trace 9
+I/androidripper(  844): Firing event: type= selectListItem id=16909165 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  844): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  831): Preferences file found.
+I/androidripper(  831): Waiting for 1 sec.
+I/androidripper(  831): Current activity is ChartActivity
+W/androidripper(  831): --->ChartActivity
+I/androidripper(  831): Retrieving widgets
+I/androidripper(  831): Attempting to resume previous session
+I/androidripper(  831): Reading task file
+I/androidripper(  831): Reading state file
+I/androidripper(  831): Saving the session on disk.
+I/androidripper(  831): Dispatching new task. 18 more tasks remaining.
+I/androidripper(  831): Restarting
+I/androidripper(  831): Waiting for 1 sec.
+I/androidripper(  831): Retrieving widgets
+I/androidripper(  831): Playing Trace 10
+I/androidripper(  831): Firing event: type= selectListItem id=16909165 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  831): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  755): Preferences file found.
+I/androidripper(  755): Waiting for 1 sec.
+I/androidripper(  755): Current activity is ChartActivity
+W/androidripper(  755): --->ChartActivity
+I/androidripper(  755): Retrieving widgets
+I/androidripper(  755): Attempting to resume previous session
+I/androidripper(  755): Reading task file
+I/androidripper(  755): Reading state file
+I/androidripper(  755): Saving the session on disk.
+I/androidripper(  755): Dispatching new task. 17 more tasks remaining.
+I/androidripper(  755): Restarting
+I/androidripper(  755): Waiting for 1 sec.
+I/androidripper(  755): Retrieving widgets
+I/androidripper(  755): Playing Trace 11
+I/androidripper(  755): Firing event: type= selectListItem id=16909165 widget=com.android.internal.app.AlertController$RecycleListView
+I/androidripper(  755): Saving the session on disk. This is the last batch. The session will be terminated.

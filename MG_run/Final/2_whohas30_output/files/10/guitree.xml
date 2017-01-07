@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SESSION PUBLIC "SESSION" "guitree.dtd">
+<SESSION date_time="Thu Jan 05 10:50:18 GMT 2017" app="ApplicationInfo{40cd0fe8 de.freewarepoint.whohasmystuff}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="de.freewarepoint.whohasmystuff.ListLentObjects" package_name="de.freewarepoint.whohasmystuff" comparation_widgets="editText,button,menu,dialog,listView,singleChoiceList,multiChoiceList,webPage,tabHost,image,text,searchBar,autoCText" in_and_out_focus="true" end_task_sleep="1000" random_seed="-4244019791393197310" max_depth="0" state_file="activities.xml">
+    <TRACE id="0" fail="false" date_time="Thu Jan 05 10:50:24 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e0" value="1" desc="Example entry">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w12" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="16" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="1" fail="false" date_time="Thu Jan 05 10:53:15 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e1" value="2" desc="Press menu button to add entries">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w12" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="16" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a3" screenshot="a3.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="2" fail="false" date_time="Thu Jan 05 10:55:24 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" id="e2" value="1" desc="Example entry">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w12" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="16" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a4" unique_id="a4" screenshot="a4.jpg">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="3" fail="false" date_time="Thu Jan 05 10:58:09 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="longClickListItem" id="e3" value="2" desc="Press menu button to add entries">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w12" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="16" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a4" unique_id="a5" screenshot="a5.jpg">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="4" fail="false" date_time="Thu Jan 05 11:00:39 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e4">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a6" unique_id="a6" screenshot="a6.jpg">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="5" fail="false" date_time="Thu Jan 05 11:03:06 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="changeOrientation" id="e5">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a7" screenshot="a7.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE fail="false" async="false" id="6" date_time="Thu Jan 05 11:05:24 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e0" desc="Example entry">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w12" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="16" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS>
+                <INPUT value="87" type="writeText" id="i0">
+                    <WIDGET id="2131165189" name="" type="android.widget.EditText" unique_id="w45" text_type="1" simple_type="editText" available="true" clickable="true" long_clickable="true" index="25" value="Example entry"/>
+                </INPUT>
+                <INPUT value="11" type="writeText" id="i1">
+                    <WIDGET id="2131165192" name="" type="android.widget.EditText" unique_id="w56" text_type="97" simple_type="editText" available="true" clickable="true" long_clickable="true" index="36" value="&quot;Who Has My Stuff?&quot; Test User"/>
+                </INPUT>
+            </INPUTS>
+            <EVENT type="click" id="e6" desc="Save changes">
+                <WIDGET id="2131165185" name="Save changes" type="android.widget.Button" unique_id="w39" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="18" value="Save changes"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a8" screenshot="a8.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE fail="false" async="false" id="7" date_time="Thu Jan 05 11:07:58 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e0" desc="Press menu button to add entries">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w12" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="16" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS>
+                <INPUT value="87" type="writeText" id="i2">
+                    <WIDGET id="2131165189" name="" type="android.widget.EditText" unique_id="w45" text_type="1" simple_type="editText" available="true" clickable="true" long_clickable="true" index="25" value="Example entry"/>
+                </INPUT>
+                <INPUT value="11" type="writeText" id="i3">
+                    <WIDGET id="2131165192" name="" type="android.widget.EditText" unique_id="w56" text_type="97" simple_type="editText" available="true" clickable="true" long_clickable="true" index="36" value="&quot;Who Has My Stuff?&quot; Test User"/>
+                </INPUT>
+            </INPUTS>
+            <EVENT type="click" id="e7" desc="Mark as Returned">
+                <WIDGET id="2131165187" name="Mark as Returned" type="android.widget.Button" unique_id="w40" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="19" value="Mark as Returned"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a9" screenshot="a9.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE fail="false" async="false" id="8" date_time="Thu Jan 05 11:11:24 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e0" desc="87">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w12" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="16" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS>
+                <INPUT value="87" type="writeText" id="i4">
+                    <WIDGET id="2131165189" name="" type="android.widget.EditText" unique_id="w45" text_type="1" simple_type="editText" available="true" clickable="true" long_clickable="true" index="25" value="Example entry"/>
+                </INPUT>
+                <INPUT value="11" type="writeText" id="i5">
+                    <WIDGET id="2131165192" name="" type="android.widget.EditText" unique_id="w56" text_type="97" simple_type="editText" available="true" clickable="true" long_clickable="true" index="36" value="&quot;Who Has My Stuff?&quot; Test User"/>
+                </INPUT>
+            </INPUTS>
+            <EVENT type="selectSpinnerItem" id="e8" value="1" desc="Other">
+                <WIDGET id="2131165190" name="" type="android.widget.Spinner" unique_id="w48" text_type="0" simple_type="spinner" available="true" clickable="true" long_clickable="false" index="28" value="" count="5"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a10" screenshot="a10.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE fail="false" async="false" id="9" date_time="Thu Jan 05 11:15:41 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="ListLentObjects" title="Who Has My Stuff?" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e0" desc="87">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w12" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="16" value="" count="2"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS>
+                <INPUT value="87" type="writeText" id="i6">
+                    <WIDGET id="2131165189" name="" type="android.widget.EditText" unique_id="w45" text_type="1" simple_type="editText" available="true" clickable="true" long_clickable="true" index="25" value="Example entry"/>
+                </INPUT>
+                <INPUT value="11" type="writeText" id="i7">
+                    <WIDGET id="2131165192" name="" type="android.widget.EditText" unique_id="w56" text_type="97" simple_type="editText" available="true" clickable="true" long_clickable="true" index="36" value="&quot;Who Has My Stuff?&quot; Test User"/>
+                </INPUT>
+            </INPUTS>
+            <EVENT type="selectSpinnerItem" id="e9" value="2" desc="Book">
+                <WIDGET id="2131165190" name="" type="android.widget.Spinner" unique_id="w48" text_type="0" simple_type="spinner" available="true" clickable="true" long_clickable="false" index="28" value="" count="5"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="AddObject" title="Edit Lent Item" id="a2" unique_id="a11" screenshot="a11.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SESSION PUBLIC "SESSION" "guitree.dtd">
+<SESSION date_time="Thu Jan 05 12:28:42 GMT 2017" app="ApplicationInfo{40cd0ef8 org.jessies.dalvikexplorer}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="org.jessies.dalvikexplorer.DalvikExplorerActivity" package_name="org.jessies.dalvikexplorer" comparation_widgets="editText,button,menu,dialog,listView,singleChoiceList,multiChoiceList,webPage,tabHost,image,text,searchBar,autoCText" in_and_out_focus="true" end_task_sleep="1000" random_seed="-4244019791393197310" max_depth="0" state_file="activities.xml">
+    <TRACE id="0" fail="false" date_time="Thu Jan 05 12:28:50 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e0" value="1" desc="Build Details">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="BuildActivity" title="Build Details" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="1" fail="false" date_time="Thu Jan 05 12:31:20 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e1" value="2" desc="Charsets">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="CharsetsActivity" title="Charsets (490)" id="a3" unique_id="a3" screenshot="a3.jpg">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+

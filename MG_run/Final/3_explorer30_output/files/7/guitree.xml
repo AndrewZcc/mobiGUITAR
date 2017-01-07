@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SESSION PUBLIC "SESSION" "guitree.dtd">
+<SESSION date_time="Thu Jan 05 12:28:42 GMT 2017" app="ApplicationInfo{40cd0ef8 org.jessies.dalvikexplorer}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="org.jessies.dalvikexplorer.DalvikExplorerActivity" package_name="org.jessies.dalvikexplorer" comparation_widgets="editText,button,menu,dialog,listView,singleChoiceList,multiChoiceList,webPage,tabHost,image,text,searchBar,autoCText" in_and_out_focus="true" end_task_sleep="1000" random_seed="-4244019791393197310" max_depth="0" state_file="activities.xml">
+    <TRACE id="0" fail="false" date_time="Thu Jan 05 12:28:50 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e0" value="1" desc="Build Details">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="BuildActivity" title="Build Details" id="a2" unique_id="a2" screenshot="a2.jpg">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="1" fail="false" date_time="Thu Jan 05 12:31:20 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e1" value="2" desc="Charsets">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="CharsetsActivity" title="Charsets (490)" id="a3" unique_id="a3" screenshot="a3.jpg">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="2" fail="false" date_time="Thu Jan 05 12:35:39 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e2" value="3" desc="Device Details">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="DeviceActivity" title="Device Details" id="a4" unique_id="a4" screenshot="a4.jpg">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="3" fail="false" date_time="Thu Jan 05 12:38:31 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e3" value="4" desc="Environment Variables">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="EnvironmentVariablesActivity" title="Environment Variables (13)" id="a5" unique_id="a5" screenshot="a5.jpg">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="4" fail="false" date_time="Thu Jan 05 12:41:35 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e4" value="5" desc="File Systems">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="FileSystemsActivity" title="File Systems (9)" id="a6" unique_id="a6" screenshot="a6.jpg">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="5" fail="false" date_time="Thu Jan 05 12:45:09 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e5" value="6" desc="Locales">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="LocalesActivity" title="Languages (51)" id="a7" unique_id="a7" screenshot="a7.jpg">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+
+
+    <TRACE id="6" fail="false" date_time="Thu Jan 05 12:48:23 GMT 2017">
+        <TRANSITION>
+            <START_ACTIVITY name="DalvikExplorerActivity" title="Dalvik Explorer" id="a1" unique_id="a1" screenshot="a1.jpg">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e6" value="7" desc="System Properties">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w11" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="false" index="15" value="" count="8"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="SystemPropertiesActivity" title="System Properties (40)" id="a8" unique_id="a8" screenshot="a8.jpg">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+

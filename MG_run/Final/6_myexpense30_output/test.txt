@@ -1,0 +1,352 @@
+Playing Session 1
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 27.235
+
+OK (1 test)
+
+
+End of Session 1
+Playing Session 2
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:202)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:151)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 9.285
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 2
+Playing Session 3
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:202)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:151)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 8.466
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 3
+Playing Session 4
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:202)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:151)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 8.764
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 4
+Playing Session 5
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:181)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:154)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 8.455
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 5
+Playing Session 6
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:202)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:151)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 8.229
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 6
+Playing Session 7
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:202)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:151)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 8.262
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 7
+Playing Session 8
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:181)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:154)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 8.197
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 8
+Playing Session 9
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:181)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:154)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 8.349
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 9
+Playing Session 10
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:181)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:154)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 8.774
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 10
+Playing Session 11
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:
+Failure in testAndCrawl:
+junit.framework.AssertionFailedError: Cannot click: the widget does not exist
+	at it.unina.androidripper.automation.RobotUtilities.assertNotNull(RobotUtilities.java:303)
+	at it.unina.androidripper.automation.RobotUtilities.click(RobotUtilities.java:47)
+	at it.unina.androidripper.automation.Automation.injectInteraction(Automation.java:219)
+	at it.unina.androidripper.automation.Automation.fireEventOnView(Automation.java:206)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:181)
+	at it.unina.androidripper.automation.Automation.fireEvent(Automation.java:154)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:119)
+	at it.unina.androidripper.automation.Automation.process(Automation.java:111)
+	at it.unina.androidripper.Engine.process(Engine.java:94)
+	at it.unina.androidripper.Engine.testAndCrawl(Engine.java:73)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+	at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+
+Test results for InstrumentationTestRunner=.F
+Time: 9.022
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+End of Session 11
+Playing Session 12
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 12.338
+
+OK (1 test)
+
+
+End of Session 12

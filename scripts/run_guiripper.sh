@@ -56,13 +56,14 @@ for p in `cat $DIR/projects2.txt`; do
   cd $TOOLDIR
   date1=$(date +"%s")
   #timeout 1h bash -x run.sh ripper systematic apks/$apkName &> $RESULTDIR$p/tool.log
-  gtimeout 600 bash -x run.sh ripper systematic apks/$apkName > $RESULTDIR$p/tool.log
+  gtimeout 1800 bash -x run.sh ripper systematic apks/$apkName > $RESULTDIR$p/tool.log
   date2=$(date +"%s")
   diff=$(($date2-$date1))
   echo "Performed ripping for $(($diff / 60)) minutes and $(($diff % 60)) seconds."  
 
   echo "** COPY REPORTS"
-  cp -r $TOOLDIR/output-exp $RESULTDIR$p/
+  rm -rf $RESULTDIR$p/                      # 先清空原有覆盖数据
+  cp -r $TOOLDIR/output-exp $RESULTDIR$p/   # 再重新拷贝运行结果数据
 
   echo "-- FINISHED GUI RIPPER -- "
   #adb shell am broadcast -a edu.gatech.m3.emma.COLLECT_COVERAGE

@@ -1,0 +1,242 @@
+I/androidripper(  802): Preferences file found.
+I/androidripper(  802): Waiting for 1 sec.
+I/androidripper(  802): Current activity is MyExpenses
+W/androidripper(  802): --->MyExpenses
+I/androidripper(  802): Retrieving widgets
+I/androidripper(  802): Starting a new session
+I/androidripper(  802): Saved image on disk: a1.jpg
+I/androidripper(  802): Planning for new Activity MyExpenses
+I/androidripper(  802): Created trace to press the menu button
+I/androidripper(  802): Created trace to change orientation
+I/androidripper(  802): Dispatching new task. 13 more tasks remaining.
+I/androidripper(  802): Restarting
+I/androidripper(  802): Waiting for 1 sec.
+I/androidripper(  802): Retrieving widgets
+I/androidripper(  802): Playing Trace 0
+I/androidripper(  802): Retrieved from return list id=2131165207
+I/androidripper(  802): Firing event: type= click index=17 widget=android.widget.TextView
+I/androidripper(  802): Waiting for 1 sec.
+I/androidripper(  802): Current activity is MyExpenses
+I/androidripper(  802): Retrieving widgets
+I/androidripper(  802): Performing comparation for activity MyExpenses
+I/androidripper(  802): Registering activity MyExpenses (id: a2) as a new found state
+I/androidripper(  802): Saved image on disk: a2.jpg
+I/androidripper(  802): Waiting for 1 sec.
+I/androidripper(  802): Session count is 1. Will dump to disk at 1
+I/androidripper(  802): Saving the session on disk. This is the first batch: the file will be created.
+I/androidripper(  802): Planning for new Activity MyExpenses
+I/androidripper(  802): Created trace to press the back button
+I/androidripper(  802): Created trace to press the menu button
+I/androidripper(  802): Created trace to change orientation
+I/androidripper(  802): Check for pause: 0 steps left of 1
+I/androidripper(  802): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  834): Preferences file found.
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Current activity is MyExpenses
+W/androidripper(  834): --->MyExpenses
+I/androidripper(  834): Retrieving widgets
+I/androidripper(  834): Attempting to resume previous session
+I/androidripper(  834): Reading task file
+I/androidripper(  834): Reading state file
+I/androidripper(  834): Saving the session on disk.
+I/androidripper(  834): Dispatching new task. 19 more tasks remaining.
+I/androidripper(  834): Restarting
+I/androidripper(  834): Waiting for 1 sec.
+I/androidripper(  834): Retrieving widgets
+I/androidripper(  834): Playing Trace 1
+I/androidripper(  834): Retrieved from return list id=-1
+I/androidripper(  834): Firing event: type= click name=News widget=android.widget.TextView
+I/androidripper(  834): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  803): Preferences file found.
+I/androidripper(  803): Waiting for 1 sec.
+I/androidripper(  803): Current activity is MyExpenses
+W/androidripper(  803): --->MyExpenses
+I/androidripper(  803): Retrieving widgets
+I/androidripper(  803): Attempting to resume previous session
+I/androidripper(  803): Reading task file
+I/androidripper(  803): Reading state file
+I/androidripper(  803): Saving the session on disk.
+I/androidripper(  803): Dispatching new task. 18 more tasks remaining.
+I/androidripper(  803): Restarting
+I/androidripper(  803): Waiting for 1 sec.
+I/androidripper(  803): Retrieving widgets
+I/androidripper(  803): Playing Trace 2
+I/androidripper(  803): Firing event: type= click name=FAQ widget=android.widget.TextView
+I/androidripper(  803): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  831): Preferences file found.
+I/androidripper(  831): Waiting for 1 sec.
+I/androidripper(  831): Current activity is MyExpenses
+W/androidripper(  831): --->MyExpenses
+I/androidripper(  831): Retrieving widgets
+I/androidripper(  831): Attempting to resume previous session
+I/androidripper(  831): Reading task file
+I/androidripper(  831): Reading state file
+I/androidripper(  831): Saving the session on disk.
+I/androidripper(  831): Dispatching new task. 17 more tasks remaining.
+I/androidripper(  831): Restarting
+I/androidripper(  831): Waiting for 1 sec.
+I/androidripper(  831): Retrieving widgets
+I/androidripper(  831): Playing Trace 3
+I/androidripper(  831): Firing event: type= click name=Privacy policy widget=android.widget.TextView
+I/androidripper(  831): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  774): Preferences file found.
+I/androidripper(  774): Waiting for 1 sec.
+I/androidripper(  774): Current activity is MyExpenses
+W/androidripper(  774): --->MyExpenses
+I/androidripper(  774): Retrieving widgets
+I/androidripper(  774): Attempting to resume previous session
+I/androidripper(  774): Reading task file
+I/androidripper(  774): Reading state file
+I/androidripper(  774): Saving the session on disk.
+I/androidripper(  774): Dispatching new task. 16 more tasks remaining.
+I/androidripper(  774): Restarting
+I/androidripper(  774): Waiting for 1 sec.
+I/androidripper(  774): Retrieving widgets
+I/androidripper(  774): Playing Trace 4
+I/androidripper(  774): Firing event: type= click id=2131165209 widget=android.widget.TextView
+I/androidripper(  774): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  876): Preferences file found.
+I/androidripper(  876): Waiting for 1 sec.
+I/androidripper(  876): Current activity is MyExpenses
+W/androidripper(  876): --->MyExpenses
+I/androidripper(  876): Retrieving widgets
+I/androidripper(  876): Attempting to resume previous session
+I/androidripper(  876): Reading task file
+I/androidripper(  876): Reading state file
+I/androidripper(  876): Saving the session on disk.
+I/androidripper(  876): Dispatching new task. 15 more tasks remaining.
+I/androidripper(  876): Restarting
+I/androidripper(  876): Waiting for 1 sec.
+I/androidripper(  876): Retrieving widgets
+I/androidripper(  876): Playing Trace 5
+I/androidripper(  876): Firing event: type= click name=Changelog widget=android.widget.TextView
+I/androidripper(  876): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  846): Preferences file found.
+I/androidripper(  846): Waiting for 1 sec.
+I/androidripper(  846): Current activity is MyExpenses
+W/androidripper(  846): --->MyExpenses
+I/androidripper(  846): Retrieving widgets
+I/androidripper(  846): Attempting to resume previous session
+I/androidripper(  846): Reading task file
+I/androidripper(  846): Reading state file
+I/androidripper(  846): Saving the session on disk.
+I/androidripper(  846): Dispatching new task. 14 more tasks remaining.
+I/androidripper(  846): Restarting
+I/androidripper(  846): Waiting for 1 sec.
+I/androidripper(  846): Retrieving widgets
+I/androidripper(  846): Playing Trace 6
+I/androidripper(  846): Firing event: type= click name=Credits widget=android.widget.TextView
+I/androidripper(  846): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  883): Preferences file found.
+I/androidripper(  883): Waiting for 1 sec.
+I/androidripper(  883): Current activity is MyExpenses
+W/androidripper(  883): --->MyExpenses
+I/androidripper(  883): Retrieving widgets
+I/androidripper(  883): Attempting to resume previous session
+I/androidripper(  883): Reading task file
+I/androidripper(  883): Reading state file
+I/androidripper(  883): Saving the session on disk.
+I/androidripper(  883): Dispatching new task. 13 more tasks remaining.
+I/androidripper(  883): Restarting
+I/androidripper(  883): Waiting for 1 sec.
+I/androidripper(  883): Retrieving widgets
+I/androidripper(  883): Playing Trace 7
+I/androidripper(  883): Firing event: type= click id=2131165210 widget=android.widget.TextView
+I/androidripper(  883): Saving the session on disk. This is the last batch. The session will be terminated.
+cannot bind 'tcp:5037'
+* daemon not running. starting it now on port 5037 *
+I/androidripper(  810): Preferences file found.
+I/androidripper(  810): Waiting for 1 sec.
+I/androidripper(  810): Current activity is MyExpenses
+W/androidripper(  810): --->MyExpenses
+I/androidripper(  810): Retrieving widgets
+I/androidripper(  810): Attempting to resume previous session
+I/androidripper(  810): Reading task file
+I/androidripper(  810): Reading state file
+I/androidripper(  810): Saving the session on disk.
+I/androidripper(  810): Dispatching new task. 12 more tasks remaining.
+I/androidripper(  810): Restarting
+I/androidripper(  810): Waiting for 1 sec.
+I/androidripper(  810): Retrieving widgets
+I/androidripper(  810): Playing Trace 8
+I/androidripper(  810): Firing event: type= click id=16908313 widget=android.widget.Button
+I/androidripper(  810): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  813): Preferences file found.
+I/androidripper(  813): Waiting for 1 sec.
+I/androidripper(  813): Current activity is MyExpenses
+W/androidripper(  813): --->MyExpenses
+I/androidripper(  813): Retrieving widgets
+I/androidripper(  813): Attempting to resume previous session
+I/androidripper(  813): Reading task file
+I/androidripper(  813): Reading state file
+I/androidripper(  813): Saving the session on disk.
+I/androidripper(  813): Dispatching new task. 11 more tasks remaining.
+I/androidripper(  813): Restarting
+I/androidripper(  813): Waiting for 1 sec.
+I/androidripper(  813): Retrieving widgets
+I/androidripper(  813): Playing Trace 9
+I/androidripper(  813): Firing event: type= click id=16908315 widget=android.widget.Button
+I/androidripper(  813): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  813): Preferences file found.
+I/androidripper(  813): Waiting for 1 sec.
+I/androidripper(  813): Current activity is MyExpenses
+W/androidripper(  813): --->MyExpenses
+I/androidripper(  813): Retrieving widgets
+I/androidripper(  813): Attempting to resume previous session
+I/androidripper(  813): Reading task file
+I/androidripper(  813): Reading state file
+I/androidripper(  813): Saving the session on disk.
+I/androidripper(  813): Dispatching new task. 10 more tasks remaining.
+I/androidripper(  813): Restarting
+I/androidripper(  813): Waiting for 1 sec.
+I/androidripper(  813): Retrieving widgets
+I/androidripper(  813): Playing Trace 10
+I/androidripper(  813): Firing event: type= click id=16908314 widget=android.widget.Button
+I/androidripper(  813): Saving the session on disk. This is the last batch. The session will be terminated.
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+I/androidripper(  782): Preferences file found.
+I/androidripper(  782): Waiting for 1 sec.
+I/androidripper(  782): Current activity is MyExpenses
+W/androidripper(  782): --->MyExpenses
+I/androidripper(  782): Retrieving widgets
+I/androidripper(  782): Attempting to resume previous session
+I/androidripper(  782): Reading task file
+I/androidripper(  782): Reading state file
+I/androidripper(  782): Saving the session on disk.
+I/androidripper(  782): Dispatching new task. 9 more tasks remaining.
+I/androidripper(  782): Restarting
+I/androidripper(  782): Waiting for 1 sec.
+I/androidripper(  782): Retrieving widgets
+I/androidripper(  782): Playing Trace 11
+I/androidripper(  782): Retrieved from return list id=-1
+I/androidripper(  782): Firing event: type= openMenu name= widget=null
+I/androidripper(  782): Waiting for 1 sec.
+I/androidripper(  782): Current activity is MyExpenses
+I/androidripper(  782): Retrieving widgets
+I/androidripper(  782): Performing comparation for activity MyExpenses
+I/androidripper(  782): Registering activity MyExpenses (id: a3) as a new found state
+I/androidripper(  782): Saved image on disk: a3.jpg
+I/androidripper(  782): Waiting for 1 sec.
+I/androidripper(  782): Session count is 1. Will dump to disk at 1
+I/androidripper(  782): Saving the session on disk.
+I/androidripper(  782): Planning for new Activity MyExpenses
+I/androidripper(  782): Created trace to press the back button
+I/androidripper(  782): Created trace to press the menu button
+I/androidripper(  782): Created trace to change orientation
+I/androidripper(  782): Check for pause: 0 steps left of 1
+I/androidripper(  782): Saving the session on disk. This is the last batch. The session will be terminated.

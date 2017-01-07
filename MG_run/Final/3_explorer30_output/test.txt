@@ -1,0 +1,92 @@
+Playing Session 1
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 19.535
+
+OK (1 test)
+
+
+End of Session 1
+Playing Session 2
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 110.638
+
+OK (1 test)
+
+
+End of Session 2
+Playing Session 3
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 62.051
+
+OK (1 test)
+
+
+End of Session 3
+Playing Session 4
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 56.328
+
+OK (1 test)
+
+
+End of Session 4
+Playing Session 5
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 65.435
+
+OK (1 test)
+
+
+End of Session 5
+Playing Session 6
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 72.704
+
+OK (1 test)
+
+
+End of Session 6
+Playing Session 7
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 68.168
+
+OK (1 test)
+
+
+End of Session 7
+Playing Session 8
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:End of Session 8
+Playing Session 9
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 59.186
+
+OK (1 test)
+
+
+End of Session 9
